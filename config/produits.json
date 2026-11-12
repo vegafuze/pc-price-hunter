@@ -19,9 +19,10 @@
    ]
   },
   {
-   "id": "gpu", "cat": "pc", "label": "Gigabyte RTX 5070 Ti AORUS MASTER 16G", "qty": 1, "cible": 1000, "plafond": 1100,
+   "id": "gpu", "cat": "pc", "label": "RTX 5070 Ti : Gigabyte AORUS MASTER ou ASUS TUF OC", "qty": 1, "cible": 1000, "plafond": 1100,
    "options": [
-    {"ean": ["4719331355678"], "mpn": ["GV-N507TAORUS M-16GD"], "must": ["5070", "master"], "exclude": ["ice", "white", "blanc"]}
+    {"ean": ["4719331355678"], "mpn": ["GV-N507TAORUS M-16GD"], "must": ["5070", "master"], "exclude": ["ice", "white", "blanc"]},
+    {"mpn": ["RTX5070TI-O16G"], "must": ["tuf", "5070"], "regex": ["\\boc\\b|o16g"], "exclude": ["white", "blanc", "reconditionn"]}
    ],
    "offres": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006", "tva": 0.21, "vendeur_attendu": ["alternate"]},
@@ -31,7 +32,9 @@
     {"marchand": "Megekko (NL)", "url": "https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart", "tva": 0.21}
    ],
    "recherches": [
-    {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=RTX+5070+Ti+AORUS+MASTER", "motif": "/produit/", "tva": 0.21, "liens_must": ["5070", "master"]}
+    {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=RTX+5070+Ti+AORUS+MASTER", "motif": "/produit/", "tva": 0.21, "liens_must": ["5070", "master"]},
+    {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=TUF+RTX+5070+Ti+OC", "motif": "/html/product/", "tva": 0.21, "liens_must": ["tuf", "5070"], "vendeur_attendu": ["alternate"], "max": 4},
+    {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=ASUS+TUF+RTX+5070+Ti+OC", "motif": "/produit/", "tva": 0.21, "liens_must": ["tuf", "5070"], "max": 4}
    ]
   },
   {
@@ -67,17 +70,25 @@
    ]
   },
   {
-   "id": "alim", "cat": "pc", "label": "Alimentation Corsair RM850e (2024) 80+ Gold", "qty": 1, "cible": 75, "plafond": 85,
-   "remarque": "alternatives à valider",
+   "id": "alim", "cat": "pc", "label": "Alimentation 850 W Gold silencieuse (liste)", "qty": 1, "cible": 75, "plafond": 85,
+   "remarque": "liste à valider",
    "options": [
-    {"ean": ["0840006691204"], "mpn": ["CP-9020296"], "must": ["rm850e"], "exclude": ["white", "blanc", "2025", "cybenetics"]}
+    {"must": ["rm850e"], "exclude": ["white", "blanc", "reconditionn"]},
+    {"must": ["rm850x"], "exclude": ["white", "blanc", "reconditionn"]},
+    {"must": ["pure power 12"], "regex": ["850"], "exclude": ["white", "blanc", "reconditionn"]},
+    {"must": ["focus gx"], "regex": ["850"], "exclude": ["white", "blanc", "reconditionn"]},
+    {"must": ["a850gl"], "exclude": ["white", "blanc", "reconditionn"]}
    ],
    "offres": [
     {"marchand": "Alternate (FR)", "url": "https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365", "tva": 0.20, "vendeur_attendu": ["alternate"]},
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/html/product/100098365", "tva": 0.21, "vendeur_attendu": ["alternate"]}
    ],
    "recherches": [
-    {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=Corsair+RM850e", "motif": "/produit/", "tva": 0.21, "liens_must": ["rm850e"]}
+    {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=Corsair+RM850e", "motif": "/produit/", "tva": 0.21, "liens_must": ["rm850e"]},
+    {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=Corsair+RM850x", "motif": "/html/product/", "tva": 0.21, "liens_must": ["rm850x"], "vendeur_attendu": ["alternate"], "max": 2},
+    {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=Pure+Power+12+M+850W", "motif": "/html/product/", "tva": 0.21, "liens_must": ["pure power"], "vendeur_attendu": ["alternate"], "max": 2},
+    {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=Seasonic+Focus+GX-850", "motif": "/html/product/", "tva": 0.21, "liens_must": ["focus"], "vendeur_attendu": ["alternate"], "max": 2},
+    {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=MSI+MAG+A850GL", "motif": "/html/product/", "tva": 0.21, "liens_must": ["a850gl"], "vendeur_attendu": ["alternate"], "max": 2}
    ]
   },
   {
