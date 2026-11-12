@@ -123,9 +123,13 @@
    ]
   },
   {
-   "id": "ventilo_inv1", "cat": "pc", "label": "Lian Li UNI FAN TL FLEX 120 pales inversées, à l'unité noir", "qty": 1, "cible": 22.5, "plafond": 25,
+   "id": "ventilo_std1", "cat": "pc", "label": "Lian Li UNI FAN TL FLEX 120 standard, à l'unité noir", "qty": 1, "cible": 22.5, "plafond": 25,
    "options": [
-    {"mpn": ["12RTL1F1B"], "must": ["tl", "flex"], "regex": ["revers|invers"], "exclude": ["white", "blanc", "wit", "lcd"]}
+    {"ean": ["4718466023452"], "mpn": ["12TL1F1B"], "must": ["tl", "flex"], "exclude": ["white", "blanc", "wit", "lcd", "revers", "invers"]}
+   ],
+   "offres": [
+    {"marchand": "Alternate (DE)", "url": "https://www.alternate.de/Lian-Li/UNI-FAN-TL-FLEX-120-Wireless-Geh%C3%A4usel%C3%BCfter/html/product/100201754", "tva": 0.19, "vendeur_attendu": ["alternate"]},
+    {"marchand": "Caseking (DE)", "url": "https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-120mm-black/LULI-155.html", "tva": 0.19}
    ],
    "recherches": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=UNI+FAN+TL+FLEX", "motif": "/html/product/", "tva": 0.21, "liens_must": ["tl"], "liens_exclude": ["white", "blanc", "lcd"], "vendeur_attendu": ["alternate"], "max": 8}
@@ -237,11 +241,10 @@
  ],
  "blocs": [
   {
-   "id": "refroidissement", "cat": "pc", "label": "Watercooling + 8 ventilateurs (6 inversés, 2 standard)",
+   "id": "refroidissement", "cat": "pc", "label": "Watercooling 360TL + 5 ventilateurs (pack de 3 + 2 à l'unité)",
    "cible": 400, "plafond": 430,
    "scenarios": [
-    {"label": "A : 360TL (3 standard fournis) + 2 packs de 3 inversés", "items": {"aio_tl": 1, "ventilo_inv3": 2}},
-    {"label": "C : 360TL + 1 pack de 3 inversés + 3 inversés à l'unité", "items": {"aio_tl": 1, "ventilo_inv3": 1, "ventilo_inv1": 3}}
+    {"label": "360TL (3 ventilateurs fournis) + 1 pack de 3 inversés + 2 standard à l'unité", "items": {"aio_tl": 1, "ventilo_inv3": 1, "ventilo_std1": 2}}
    ]
   }
  ]
