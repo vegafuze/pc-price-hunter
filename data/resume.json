@@ -17,14 +17,6 @@
     },
     {
      "items": {
-      "aio_sans": 1,
-      "ventilo_inv3": 2,
-      "ventilo_std1": 2
-     },
-     "label": "B : 360 sans ventilateurs + 2 packs de 3 inversés + 2 standard"
-    },
-    {
-     "items": {
       "aio_tl": 1,
       "ventilo_inv1": 3,
       "ventilo_inv3": 1
@@ -34,35 +26,14 @@
    ]
   }
  ],
- "maj": "2026-11-12T18:44:25+00:00",
+ "maj": "2026-11-12T19:00:24+00:00",
  "meilleurs": {
-  "aio_sans": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
-   "dernier_prix_ok": 230.58,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
-   "dispo": "InStock",
-   "ean": null,
-   "fraicheur": "vérifié",
-   "htva": 230.58,
-   "image": "https://fr.alternate.be/p/600x600/1/7/Lian_Li_HydroShift_II_OLED_Curved_360_Fanless__Watercooling@@100195871.jpg",
-   "marchand": "Alternate (BE)",
-   "methode": "JSON-LD",
-   "mpn": "G89.GHS2OLDC36NB.00",
-   "nom": "HydroShift II OLED Curved 360 Fanless, Watercooling",
-   "note": "référence fabricant vérifiée",
-   "prix": 279.0,
-   "produit": "aio_sans",
-   "statut": "ok",
-   "test": false,
-   "tva": 0.21,
-   "tva_supposee": false,
-   "url": "https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360-Fanless-Watercooling/html/product/100195871",
-   "vendeur": "Alternate België bv"
-  },
   "aio_tl": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -83,9 +54,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 90.75,
    "dernier_prix_ok": 90.75,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -95,7 +68,7 @@
    "methode": "JSON-LD",
    "mpn": "CP-9020296-EU",
    "nom": "RM850e (2024) alimentation modulaire 850 watt",
-   "note": "référence fabricant vérifiée",
+   "note": "nom conforme",
    "prix": 108.9,
    "produit": "alim",
    "statut": "ok",
@@ -106,9 +79,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "boitier": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -130,9 +105,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -153,9 +130,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -176,9 +155,11 @@
    "vendeur": null
   },
   "cadre": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -245,9 +226,11 @@
    "vendeur": null
   },
   "cm": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 239.5,
    "dernier_prix_ok": 239.5,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -268,9 +251,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 329.75,
    "dernier_prix_ok": 329.75,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -337,9 +322,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 1445.45,
    "dernier_prix_ok": 1445.45,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": "4719331355678",
    "fraicheur": "vérifié",
@@ -360,9 +347,11 @@
    "vendeur": null
   },
   "ram": {
-   "dernier_ok": "2026-11-12T18:24:50+00:00",
+   "date_prix_connu": "2026-11-12T19:00:24+00:00",
+   "dernier_ok": "2026-11-12T19:00:24+00:00",
+   "dernier_prix_connu": 478.51,
    "dernier_prix_ok": 478.51,
-   "derniere_verif": "2026-11-12T18:24:50+00:00",
+   "derniere_verif": "2026-11-12T19:00:24+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -431,32 +420,9 @@
   "support": null,
   "tapis": null,
   "ventilo_inv1": null,
-  "ventilo_inv3": null,
-  "ventilo_std1": null
+  "ventilo_inv3": null
  },
  "stats": {
-  "aio_sans": {
-   "ecart_eur": 25.58,
-   "ecart_pct": 12.5,
-   "historique_jours": 1,
-   "historique_suffisant": false,
-   "max7": 230.58,
-   "med30": 230.58,
-   "med7": 230.58,
-   "min30": 230.58,
-   "min30_passe": null,
-   "min7": 230.58,
-   "pct7": 50.0,
-   "score": 0,
-   "score_detail": {
-    "cible": 0
-   },
-   "sous_plafond": false,
-   "var_derniere": 0.0,
-   "var_veille": null,
-   "verdict": "pas intéressant",
-   "volatilite_pct": null
-  },
   "aio_tl": {
    "ecart_eur": 0.17,
    "ecart_pct": 0.1,
@@ -828,10 +794,6 @@
   "ventilo_inv3": {
    "historique_jours": 0,
    "historique_suffisant": false
-  },
-  "ventilo_std1": {
-   "historique_jours": 0,
-   "historique_suffisant": false
   }
  },
  "totaux": {
@@ -903,14 +865,6 @@
        "ventilo_inv3": 2
       },
       "label": "A : 360TL (3 standard fournis) + 2 packs de 3 inversés"
-     },
-     {
-      "items": {
-       "aio_sans": 1,
-       "ventilo_inv3": 2,
-       "ventilo_std1": 2
-      },
-      "label": "B : 360 sans ventilateurs + 2 packs de 3 inversés + 2 standard"
      },
      {
       "items": {

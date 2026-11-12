@@ -1,6 +1,8 @@
 # PC Price Hunter – état actuel
 
-**Dernière actualisation réussie : 12/11 19:44** (heure belge) · dernière exécution : 12/11 19:44
+![Récapitulatif](recap.png)
+
+**Dernière actualisation réussie : 12/11 20:00** (heure belge) · dernière exécution : 12/11 20:00
 
 | | HTVA | TVAC (21 %) |
 |---|---|---|
@@ -20,21 +22,19 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 
 | Composant | Meilleur prix HTVA | Cible / plafond | Écart | Score | Où | Fraîcheur |
 |---|---|---|---|---|---|---|
-| 🔴 AMD Ryzen 7 9800X3D | **329,75 €** | 300 € / 320 € | 29,75 € (+9,9 %) | 0* | [Alternate (BE)](https://fr.alternate.be/AMD/Ryzen-7-9800X3D-4-7-GHz-5-2-GHz-Turbo-Boost-socket-AM5-processeur/html/product/100093605) | vérifié 12/11 19:24 |
-| 🔴 RTX 5070 Ti : Gigabyte AORUS MASTER ou ASUS TUF OC | **1 445,45 €** | 1 000 € / 1 100 € | 445,45 € (+44,5 %) | 0* | [Megekko (NL)](https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart) | vérifié 12/11 19:24 |
-| 🔴 Gigabyte B850 AORUS STEALTH | **239,50 €** | 180 € / 220 € | 59,50 € (+33,1 %) | 0* | [Alternate (DE)](https://www.alternate.de/GIGABYTE/B850-AORUS-STEALTH-Mainboard/html/product/100175457) | vérifié 12/11 19:24 |
-| 🔴 RAM DDR5 RGB noire (Kingston FURY RGB ou Corsair Vengeance RGB) | **478,51 €** | 380 € / 400 € | 98,51 € (+25,9 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-m%C3%A9moire-vive/html/product/1909371) | vérifié 12/11 19:24 |
-| 🔴 Alimentation 850 W Gold silencieuse (liste) | **90,75 €** | 75 € / 85 € | 15,75 € (+21,0 %) | 0* | [Alternate (FR)](https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365) | vérifié 12/11 19:24 |
-| 🔴 Lian Li O11 Vision Compact noir | **107,36 €** | 90 € / 95 € | 17,36 € (+19,3 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/O11-Vision-Compact-bo%C3%AEtier-midi-tower/html/product/1931123) | vérifié 12/11 19:24 |
-| 🟡 Lian Li HydroShift II OLED 360TL noir (3 ventilateurs) | **280,17 €** | 280 € / 300 € | 0,17 € (+0,1 %) | 50* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858) | vérifié 12/11 19:24 |
-| 🔴 Lian Li HydroShift II OLED 360 sans ventilateurs noir | **230,58 €** | 205 € / 225 € | 25,58 € (+12,5 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360-Fanless-Watercooling/html/product/100195871) | vérifié 12/11 19:24 |
-| ⚪ Lian Li UNI FAN TL FLEX 120 pales inversées, pack de 3 noir | 82,56 € (rupture) | 75 € / 80 € | 7,56 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateurs-de-bo%C3%AEtier-RGB/html/product/100201815) | en rupture 12/11 19:24 |
-| ⚪ Lian Li UNI FAN TL FLEX 120 standard, à l'unité noir | 25,61 € (rupture) | 22,50 € / 25 € | 3,11 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateur-de-bo%C3%AEtier-RGB/html/product/100201754) | en rupture 12/11 19:24 |
-| ⚪ Lian Li UNI FAN TL FLEX 120 pales inversées, à l'unité noir | 25,61 € (rupture) | 22,50 € / 25 € | 3,11 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateur-de-bo%C3%AEtier-RGB/html/product/100201764) | en rupture 12/11 19:24 |
+| 🔴 AMD Ryzen 7 9800X3D | **329,75 €** | 300 € / 320 € | 29,75 € (+9,9 %) | 0* | [Alternate (BE)](https://fr.alternate.be/AMD/Ryzen-7-9800X3D-4-7-GHz-5-2-GHz-Turbo-Boost-socket-AM5-processeur/html/product/100093605) | vérifié 12/11 20:00 |
+| 🔴 RTX 5070 Ti : Gigabyte AORUS MASTER ou ASUS TUF OC | **1 445,45 €** | 1 000 € / 1 100 € | 445,45 € (+44,5 %) | 0* | [Megekko (NL)](https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart) | vérifié 12/11 20:00 |
+| 🔴 Gigabyte B850 AORUS STEALTH | **239,50 €** | 180 € / 220 € | 59,50 € (+33,1 %) | 0* | [Alternate (DE)](https://www.alternate.de/GIGABYTE/B850-AORUS-STEALTH-Mainboard/html/product/100175457) | vérifié 12/11 20:00 |
+| 🔴 RAM DDR5 RGB noire (Kingston FURY RGB ou Corsair Vengeance RGB) | **478,51 €** | 380 € / 400 € | 98,51 € (+25,9 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-m%C3%A9moire-vive/html/product/1909371) | vérifié 12/11 20:00 |
+| 🔴 Alimentation 850 W Gold silencieuse (liste) | **90,75 €** | 75 € / 85 € | 15,75 € (+21,0 %) | 0* | [Alternate (FR)](https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365) | vérifié 12/11 20:00 |
+| 🔴 Lian Li O11 Vision Compact noir | **107,36 €** | 90 € / 95 € | 17,36 € (+19,3 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/O11-Vision-Compact-bo%C3%AEtier-midi-tower/html/product/1931123) | vérifié 12/11 20:00 |
+| 🟡 Lian Li HydroShift II OLED 360TL noir (3 ventilateurs) | **280,17 €** | 280 € / 300 € | 0,17 € (+0,1 %) | 50* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858) | vérifié 12/11 20:00 |
+| ⚪ Lian Li UNI FAN TL FLEX 120 pales inversées, pack de 3 noir | 82,56 € (rupture) | 75 € / 80 € | 7,56 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateurs-de-bo%C3%AEtier-RGB/html/product/100201815) | en rupture 12/11 20:00 |
+| ⚪ Lian Li UNI FAN TL FLEX 120 pales inversées, à l'unité noir | 25,61 € (rupture) | 22,50 € / 25 € | 3,11 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateur-de-bo%C3%AEtier-RGB/html/product/100201764) | en rupture 12/11 20:00 |
 | 🔴 SSD NVMe 2 To PCIe 4.0+ (liste provisoire) | **271,90 €** | 180 € / 200 € | 91,90 € (+51,1 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Samsung/990-EVO-PLUS-2-To-SSD/html/product/100080170) | vérifié 12/11 19:24 |
-| 🟢 Klos2Reality cache boîtier O11 Vision Compact | **66,12 €** | 80 € / 80 € | -13,88 € (-17,3 %) | 100* | [Klos2Reality](https://klos2reality.com/products/lian-li-o11-vision-grommet-shroud) | vérifié 12/11 19:24 |
-| 🟢 Klos2Reality cache carte mère B850 Stealth | **16,53 €** | 20 € / 20 € | -3,47 € (-17,3 %) | 100* | [Klos2Reality](https://klos2reality.com/products/gigabyte-motherboard-b850-x870-stealth-ice-cover) | vérifié 12/11 19:24 |
-| 🟡 Thermalright AM5 Secure Frame noir | **9,01 €** | 8 € / 10 € | 1,01 € (+12,6 %) | 0* | [LDLC (BE)](https://www.ldlc.com/fr-be/fiche/PB00581807.html) | vérifié 12/11 19:24 |
+| 🟢 Klos2Reality cache boîtier O11 Vision Compact | **66,12 €** | 80 € / 80 € | -13,88 € (-17,3 %) | 100* | [Klos2Reality](https://klos2reality.com/products/lian-li-o11-vision-grommet-shroud) | vérifié 12/11 20:00 |
+| 🟢 Klos2Reality cache carte mère B850 Stealth | **16,53 €** | 20 € / 20 € | -3,47 € (-17,3 %) | 100* | [Klos2Reality](https://klos2reality.com/products/gigabyte-motherboard-b850-x870-stealth-ice-cover) | vérifié 12/11 20:00 |
+| 🟡 Thermalright AM5 Secure Frame noir | **9,01 €** | 8 € / 10 € | 1,01 € (+12,6 %) | 0* | [LDLC (BE)](https://www.ldlc.com/fr-be/fiche/PB00581807.html) | vérifié 12/11 20:00 |
 
 **Watercooling + 8 ventilateurs (6 inversés, 2 standard)** : rien de complet en stock ; ruptures comprises, scénario le moins cher = C : 360TL + 1 pack de 3 inversés + 3 inversés à l'unité → 439,56 € HTVA (cible 400 €, plafond 430 €)
 
@@ -55,10 +55,16 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 
 | Marchand | Résultats |
 |---|---|
-| Alternate (BE) | non_conforme : 5, ok : 4, rupture : 2 |
-| Alternate (BE) (recherche) | ok : 5 |
-| Coolblue (BE) | rupture : 1 |
-| Coolblue (BE) (recherche) | ok : 1 |
+| Alternate (BE) | ok : 11, rupture : 2 |
+| Alternate (DE) | ok : 1, rupture : 1 |
+| Alternate (FR) | ok : 1 |
+| Caseking (DE) | rupture : 1 |
+| Coolblue (BE) | ok : 1 |
+| Grosbill | ok : 1, rupture : 1 |
+| Klos2Reality | ok : 2 |
+| Komparzon (test Amazon) | bloque : 1 |
+| LDLC (BE) | ok : 5, sans_prix : 1 |
+| Megekko (NL) | ok : 1 |
 
 ---
 🟢 sous la cible · 🟡 entre cible et plafond · 🔴 au-dessus du plafond · ⚪ en rupture (dernier prix connu) · score* = historique encore insuffisant (score basé sur la cible seulement).
