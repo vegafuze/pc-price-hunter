@@ -1,0 +1,13 @@
+{
+ "_info": "Réglages du moteur. Les poids du score sont ajustables (ils sont normalisés automatiquement).",
+ "intervalle_defaut_min": 30,
+ "decouverte_heures": 24,
+ "poids_score": {"cible": 40, "percentile": 25, "mediane": 20, "minimum": 15},
+ "jours_min_historique": 4,
+ "seuil_nouvelle_baisse_pct": 2,
+ "percentile_exceptionnel": 10,
+ "ecart_mediane_exceptionnel_pct": 5,
+ "budgets_alerte": [2500, 2400],
+ "heures_calmes": [22, 7],
+ "bilan_heure": 18
+}
