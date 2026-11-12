@@ -39,6 +39,50 @@
    "statut": "ok",
    "ts": "2026-11-12T18:24:50+00:00"
   },
+  "alim|https://fr.alternate.be/listing.xhtml?q=Corsair+RM850x": {
+   "liens": [
+    "https://fr.alternate.be/Corsair/RM850x-2024-alimentation-modulaire-850-watt/html/product/100069063",
+    "https://fr.alternate.be/Corsair/RM850x-Shift-alimentation-modulaire-850-watt/html/product/100151458"
+   ],
+   "note": "2 lien(s) candidat(s)",
+   "rejetes": [],
+   "statut": "ok",
+   "ts": "2026-11-12T18:44:25+00:00"
+  },
+  "alim|https://fr.alternate.be/listing.xhtml?q=MSI+MAG+A850GL": {
+   "liens": [
+    "https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-II-alimentation-modulaire-850-watt/html/product/1936591",
+    "https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-BLANC-alimentation-modulaire-850-watt/html/product/1926014"
+   ],
+   "note": "2 lien(s) candidat(s)",
+   "rejetes": [
+    "https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-BLANC-alimentation-modulaire-850-watt/html/product/1926014"
+   ],
+   "statut": "ok",
+   "ts": "2026-11-12T18:44:25+00:00"
+  },
+  "alim|https://fr.alternate.be/listing.xhtml?q=Pure+Power+12+M+850W": {
+   "liens": [
+    "https://fr.alternate.be/be-quiet/Pure-Power-13-M-alimentation-modulaire-850-watt/html/product/100136409",
+    "https://fr.alternate.be/be-quiet/Pure-Power-12-alimentation-850-watt/html/product/100095251"
+   ],
+   "note": "2 lien(s) candidat(s)",
+   "rejetes": [
+    "https://fr.alternate.be/be-quiet/Pure-Power-13-M-alimentation-modulaire-850-watt/html/product/100136409"
+   ],
+   "statut": "ok",
+   "ts": "2026-11-12T18:44:25+00:00"
+  },
+  "alim|https://fr.alternate.be/listing.xhtml?q=Seasonic+Focus+GX-850": {
+   "liens": [
+    "https://fr.alternate.be/Seasonic/FOCUS-GX-850-V4-ATX3-1-alimentation-modulaire-850-watt/html/product/100076199",
+    "https://fr.alternate.be/Seasonic/FOCUS-GX-ATX3-0-alimentation-modulaire-850-watt/html/product/100076191"
+   ],
+   "note": "2 lien(s) candidat(s)",
+   "rejetes": [],
+   "statut": "ok",
+   "ts": "2026-11-12T18:44:25+00:00"
+  },
   "alim|https://www.coolblue.be/fr/rechercher?query=Corsair+RM850e": {
    "liens": [
     "https://www.coolblue.be/fr/produit/962141/corsair-rm850e-2025-cybenetics-gold.html"
@@ -152,6 +196,30 @@
    "rejetes": [],
    "statut": "ok",
    "ts": "2026-11-12T18:24:50+00:00"
+  },
+  "gpu|https://fr.alternate.be/listing.xhtml?q=TUF+RTX+5070+Ti+OC": {
+   "liens": [
+    "https://fr.alternate.be/ASUS/TUF-Gaming-GeForce-RTX-5070-OC-Carte-graphique/html/product/100117268",
+    "https://fr.alternate.be/ASUS/TUF-Gaming-A16-FA608UP-TU148W-16-inch-PC-portable-gaming-Copilotplus/html/product/1951999",
+    "https://fr.alternate.be/AlphaCool/Core-GeForce-RTX-5080-5070-Ti-backplate-pour-ASUS-TUF-Gaming/html/product/1940566"
+   ],
+   "note": "3 lien(s) candidat(s)",
+   "rejetes": [
+    "https://fr.alternate.be/ASUS/TUF-Gaming-GeForce-RTX-5070-OC-Carte-graphique/html/product/100117268",
+    "https://fr.alternate.be/ASUS/TUF-Gaming-A16-FA608UP-TU148W-16-inch-PC-portable-gaming-Copilotplus/html/product/1951999",
+    "https://fr.alternate.be/AlphaCool/Core-GeForce-RTX-5080-5070-Ti-backplate-pour-ASUS-TUF-Gaming/html/product/1940566"
+   ],
+   "statut": "ok",
+   "ts": "2026-11-12T18:44:25+00:00"
+  },
+  "gpu|https://www.coolblue.be/fr/rechercher?query=ASUS+TUF+RTX+5070+Ti+OC": {
+   "liens": [
+    "https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html"
+   ],
+   "note": "1 lien(s) candidat(s)",
+   "rejetes": [],
+   "statut": "ok",
+   "ts": "2026-11-12T18:44:25+00:00"
   },
   "gpu|https://www.coolblue.be/fr/rechercher?query=RTX+5070+Ti+AORUS+MASTER": {
    "liens": [],
@@ -308,8 +376,8 @@
    "ts": "2026-11-12T18:24:50+00:00"
   }
  },
- "derniere_execution": "2026-11-12T18:24:50+00:00",
- "derniere_reussite": "2026-11-12T18:24:50+00:00",
+ "derniere_execution": "2026-11-12T18:44:25+00:00",
+ "derniere_reussite": "2026-11-12T18:44:25+00:00",
  "derniers_meilleurs": {
   "aio_sans": 230.58,
   "aio_tl": 280.17,
@@ -461,6 +529,198 @@
    "tva": 0.21,
    "tva_supposee": false,
    "url": "https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/Corsair/RM850x-2024-alimentation-modulaire-850-watt/html/product/100069063": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": "2026-11-12T18:44:25+00:00",
+   "dernier_prix_connu": 132.15,
+   "dernier_prix_ok": 132.15,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 132.15,
+   "image": "https://fr.alternate.be/p/600x600/3/6/Corsair_RM850x__2024__alimentation_modulaire_850_watt@@100069063.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "CP-9020270-EU",
+   "nom": "RM850x (2024) alimentation modulaire 850 watt",
+   "note": "nom conforme",
+   "prix": 159.9,
+   "produit": "alim",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Corsair/RM850x-2024-alimentation-modulaire-850-watt/html/product/100069063",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/Corsair/RM850x-Shift-alimentation-modulaire-850-watt/html/product/100151458": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": "2026-11-12T18:44:25+00:00",
+   "dernier_prix_connu": 140.41,
+   "dernier_prix_ok": 140.41,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 140.41,
+   "image": "https://fr.alternate.be/p/600x600/8/5/Corsair_RM850x_Shift_alimentation_modulaire_850_watt@@100151458.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "CP-9020299-EU",
+   "nom": "RM850x Shift alimentation modulaire 850 watt",
+   "note": "nom conforme",
+   "prix": 169.9,
+   "produit": "alim",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Corsair/RM850x-Shift-alimentation-modulaire-850-watt/html/product/100151458",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-BLANC-alimentation-modulaire-850-watt/html/product/1926014": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 99.09,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 99.09,
+   "image": "https://fr.alternate.be/p/600x600/4/1/MSI_MAG_A850GL_PCIE5_BLANC_alimentation_modulaire_850_watt@@1926014_30.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "306-7ZP8A24-CE0",
+   "nom": "MAG A850GL PCIE5 BLANC alimentation modulaire 850 watt",
+   "note": "produit non conforme",
+   "prix": 119.9,
+   "produit": "alim",
+   "statut": "non_conforme",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-BLANC-alimentation-modulaire-850-watt/html/product/1926014",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-II-alimentation-modulaire-850-watt/html/product/1936591": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": "2026-11-12T18:44:25+00:00",
+   "dernier_prix_connu": 99.09,
+   "dernier_prix_ok": 99.09,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 99.09,
+   "image": "https://fr.alternate.be/p/600x600/1/9/MSI_MAG_A850GL_PCIE5_II_alimentation_modulaire_850_watt@@1936591_30.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "MAG A850GL PCIE5 II",
+   "nom": "MAG A850GL PCIE5 II alimentation modulaire 850 watt",
+   "note": "nom conforme",
+   "prix": 119.9,
+   "produit": "alim",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-II-alimentation-modulaire-850-watt/html/product/1936591",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/Seasonic/FOCUS-GX-850-V4-ATX3-1-alimentation-modulaire-850-watt/html/product/100076199": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 140.41,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "OutOfStock",
+   "ean": null,
+   "htva": 140.41,
+   "image": "https://fr.alternate.be/p/600x600/9/9/Seasonic_FOCUS_GX_850_V4_ATX3_1_alimentation_modulaire_850_watt@@100076199.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "FOCUS-GX-850-V4",
+   "nom": "FOCUS GX-850-V4 ATX3.1 alimentation modulaire 850 watt",
+   "note": "nom conforme",
+   "prix": 169.9,
+   "produit": "alim",
+   "statut": "rupture",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Seasonic/FOCUS-GX-850-V4-ATX3-1-alimentation-modulaire-850-watt/html/product/100076199",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/Seasonic/FOCUS-GX-ATX3-0-alimentation-modulaire-850-watt/html/product/100076191": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 140.41,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "OutOfStock",
+   "ean": null,
+   "htva": 140.41,
+   "image": "https://fr.alternate.be/p/600x600/1/9/Seasonic_FOCUS_GX_ATX3_0_alimentation_modulaire_850_watt@@100076191.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "FOCUS-GX-850-V4-WHITE",
+   "nom": "FOCUS GX ATX3.0 alimentation modulaire 850 watt",
+   "note": "nom conforme",
+   "prix": 169.9,
+   "produit": "alim",
+   "statut": "rupture",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Seasonic/FOCUS-GX-ATX3-0-alimentation-modulaire-850-watt/html/product/100076191",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/be-quiet/Pure-Power-12-alimentation-850-watt/html/product/100095251": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": "2026-11-12T18:44:25+00:00",
+   "dernier_prix_connu": 94.96,
+   "dernier_prix_ok": 94.96,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 94.96,
+   "image": "https://fr.alternate.be/p/600x600/1/5/be_quiet__Pure_Power_12_alimentation_850_watt@@100095251.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "BP004EU",
+   "nom": "Pure Power 12 alimentation 850 watt",
+   "note": "nom conforme",
+   "prix": 114.9,
+   "produit": "alim",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/be-quiet/Pure-Power-12-alimentation-850-watt/html/product/100095251",
+   "vendeur": "Alternate België bv"
+  },
+  "alim|https://fr.alternate.be/be-quiet/Pure-Power-13-M-alimentation-modulaire-850-watt/html/product/100136409": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 115.62,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 115.62,
+   "image": "https://fr.alternate.be/p/600x600/9/0/be_quiet__Pure_Power_13_M_alimentation_modulaire_850_watt@@100136409.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "BP027EU",
+   "nom": "Pure Power 13 M alimentation modulaire 850 watt",
+   "note": "produit non conforme",
+   "prix": 139.9,
+   "produit": "alim",
+   "statut": "non_conforme",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/be-quiet/Pure-Power-13-M-alimentation-modulaire-850-watt/html/product/100136409",
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/html/product/100098365": {
@@ -1101,6 +1361,78 @@
    "url": "https://fr.alternate.be/iiyama/G-Master-Titan-Falcon-GOB2701QSC-B1-27-inch-Moniteur-gaming/html/product/1949539",
    "vendeur": "Alternate België bv"
   },
+  "gpu|https://fr.alternate.be/ASUS/TUF-Gaming-A16-FA608UP-TU148W-16-inch-PC-portable-gaming-Copilotplus/html/product/1951999": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 1404.13,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 1404.13,
+   "image": "https://fr.alternate.be/p/600x600/9/9/ASUS_TUF_Gaming_A16__FA608UP_TU148W__16__PC_portable_gaming_Copilot__@@1951999_30.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "90NR0KT1-M009R0",
+   "nom": "TUF Gaming A16 (FA608UP-TU148W) 16\\\" PC portable gaming Copilot+ ",
+   "note": "produit non conforme",
+   "prix": 1699.0,
+   "produit": "gpu",
+   "statut": "non_conforme",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/ASUS/TUF-Gaming-A16-FA608UP-TU148W-16-inch-PC-portable-gaming-Copilotplus/html/product/1951999",
+   "vendeur": "Alternate België bv"
+  },
+  "gpu|https://fr.alternate.be/ASUS/TUF-Gaming-GeForce-RTX-5070-OC-Carte-graphique/html/product/100117268": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 990.91,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "htva": 990.91,
+   "image": "https://fr.alternate.be/p/600x600/8/6/ASUS_TUF_Gaming_GeForce_RTX_5070_OC__Carte_graphique@@100117268_30.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "90YV0LZ0-M0NA00",
+   "nom": "TUF Gaming GeForce RTX 5070 OC, Carte graphique",
+   "note": "produit non conforme",
+   "prix": 1199.0,
+   "produit": "gpu",
+   "statut": "non_conforme",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/ASUS/TUF-Gaming-GeForce-RTX-5070-OC-Carte-graphique/html/product/100117268",
+   "vendeur": "Alternate België bv"
+  },
+  "gpu|https://fr.alternate.be/AlphaCool/Core-GeForce-RTX-5080-5070-Ti-backplate-pour-ASUS-TUF-Gaming/html/product/1940566": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 181.74,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "OutOfStock",
+   "ean": null,
+   "htva": 181.74,
+   "image": "https://fr.alternate.be/p/600x600/6/6/Alphacool_Core_GeForce_RTX_5080_5070_Ti_backplate_pour_ASUS_TUF_Gaming@@1940566_30.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "10266",
+   "nom": "Core GeForce RTX 5080/5070 Ti backplate pour ASUS TUF Gaming",
+   "note": "produit non conforme",
+   "prix": 219.9,
+   "produit": "gpu",
+   "statut": "non_conforme",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/AlphaCool/Core-GeForce-RTX-5080-5070-Ti-backplate-pour-ASUS-TUF-Gaming/html/product/1940566",
+   "vendeur": "Alternate België bv"
+  },
   "gpu|https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006": {
    "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 1486.78,
@@ -1144,6 +1476,30 @@
    "tva_supposee": false,
    "url": "https://www.alternate.de/GIGABYTE/GeForce-RTX-5070-Ti-AORUS-MASTER-16G-Grafikkarte/html/product/100115006",
    "vendeur": "ALTERNATE GmbH"
+  },
+  "gpu|https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html": {
+   "date_prix_connu": "2026-11-12T18:44:25+00:00",
+   "dernier_ok": null,
+   "dernier_prix_connu": 1519.83,
+   "dernier_prix_ok": null,
+   "derniere_verif": "2026-11-12T18:44:25+00:00",
+   "dispo": "OutOfStock",
+   "ean": null,
+   "htva": 1519.83,
+   "image": "https://image.coolblue.nl/500x500/products/2149549",
+   "marchand": "Coolblue (BE)",
+   "methode": "JSON-LD",
+   "mpn": null,
+   "nom": "ASUS TUF Gaming GeForce RTX 5070 Ti OC 16 Go",
+   "note": "nom conforme (identifiant absent de la page)",
+   "prix": 1839.0,
+   "produit": "gpu",
+   "statut": "rupture",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html",
+   "vendeur": null
   },
   "gpu|https://www.grosbill.com/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-151253": {
    "dernier_ok": null,
@@ -1962,50 +2318,17 @@
  },
  "sources_derniere_execution": {
   "Alternate (BE)": {
-   "non_conforme": 24,
-   "ok": 16,
-   "rupture": 3
-  },
-  "Alternate (BE) (recherche)": {
-   "ok": 16
-  },
-  "Alternate (DE)": {
-   "ok": 1,
+   "non_conforme": 5,
+   "ok": 4,
    "rupture": 2
   },
-  "Alternate (FR)": {
-   "ok": 1,
-   "rupture": 1
-  },
-  "Caseking (DE)": {
-   "non_conforme": 2
+  "Alternate (BE) (recherche)": {
+   "ok": 5
   },
   "Coolblue (BE)": {
-   "non_conforme": 7,
-   "ok": 3
+   "rupture": 1
   },
   "Coolblue (BE) (recherche)": {
-   "ok": 10
-  },
-  "Grosbill": {
-   "ok": 1,
-   "rupture": 1
-  },
-  "Klos2Reality": {
-   "ok": 2
-  },
-  "Komparzon (test Amazon)": {
-   "bloque": 1
-  },
-  "LDLC (BE)": {
-   "ok": 5,
-   "sans_prix": 1
-  },
-  "Maxesport": {
-   "ok": 1,
-   "rupture": 1
-  },
-  "Megekko (NL)": {
    "ok": 1
   }
  }

@@ -1,6 +1,6 @@
 # PC Price Hunter – état actuel
 
-**Dernière actualisation réussie : 12/11 19:24** (heure belge) · dernière exécution : 12/11 19:24
+**Dernière actualisation réussie : 12/11 19:44** (heure belge) · dernière exécution : 12/11 19:44
 
 | | HTVA | TVAC (21 %) |
 |---|---|---|
@@ -21,10 +21,10 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 | Composant | Meilleur prix HTVA | Cible / plafond | Écart | Score | Où | Fraîcheur |
 |---|---|---|---|---|---|---|
 | 🔴 AMD Ryzen 7 9800X3D | **329,75 €** | 300 € / 320 € | 29,75 € (+9,9 %) | 0* | [Alternate (BE)](https://fr.alternate.be/AMD/Ryzen-7-9800X3D-4-7-GHz-5-2-GHz-Turbo-Boost-socket-AM5-processeur/html/product/100093605) | vérifié 12/11 19:24 |
-| 🔴 Gigabyte RTX 5070 Ti AORUS MASTER 16G | **1 445,45 €** | 1 000 € / 1 100 € | 445,45 € (+44,5 %) | 0* | [Megekko (NL)](https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart) | vérifié 12/11 19:24 |
+| 🔴 RTX 5070 Ti : Gigabyte AORUS MASTER ou ASUS TUF OC | **1 445,45 €** | 1 000 € / 1 100 € | 445,45 € (+44,5 %) | 0* | [Megekko (NL)](https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart) | vérifié 12/11 19:24 |
 | 🔴 Gigabyte B850 AORUS STEALTH | **239,50 €** | 180 € / 220 € | 59,50 € (+33,1 %) | 0* | [Alternate (DE)](https://www.alternate.de/GIGABYTE/B850-AORUS-STEALTH-Mainboard/html/product/100175457) | vérifié 12/11 19:24 |
 | 🔴 RAM DDR5 RGB noire (Kingston FURY RGB ou Corsair Vengeance RGB) | **478,51 €** | 380 € / 400 € | 98,51 € (+25,9 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-m%C3%A9moire-vive/html/product/1909371) | vérifié 12/11 19:24 |
-| 🔴 Alimentation Corsair RM850e (2024) 80+ Gold | **90,75 €** | 75 € / 85 € | 15,75 € (+21,0 %) | 0* | [Alternate (FR)](https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365) | vérifié 12/11 19:24 |
+| 🔴 Alimentation 850 W Gold silencieuse (liste) | **90,75 €** | 75 € / 85 € | 15,75 € (+21,0 %) | 0* | [Alternate (FR)](https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365) | vérifié 12/11 19:24 |
 | 🔴 Lian Li O11 Vision Compact noir | **107,36 €** | 90 € / 95 € | 17,36 € (+19,3 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/O11-Vision-Compact-bo%C3%AEtier-midi-tower/html/product/1931123) | vérifié 12/11 19:24 |
 | 🟡 Lian Li HydroShift II OLED 360TL noir (3 ventilateurs) | **280,17 €** | 280 € / 300 € | 0,17 € (+0,1 %) | 50* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858) | vérifié 12/11 19:24 |
 | 🔴 Lian Li HydroShift II OLED 360 sans ventilateurs noir | **230,58 €** | 205 € / 225 € | 25,58 € (+12,5 %) | 0* | [Alternate (BE)](https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360-Fanless-Watercooling/html/product/100195871) | vérifié 12/11 19:24 |
@@ -55,19 +55,10 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 
 | Marchand | Résultats |
 |---|---|
-| Alternate (BE) | non_conforme : 24, ok : 16, rupture : 3 |
-| Alternate (BE) (recherche) | ok : 16 |
-| Alternate (DE) | ok : 1, rupture : 2 |
-| Alternate (FR) | ok : 1, rupture : 1 |
-| Caseking (DE) | non_conforme : 2 |
-| Coolblue (BE) | non_conforme : 7, ok : 3 |
-| Coolblue (BE) (recherche) | ok : 10 |
-| Grosbill | ok : 1, rupture : 1 |
-| Klos2Reality | ok : 2 |
-| Komparzon (test Amazon) | bloque : 1 |
-| LDLC (BE) | ok : 5, sans_prix : 1 |
-| Maxesport | ok : 1, rupture : 1 |
-| Megekko (NL) | ok : 1 |
+| Alternate (BE) | non_conforme : 5, ok : 4, rupture : 2 |
+| Alternate (BE) (recherche) | ok : 5 |
+| Coolblue (BE) | rupture : 1 |
+| Coolblue (BE) (recherche) | ok : 1 |
 
 ---
 🟢 sous la cible · 🟡 entre cible et plafond · 🔴 au-dessus du plafond · ⚪ en rupture (dernier prix connu) · score* = historique encore insuffisant (score basé sur la cible seulement).
