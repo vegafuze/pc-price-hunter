@@ -4,8 +4,8 @@
   {
    "id": "cpu", "cat": "pc", "label": "AMD Ryzen 7 9800X3D", "qty": 1, "cible": 300, "plafond": 320,
    "options": [
-    {"ean": ["0730143315289"], "mpn": ["100-100001084WOF"], "must": ["9800x3d"], "exclude": ["coin des affaires", "reconditionn", "occasion", "pc gamer", "bundle"]},
-    {"mpn": ["100-000001084"], "must": ["9800x3d", "tray"], "exclude": ["coin des affaires", "reconditionn", "occasion"]}
+    {"ean": ["0730143315289"], "mpn": ["100-100001084WOF"], "must": ["9800x3d"], "exclude": ["coin des affaires", "reconditionn", "occasion", "pc gamer", "bundle", "rtx", "geforce", "pc gaming", "tier ", "powered by", "ordinateur"]},
+    {"mpn": ["100-000001084"], "must": ["9800x3d", "tray"], "exclude": ["coin des affaires", "reconditionn", "occasion", "rtx", "geforce", "pc gaming", "tier ", "powered by", "ordinateur"]}
    ],
    "offres": [
     {"marchand": "LDLC (BE)", "url": "https://www.ldlc.com/fr-be/fiche/PB00650664.html", "tva": 0.21, "vendeur_attendu": ["ldlc"]},
@@ -93,7 +93,7 @@
   {
    "id": "aio_tl", "cat": "pc", "label": "Lian Li HydroShift II OLED 360TL noir (3 ventilateurs)", "qty": 1, "cible": 280, "plafond": 300,
    "options": [
-    {"mpn": ["GHS2OLDC36TB"], "must": ["hydroshift", "oled"], "regex": ["360\\s*tl"], "exclude": ["white", "blanc", "wit"]}
+    {"ean": ["4718466023124"], "mpn": ["GHS2OLDC36TB"], "must": ["hydroshift", "oled"], "regex": ["360\\s*tl"], "exclude": ["white", "blanc", "wit"]}
    ],
    "recherches": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=HydroShift+II+OLED", "motif": "/html/product/", "tva": 0.21, "liens_must": ["hydroshift"], "liens_exclude": ["white", "blanc"], "vendeur_attendu": ["alternate"], "max": 6}
@@ -203,7 +203,7 @@
   {
    "id": "souris", "cat": "acc", "label": "Razer Viper V3 Pro noire", "qty": 1, "cible": 75, "plafond": 75,
    "intervalle_min": 120,
-   "options": [{"must": ["viper v3 pro"], "exclude": ["white", "blanc", "wit", "edition", "édition", "faker", "sentinels"]}],
+   "options": [{"must": ["viper v3 pro"], "exclude": ["white", "blanc", "wit", "edition", "édition", "faker", "sentinels", "pro se"]}],
    "recherches": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=Razer+Viper+V3+Pro", "motif": "/html/product/", "tva": 0.21, "liens_must": ["viper", "v3", "pro"], "liens_exclude": ["white", "blanc"], "vendeur_attendu": ["alternate"], "max": 3},
     {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=Razer+Viper+V3+Pro", "motif": "/produit/", "tva": 0.21, "liens_must": ["viper", "v3", "pro"], "max": 3}
