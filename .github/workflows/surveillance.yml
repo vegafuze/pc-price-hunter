@@ -1,0 +1,49 @@
+name: Surveillance des prix
+
+# Toutes les 30 minutes (aux minutes 7 et 37, pour éviter l'heure pile, très chargée chez GitHub).
+# GitHub ne garantit pas l'heure exacte : un passage peut être retardé de quelques minutes.
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Tout relire maintenant (ignore les intervalles)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: surveillance
+  cancel-in-progress: false
+
+jobs:
+  surveillance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les bibliothèques
+        run: pip install -r requirements.txt
+
+      - name: Passage du moteur
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PPH_FORCE: ${{ inputs.force && '1' || '0' }}
+        run: python moteur/main.py
+
+      - name: Enregistrer l'historique
+        run: |
+          git config user.name "pc-price-hunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ ETAT.md
+          git commit -m "Relevé $(date -u +%Y-%m-%dT%H:%MZ)" || { echo "Rien de nouveau"; exit 0; }
+          git push || { git pull --rebase && git push; }
