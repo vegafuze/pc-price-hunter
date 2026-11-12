@@ -182,6 +182,8 @@ def main() -> int:
             "methode": info.get("method"), "note": info.get("note"), "mpn": info.get("mpn"), "ean": info.get("ean"), "image": info.get("image") or prev.get("image"),
             "derniere_verif": now_iso, "dernier_ok": now_iso if state == "ok" else prev.get("dernier_ok"),
             "dernier_prix_ok": htva if state == "ok" else prev.get("dernier_prix_ok"),
+            "dernier_prix_connu": htva if htva is not None else prev.get("dernier_prix_connu"),
+            "date_prix_connu": now_iso if htva is not None else prev.get("date_prix_connu"),
             "test": bool(o.get("test")),
         }
         if (prev.get("statut"), prev.get("prix"), prev.get("dispo")) != (state, price, rec["dispo"]):
@@ -228,17 +230,19 @@ def main() -> int:
             etat["derniers_meilleurs"][p["id"]] = v_line
 
     totals = analyse.compute_totals(products, blocs, bests)
-    # total « tous articles » : ajoute le dernier prix connu (< 24 h) des articles en rupture, à titre indicatif
+    # total « tous articles » : ajoute le dernier prix connu (< 14 jours) des articles en rupture, à titre indicatif
     bests_all = {}
     for p in products:
         offs = [o for o in etat["offres"].values() if o["produit"] == p["id"] and not o.get("test")
-                and o["statut"] in ("ok", "rupture") and o.get("htva") is not None
-                and minutes_since(o["derniere_verif"], now) <= 24 * 60]
+                and o["statut"] not in ("non_conforme", "interdit", "disparu")
+                and (o.get("dernier_prix_connu") or o.get("htva")) is not None
+                and minutes_since(o.get("date_prix_connu") or o["derniere_verif"], now) <= 14 * 24 * 60]
         if bests[p["id"]]:
             bests_all[p["id"]] = dict(bests[p["id"]], en_stock=True)
         elif offs:
-            b = min(offs, key=lambda o: o["htva"])
-            bests_all[p["id"]] = dict(b, fraicheur="rupture", en_stock=False)
+            b = min(offs, key=lambda o: o.get("dernier_prix_connu") or o["htva"])
+            bests_all[p["id"]] = dict(b, htva=b.get("dernier_prix_connu") or b["htva"], fraicheur="rupture",
+                                      en_stock=False, derniere_verif=b.get("date_prix_connu") or b["derniere_verif"])
         else:
             bests_all[p["id"]] = None
     blocs_all = copy.deepcopy(blocs)
@@ -271,7 +275,7 @@ def main() -> int:
         best = bests[p["id"]]
         msg = notifier.product_message(p, best, stats[p["id"]], reasons, totals if p["cat"] == "pc" else None)
         if urgent or not quiet:
-            push("produit", p["label"], msg, best["url"], 4 if urgent else 3,
+            push("produit", notifier.title_for(p, reasons), msg, best["url"], 4 if urgent else 3,
                  ["tada" if urgent else "chart_with_downwards_trend"], p["id"])
         else:
             etat["file_attente"].append({"ts": now_iso, "titre": p["label"], "message": msg, "url": best["url"]})
@@ -312,19 +316,21 @@ def main() -> int:
         pc, acc = totals["pc"], totals["acc"]
         close = sorted((p for p in products if bests[p["id"]] and stats[p["id"]].get("ecart_pct") is not None),
                        key=lambda p: stats[p["id"]]["ecart_pct"])[:3]
-        lines = [f"PC : {notifier.eur(pc['htva'])} HTVA ({notifier.eur(pc['tvac'])} TVAC)"
-                 + ("" if pc["complet"] else f" – incomplet ({len(pc['manquants'])} manquant(s))"),
-                 f"PC tous articles (ruptures comprises) : {notifier.eur(totals_all['pc']['htva'])} HTVA",
-                 f"Écart au budget 2 500 € : {notifier.eur(pc['htva'] - 2500)}",
-                 f"Accessoires : {notifier.eur(acc['htva'])} HTVA" + ("" if acc["complet"] else " – incomplet"),
-                 f"Total général : {notifier.eur(totals['general']['htva'])} HTVA"]
+        ta = totals_all
+        lines = [f"🖥️ PC complet : {notifier.eur(ta['pc']['htva'])} HTVA ({notifier.eur(ta['pc']['tvac'])} TVAC)",
+                 f"✅ dont en stock : {notifier.eur(pc['htva'])} HTVA",
+                 f"🎯 Budget 2 500 € : {notifier.eur(ta['pc']['htva'] - 2500)}",
+                 f"🎧 Accessoires : {notifier.eur(ta['acc']['htva'])} HTVA",
+                 f"🧾 Total général : {notifier.eur(ta['general']['htva'])} HTVA"]
         if pc.get("veille") is not None:
-            lines.append(f"Variation PC depuis hier : {notifier.eur(pc['htva'] - pc['veille'])}")
-        lines.append("Les plus proches de la cible :")
+            lines.append(f"📈 Variation PC depuis hier : {notifier.eur(pc['htva'] - pc['veille'])}")
+        lines += ["", "Les plus proches de la cible :"]
         for p in close:
-            lines.append(f"• {p['label']} : {notifier.eur(stats[p['id']]['ecart_eur'])} "
-                         f"({notifier.pct(stats[p['id']]['ecart_pct'])})")
-        push("bilan", "Bilan du jour – PC Price Hunter", "\n".join(lines), STATUS_URL, 2, ["bar_chart"])
+            stp = stats[p["id"]]
+            dot = "🟢" if stp["ecart_eur"] <= 0 else "🟡" if stp.get("sous_plafond") else "🔴"
+            lines.append(f"{dot} {notifier.short_label(p['label'])} : {notifier.eur(bests[p['id']]['htva'] * p.get('qty', 1))} "
+                         f"({notifier.pct(stp['ecart_pct'])})")
+        push("bilan", "📊 Bilan du jour", "\n".join(lines), STATUS_URL, 2, ["bar_chart"])
         etat["bilan_date"] = today.isoformat()
 
     # ------------------------------------------------------------- 5. écriture

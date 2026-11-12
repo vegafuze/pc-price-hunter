@@ -39,23 +39,35 @@ def send_ntfy(title: str, message: str, click: str | None, priority: int, tags: 
         return type(e).__name__
 
 
+def short_label(label: str) -> str:
+    return label.split(" (")[0]
+
+
+def title_for(p: dict, reasons: list[str]) -> str:
+    r = reasons[0] if reasons else ""
+    head = "🎯 Cible atteinte" if "cible" in r else "📉 Nouveau minimum" if "minimum" in r else "⚡ Bonne affaire"
+    return f"{head} – {short_label(p['label'])}"
+
+
 def product_message(p: dict, best: dict, st: dict, reasons: list[str], totals: dict | None) -> str:
+    """Message court et lisible : une info par ligne, le détail complet est sur la page d'état."""
     v = best["htva"] * p.get("qty", 1)
+    qty = f" (lot de {p['qty']})" if p.get("qty", 1) > 1 else ""
     lines = [
-        f"Prix actuel : {eur(v)} HTVA ({eur(v * 1.21)} TVAC)" + (f" pour {p['qty']}" if p.get("qty", 1) > 1 else ""),
-        f"Prix cible : {eur(p['cible'])} HTVA – plafond {eur(p['plafond'])}",
-        f"Écart : {eur(st.get('ecart_eur'))} ({pct(st.get('ecart_pct'))})",
+        f"💰 {eur(v)} HTVA · {eur(v * 1.21)} TVAC{qty}",
+        f"🎯 Cible {eur(p['cible'])} · plafond {eur(p['plafond'])}",
+        f"↘️ Écart {eur(st.get('ecart_eur'))} ({pct(st.get('ecart_pct'))})",
     ]
     if st.get("historique_suffisant"):
-        lines.append(f"Médiane 7 j : {eur(st['med7'])} – percentile 7 j : {st['pct7']:.0f} %")
+        lines.append(f"📊 Médiane 7 j {eur(st['med7'])} · percentile {st['pct7']:.0f} %")
     else:
-        lines.append(f"Historique encore insuffisant ({st.get('historique_jours', 0)} j)")
-    lines.append(f"Score : {st.get('score')}/100 – {st.get('verdict')}")
-    lines.append(f"Marchand : {best['marchand']}" + (f" (vendeur : {best['vendeur']})" if best.get("vendeur") else ""))
-    lines.append("Déclencheur : " + ", ".join(reasons))
+        lines.append(f"📊 Historique : {st.get('historique_jours', 0)} jour(s), encore insuffisant")
+    lines.append(f"⭐ Score {st.get('score')}/100 · {st.get('verdict')}")
+    lines.append(f"🏪 {best['marchand']}" + (f" · vendu par {best['vendeur']}" if best.get("vendeur") else ""))
     if totals:
-        lines.append(f"Total PC : {eur(totals['pc']['htva'])} HTVA"
-                     + ("" if totals['pc']['complet'] else " (incomplet)"))
+        lines.append(f"🖥️ Total PC : {eur(totals['pc']['htva'])} HTVA" + ("" if totals['pc']['complet'] else " (incomplet)"))
+    if len(reasons) > 1 or (reasons and "nouvelle baisse" in reasons[0]):
+        lines.append("ℹ️ " + ", ".join(reasons))
     return "\n".join(lines)
 
 
