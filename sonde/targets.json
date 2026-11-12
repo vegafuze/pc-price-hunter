@@ -1,0 +1,250 @@
+{
+ "_info": "Cibles du test de faisabilité. Une ligne = une page à lire. vat = taux de TVA inclus dans le prix affiché par ce site.",
+ "components": {
+  "cpu": {
+   "label": "AMD Ryzen 7 9800X3D (boîte ou tray, vendeur fiable)",
+   "must": [
+    "9800X3D"
+   ],
+   "exclude": [
+    "coin des affaires",
+    "reconditionn",
+    "occasion"
+   ],
+   "ean": [
+    "0730143315289",
+    "730143315289"
+   ],
+   "mpn": [
+    "100-100001084WOF",
+    "100-000001084"
+   ]
+  },
+  "gpu": {
+   "label": "Gigabyte RTX 5070 Ti AORUS MASTER 16G",
+   "must": [
+    "5070",
+    "MASTER"
+   ],
+   "exclude": [
+    "ICE",
+    "reconditionn",
+    "occasion",
+    "coin des affaires"
+   ],
+   "ean": [
+    "4719331355678"
+   ],
+   "mpn": [
+    "GV-N507TAORUS M-16GD"
+   ]
+  },
+  "ram": {
+   "label": "Kingston FURY RGB DDR5 32 Go (2x16) noir – toute fréquence",
+   "must": [
+    "Kingston",
+    "32"
+   ],
+   "exclude": [
+    "white",
+    "blanc",
+    "reconditionn",
+    "occasion",
+    "coin des affaires"
+   ],
+   "ean": [],
+   "mpn": []
+  },
+  "bonus_shopify": {
+   "label": "Bonus : boutiques Shopify (Klos2Reality, Maxesport)",
+   "must": [],
+   "exclude": [],
+   "ean": [],
+   "mpn": []
+  }
+ },
+ "targets": [
+  {
+   "c": "cpu",
+   "merchant": "LDLC (BE)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.ldlc.com/fr-be/fiche/PB00650664.html"
+  },
+  {
+   "c": "cpu",
+   "merchant": "LDLC (BE) – 2e fiche",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.ldlc.com/fr-be/fiche/PB00664304.html"
+  },
+  {
+   "c": "cpu",
+   "merchant": "Grosbill",
+   "vat": 0.2,
+   "kind": "page",
+   "url": "https://www.grosbill.com/amd-ryzen-7-9800x3d-wof-148505"
+  },
+  {
+   "c": "cpu",
+   "merchant": "PCComponentes (FR)",
+   "vat": 0.2,
+   "kind": "page",
+   "url": "https://www.pccomponentes.fr/processeurs-processeur-amd-ryzen-7-9800x3d-8-coeurs-4-7-ghz-base-5-2-ghz-turbo-3d-v-cache-pcie-5-0-ddr5-radeon"
+  },
+  {
+   "c": "cpu",
+   "merchant": "Cdiscount",
+   "vat": 0.2,
+   "kind": "page",
+   "url": "https://www.cdiscount.com/informatique/processeurs/processeur-amd-ryzen-7-9800x3d-4-7-ghz-8-co/f-10764-amd0730143315289.html"
+  },
+  {
+   "c": "cpu",
+   "merchant": "Alternate (BE) – recherche",
+   "vat": 0.21,
+   "kind": "search",
+   "url": "https://fr.alternate.be/listing.xhtml?q=9800X3D",
+   "link_pattern": "/html/product/"
+  },
+  {
+   "c": "cpu",
+   "merchant": "Coolblue (BE) – recherche",
+   "vat": 0.21,
+   "kind": "search",
+   "url": "https://www.coolblue.be/fr/rechercher?query=9800X3D",
+   "link_pattern": "/produit/"
+  },
+  {
+   "c": "cpu",
+   "merchant": "bol.com (BE) – recherche",
+   "vat": 0.21,
+   "kind": "search",
+   "url": "https://www.bol.com/be/fr/s/?searchtext=9800X3D",
+   "link_pattern": "/p/"
+  },
+  {
+   "c": "gpu",
+   "merchant": "Alternate (BE)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006"
+  },
+  {
+   "c": "gpu",
+   "merchant": "Alternate (DE)",
+   "vat": 0.19,
+   "kind": "page",
+   "url": "https://www.alternate.de/GIGABYTE/GeForce-RTX-5070-Ti-AORUS-MASTER-16G-Grafikkarte/html/product/100115006"
+  },
+  {
+   "c": "gpu",
+   "merchant": "Alternate (FR)",
+   "vat": 0.2,
+   "kind": "page",
+   "url": "https://www.alternate.fr/html/product/100115006"
+  },
+  {
+   "c": "gpu",
+   "merchant": "LDLC (BE)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.ldlc.com/fr-be/fiche/PB00666537.html"
+  },
+  {
+   "c": "gpu",
+   "merchant": "Grosbill",
+   "vat": 0.2,
+   "kind": "page",
+   "url": "https://www.grosbill.com/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-151253"
+  },
+  {
+   "c": "gpu",
+   "merchant": "PCComponentes (FR)",
+   "vat": 0.2,
+   "kind": "page",
+   "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5070-ti-aorus-master-16gb-gddr7-reflex-2-rtx-ai-dlss4"
+  },
+  {
+   "c": "gpu",
+   "merchant": "Megekko (NL)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart"
+  },
+  {
+   "c": "gpu",
+   "merchant": "Azerty (NL)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://azerty.nl/product/gigabyte-aorus-geforce-rtx-5070-ti-master-16g/9277750"
+  },
+  {
+   "c": "ram",
+   "merchant": "LDLC (BE)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.ldlc.com/fr-be/fiche/PB00630878.html"
+  },
+  {
+   "c": "ram",
+   "merchant": "LDLC (BE) – 2e fiche",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.ldlc.com/fr-be/fiche/PB00630877.html"
+  },
+  {
+   "c": "ram",
+   "merchant": "Coolblue (BE)",
+   "vat": 0.21,
+   "kind": "page",
+   "url": "https://www.coolblue.be/fr/produit/951100/"
+  },
+  {
+   "c": "ram",
+   "merchant": "Alternate (BE) – recherche",
+   "vat": 0.21,
+   "kind": "search",
+   "url": "https://fr.alternate.be/listing.xhtml?q=KF560C30BBEAK2-32",
+   "link_pattern": "/html/product/"
+  },
+  {
+   "c": "ram",
+   "merchant": "PCComponentes (FR) – recherche",
+   "vat": 0.2,
+   "kind": "search",
+   "url": "https://www.pccomponentes.fr/search/?query=KF560C30BBEAK2-32",
+   "link_pattern": "pccomponentes.fr/"
+  },
+  {
+   "c": "bonus_shopify",
+   "merchant": "Klos2Reality – cache boîtier",
+   "vat": null,
+   "kind": "shopify",
+   "url": "https://klos2reality.com/products/lian-li-o11-vision-grommet-shroud",
+   "variant": 47073662828731
+  },
+  {
+   "c": "bonus_shopify",
+   "merchant": "Klos2Reality – cache carte mère",
+   "vat": null,
+   "kind": "shopify",
+   "url": "https://klos2reality.com/products/gigabyte-motherboard-b850-x870-stealth-ice-cover",
+   "variant": 47342140227771
+  },
+  {
+   "c": "bonus_shopify",
+   "merchant": "Maxesport – clavier G-Lab",
+   "vat": null,
+   "kind": "shopify",
+   "url": "https://maxesport.gg/fr/products/the-g-lab-keyz-elite-300-he-iso-fr-noir"
+  },
+  {
+   "c": "bonus_shopify",
+   "merchant": "Maxesport – tapis X-Raypad",
+   "vat": null,
+   "kind": "shopify",
+   "url": "https://maxesport.gg/fr/products/x-raypad-aqua-control-ii-noir-2xl"
+  }
+ ]
+}
