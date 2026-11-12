@@ -34,18 +34,20 @@
    ]
   }
  ],
- "maj": "2026-11-12T17:54:26+00:00",
+ "maj": "2026-11-12T18:07:34+00:00",
  "meilleurs": {
   "aio_sans": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 230.58,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 230.58,
    "image": "https://fr.alternate.be/p/600x600/1/7/Lian_Li_HydroShift_II_OLED_Curved_360_Fanless__Watercooling@@100195871.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "G89.GHS2OLDC36NB.00",
    "nom": "HydroShift II OLED Curved 360 Fanless, Watercooling",
    "note": "référence fabricant vérifiée",
    "prix": 279.0,
@@ -57,17 +59,41 @@
    "url": "https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360-Fanless-Watercooling/html/product/100195871",
    "vendeur": "Alternate België bv"
   },
-  "aio_tl": null,
-  "alim": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
-   "dernier_prix_ok": 90.75,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+  "aio_tl": {
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_prix_ok": 280.17,
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
+   "fraicheur": "vérifié",
+   "htva": 280.17,
+   "image": "https://fr.alternate.be/p/600x600/8/5/Lian_Li_HydroShift_II_OLED_Curved_360TL__Watercooling@@100195858.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "GHS20LDC36TB",
+   "nom": "HydroShift II OLED Curved 360TL, Watercooling",
+   "note": "référence fabricant vérifiée",
+   "prix": 339.0,
+   "produit": "aio_tl",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858",
+   "vendeur": "Alternate België bv"
+  },
+  "alim": {
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_prix_ok": 90.75,
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 90.75,
    "image": "https://www.alternate.fr/p/600x600/5/6/Corsair_RM850e__2024__alimentation_modulaire_850_watt@@100098365.jpg",
    "marchand": "Alternate (FR)",
    "methode": "JSON-LD",
+   "mpn": "CP-9020296-EU",
    "nom": "RM850e (2024) alimentation modulaire 850 watt",
    "note": "référence fabricant vérifiée",
    "prix": 108.9,
@@ -80,15 +106,17 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "boitier": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 107.36,
    "image": "https://fr.alternate.be/p/600x600/3/2/Lian_Li_O11_Vision_Compact_bo_tier_midi_tower@@1931123_30.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "G99.O11VPX.00",
    "nom": "O11 Vision Compact boîtier midi tower",
    "note": "référence fabricant vérifiée",
    "prix": 129.9,
@@ -102,15 +130,17 @@
   },
   "cable": null,
   "cache_boitier": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 66.12,
    "image": "https://cdn.shopify.com/s/files/1/0670/1419/7435/files/IMG_2351.jpg?v=1759758294",
    "marchand": "Klos2Reality",
    "methode": "Shopify JSON",
+   "mpn": null,
    "nom": "Lian Li O11 Vision Compact Grommet Shroud – Black / BTF - Lian Li 8.8 Screen Shroud Kit - 3 Piece",
    "note": "nom conforme",
    "prix": 80.0,
@@ -123,15 +153,17 @@
    "vendeur": null
   },
   "cache_cm": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 16.53,
    "image": "https://cdn.shopify.com/s/files/1/0670/1419/7435/files/Customer_picture_using_the_cover.jpg?v=1767825526",
    "marchand": "Klos2Reality",
    "methode": "Shopify JSON",
+   "mpn": null,
    "nom": "Gigabyte Motherboard B850/X870 Stealth/ Stealth Ice Cover – Black / Full Cover",
    "note": "nom conforme",
    "prix": 20.0,
@@ -144,15 +176,17 @@
    "vendeur": null
   },
   "cadre": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": "0814256015639",
    "fraicheur": "vérifié",
    "htva": 9.01,
    "image": "https://media.ldlc.com/r1600/ld/products/00/06/21/39/LD0006213922.jpg",
    "marchand": "LDLC (BE)",
    "methode": "JSON-LD",
+   "mpn": "TR-AM5SF-BK",
    "nom": "Thermalright AM5 Secure Frame Black",
    "note": "nom conforme",
    "prix": 10.9,
@@ -165,15 +199,17 @@
    "vendeur": "LDLC"
   },
   "casque": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 81.82,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 81.82,
    "image": "https://image.coolblue.nl/500x500/products/2057325",
    "marchand": "Coolblue (BE)",
    "methode": "JSON-LD",
+   "mpn": null,
    "nom": "Razer BlackShark V2 HyperSpeed Noir",
    "note": "nom conforme",
    "prix": 99.0,
@@ -186,15 +222,17 @@
    "vendeur": null
   },
   "clavier": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 74.3,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": "3760162054910",
    "fraicheur": "vérifié",
    "htva": 74.3,
    "image": "https://cdn.shopify.com/s/files/1/0663/8456/0292/files/KEYZ-ELITE-300-HE-B-1.webp?v=1785924943",
    "marchand": "Maxesport",
    "methode": "Shopify JSON",
+   "mpn": null,
    "nom": "The G-Lab Keyz Elite 300 HE ISO FR Noir",
    "note": "nom conforme",
    "prix": 89.9,
@@ -207,15 +245,17 @@
    "vendeur": null
   },
   "cm": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 239.5,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 239.5,
    "image": "https://www.alternate.de/p/600x600/7/5/GIGABYTE_B850_AORUS_STEALTH__Mainboard@@100175457.jpg",
    "marchand": "Alternate (DE)",
    "methode": "JSON-LD",
+   "mpn": "B850 AORUS STEALTH",
    "nom": "B850 AORUS STEALTH, Mainboard",
    "note": "nom conforme (identifiant absent de la page)",
    "prix": 285.0,
@@ -228,15 +268,17 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 329.75,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 329.75,
    "image": "https://fr.alternate.be/p/600x600/5/0/AMD_Ryzen_7_9800X3D__4_7_GHz__5_2_GHz_Turbo_Boost__socket_AM5_processeur@@100093605.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "100-100001084WOF",
    "nom": "Ryzen 7 9800X3D, 4,7 GHz (5,2 GHz Turbo Boost) socket AM5 processeur",
    "note": "référence fabricant vérifiée",
    "prix": 399.0,
@@ -249,15 +291,17 @@
    "vendeur": "Alternate België bv"
   },
   "ecran": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 392.56,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 392.56,
    "image": "https://fr.alternate.be/p/600x600/9/3/iiyama_G_Master_Titan_Falcon_GOB2701QSC_B1_27__Moniteur_gaming@@1949539_30.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "GOB2701QSC-B1",
    "nom": "G-Master Titan Falcon GOB2701QSC-B1 27\\\" Moniteur gaming",
    "note": "nom conforme",
    "prix": 475.0,
@@ -270,15 +314,17 @@
    "vendeur": "Alternate België bv"
   },
   "ecran_lianli": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 70.17,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 70.17,
    "image": "https://fr.alternate.be/p/600x600/6/9/Lian_Li_8_8__Universal_Screen@@100151196_30.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "G89.SM088X.00",
    "nom": "8.8\\\" Universal Screen",
    "note": "référence fabricant vérifiée",
    "prix": 84.9,
@@ -291,15 +337,17 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 1445.45,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": "4719331355678",
    "fraicheur": "vérifié",
    "htva": 1445.45,
    "image": "https://www.megekko.nl/productimg/297119/nw/0_Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart.jpg",
    "marchand": "Megekko (NL)",
    "methode": "JSON-LD",
+   "mpn": "GV-N507TAORUS M-16GD",
    "nom": "Gigabyte GeForce RTX 5070 TI AORUS MASTER 16G Videokaart",
    "note": "EAN vérifié",
    "prix": 1749.0,
@@ -312,15 +360,17 @@
    "vendeur": null
   },
   "ram": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 478.51,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 478.51,
    "image": "https://fr.alternate.be/p/600x600/1/7/Corsair_Vengeance_RGB_32_Go_DDR5_6000__2x_16_Go__m_moire_vive@@1909371.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "CMH32GX5M2E6000C36",
    "nom": "Vengeance RGB 32 Go DDR5-6000 (2x 16 Go) mémoire vive",
    "note": "nom conforme",
    "prix": 579.0,
@@ -333,36 +383,40 @@
    "vendeur": "Alternate België bv"
   },
   "souris": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
-   "dernier_prix_ok": 71.9,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_prix_ok": 109.92,
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
-   "htva": 71.9,
-   "image": "https://image.coolblue.nl/500x500/products/1720199698",
+   "htva": 109.92,
+   "image": "https://image.coolblue.nl/500x500/products/2085648",
    "marchand": "Coolblue (BE)",
    "methode": "JSON-LD",
-   "nom": "Razer Viper V3 Pro SE Souris Gamer Sans Fil Noir",
+   "mpn": null,
+   "nom": "Razer Viper V3 Pro Souris Gamer Sans Fil Noir",
    "note": "nom conforme",
-   "prix": 87.0,
+   "prix": 133.0,
    "produit": "souris",
    "statut": "ok",
    "test": false,
    "tva": 0.21,
    "tva_supposee": false,
-   "url": "https://www.coolblue.be/fr/produit/987219/razer-viper-v3-pro-se-souris-gamer-sans-fil-noir.html",
+   "url": "https://www.coolblue.be/fr/produit/953160/razer-viper-v3-pro-souris-gamer-sans-fil-noir.html",
    "vendeur": null
   },
   "ssd": {
-   "dernier_ok": "2026-11-12T17:54:26+00:00",
+   "dernier_ok": "2026-11-12T18:07:34+00:00",
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-12T17:54:26+00:00",
+   "derniere_verif": "2026-11-12T18:07:34+00:00",
    "dispo": "InStock",
+   "ean": null,
    "fraicheur": "vérifié",
    "htva": 271.9,
    "image": "https://fr.alternate.be/p/600x600/0/7/Samsung_990_EVO_PLUS_2_To_SSD@@100080170_30.jpg",
    "marchand": "Alternate (BE)",
    "methode": "JSON-LD",
+   "mpn": "MZ-V9S2T0BW",
    "nom": "990 EVO PLUS 2 To SSD",
    "note": "nom conforme",
    "prix": 329.0,
@@ -398,14 +452,32 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
   },
   "aio_tl": {
-   "historique_jours": 0,
-   "historique_suffisant": false
+   "ecart_eur": 0.17,
+   "ecart_pct": 0.1,
+   "historique_jours": 1,
+   "historique_suffisant": false,
+   "max7": 280.17,
+   "med30": 280.17,
+   "med7": 280.17,
+   "min30": 280.17,
+   "min30_passe": null,
+   "min7": 280.17,
+   "pct7": 50.0,
+   "score": 50,
+   "score_detail": {
+    "cible": 50
+   },
+   "sous_plafond": true,
+   "var_derniere": null,
+   "var_veille": null,
+   "verdict": "prix correct",
+   "volatilite_pct": null
   },
   "alim": {
    "ecart_eur": 15.75,
@@ -424,7 +496,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -446,7 +518,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -472,7 +544,7 @@
     "cible": 100
    },
    "sous_plafond": true,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "objectif atteint",
    "volatilite_pct": null
@@ -494,7 +566,7 @@
     "cible": 100
    },
    "sous_plafond": true,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "objectif atteint",
    "volatilite_pct": null
@@ -516,7 +588,7 @@
     "cible": 0
    },
    "sous_plafond": true,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -538,7 +610,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -560,7 +632,7 @@
     "cible": 19
    },
    "sous_plafond": true,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -582,7 +654,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -604,7 +676,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -626,7 +698,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -648,7 +720,7 @@
     "cible": 10
    },
    "sous_plafond": true,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -670,7 +742,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -692,14 +764,14 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
   },
   "souris": {
-   "ecart_eur": -3.1,
-   "ecart_pct": -4.1,
+   "ecart_eur": 34.92,
+   "ecart_pct": 46.6,
    "historique_jours": 1,
    "historique_suffisant": false,
    "max7": 71.9,
@@ -708,15 +780,15 @@
    "min30": 71.9,
    "min30_passe": null,
    "min7": 71.9,
-   "pct7": 50.0,
-   "score": 71,
+   "pct7": 100.0,
+   "score": 0,
    "score_detail": {
-    "cible": 71
+    "cible": 0
    },
-   "sous_plafond": true,
-   "var_derniere": null,
+   "sous_plafond": false,
+   "var_derniere": 38.02,
    "var_veille": null,
-   "verdict": "objectif atteint",
+   "verdict": "pas intéressant",
    "volatilite_pct": null
   },
   "ssd": {
@@ -736,7 +808,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -766,20 +838,20 @@
   "acc": {
    "anciens": [],
    "complet": false,
-   "htva": 690.75,
+   "htva": 728.77,
    "manquants": [
     "X-Raypad Aqua Control II noir 2XL",
     "Support écran BONTEC (VESA 75/100)",
     "Câble spiralé Newskill USB-C noir"
    ],
-   "tvac": 835.81,
+   "tvac": 881.81,
    "veille": null,
    "verifie": false
   },
   "general": {
    "complet": false,
-   "htva": 3745.63,
-   "tvac": 4532.21
+   "htva": 3783.65,
+   "tvac": 4578.22
   },
   "pc": {
    "anciens": [],
