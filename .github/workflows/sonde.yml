@@ -1,0 +1,40 @@
+name: Sonde de faisabilité
+
+# Lancement manuel uniquement (onglet Actions > Sonde de faisabilité > Run workflow).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # pour enregistrer les résultats dans le dépôt
+
+concurrency:
+  group: sonde
+  cancel-in-progress: false
+
+jobs:
+  sonde:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les bibliothèques
+        run: pip install -r requirements.txt
+
+      - name: Lancer la sonde
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python sonde/probe.py
+
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "pc-price-hunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/
+          git commit -m "Résultats de la sonde $(date -u +%Y-%m-%dT%H:%MZ)" || echo "Rien de nouveau"
+          git push
