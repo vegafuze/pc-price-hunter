@@ -39,6 +39,39 @@ def send_ntfy(title: str, message: str, click: str | None, priority: int, tags: 
         return type(e).__name__
 
 
+def mood(pct7) -> str:
+    """Traduit le percentile 7 jours : 0 % = prix le plus bas de la semaine, 100 % = le plus haut."""
+    if pct7 is None:
+        return ""
+    if pct7 <= 10:
+        return "🤩 Exceptionnel"
+    if pct7 <= 25:
+        return "😃 Très bien"
+    if pct7 <= 50:
+        return "🙂 Bien"
+    if pct7 <= 75:
+        return "😐 Moyen"
+    return "😟 Cher pour la semaine"
+
+
+def send_ntfy_image(title: str, message: str, png, status_url: str) -> str:
+    """Envoie le bilan avec l'image récapitulative en pièce jointe (repli : texte seul)."""
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic:
+        return "pas de NTFY_TOPIC"
+    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    try:
+        data = open(png, "rb").read()
+        r = requests.put(f"{server}/{topic}", data=data, timeout=30,
+                         params={"title": title, "message": message, "click": status_url, "tags": "bar_chart",
+                                 "priority": "2", "filename": "recapitulatif.png"})
+        if r.status_code < 300:
+            return f"HTTP {r.status_code} (avec image)"
+    except (OSError, requests.RequestException):
+        pass
+    return send_ntfy(title, message, status_url, 2, ["bar_chart"], status_url) + " (sans image)"
+
+
 def short_label(label: str) -> str:
     return label.split(" (")[0]
 
@@ -59,7 +92,8 @@ def product_message(p: dict, best: dict, st: dict, reasons: list[str], totals: d
         f"↘️ Écart {eur(st.get('ecart_eur'))} ({pct(st.get('ecart_pct'))})",
     ]
     if st.get("historique_suffisant"):
-        lines.append(f"📊 Médiane 7 j {eur(st['med7'])} · percentile {st['pct7']:.0f} %")
+        lines.append(f"📊 {mood(st['pct7'])} : moins cher que {100 - st['pct7']:.0f} % des prix des 7 derniers jours"
+                     f" (médiane {eur(st['med7'])})")
     else:
         lines.append(f"📊 Historique : {st.get('historique_jours', 0)} jour(s), encore insuffisant")
     lines.append(f"⭐ Score {st.get('score')}/100 · {st.get('verdict')}")

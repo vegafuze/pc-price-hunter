@@ -24,6 +24,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import analyse  # noqa: E402
+import image  # noqa: E402
 import notifier  # noqa: E402
 import sources  # noqa: E402
 
@@ -248,6 +249,10 @@ def main() -> int:
     blocs_all = copy.deepcopy(blocs)
     totals_all = analyse.compute_totals(products, blocs_all, bests_all)
     totals_all["blocs"] = blocs_all
+    try:  # l'image ne doit jamais bloquer le moteur
+        build_image(products, blocs, bests, bests_all, totals, totals_all, now_iso)
+    except Exception as e:
+        print("Image récapitulative impossible :", type(e).__name__, e)
     for name, key in (("_total_pc", "pc"), ("_total_accessoires", "acc")):
         if totals[key]["complet"]:
             s = daily.setdefault(name, {})
@@ -330,7 +335,9 @@ def main() -> int:
             dot = "🟢" if stp["ecart_eur"] <= 0 else "🟡" if stp.get("sous_plafond") else "🔴"
             lines.append(f"{dot} {notifier.short_label(p['label'])} : {notifier.eur(bests[p['id']]['htva'] * p.get('qty', 1))} "
                          f"({notifier.pct(stp['ecart_pct'])})")
-        push("bilan", "📊 Bilan du jour", "\n".join(lines), STATUS_URL, 2, ["bar_chart"])
+        res = notifier.send_ntfy_image("📊 Bilan du jour", "\n".join(lines), ROOT / "recap.png", STATUS_URL)
+        sent += 1
+        notif_rows.append({"ts": now_iso, "type": "bilan", "produit": "", "titre": "Bilan du jour", "resultat": res})
         etat["bilan_date"] = today.isoformat()
 
     # ------------------------------------------------------------- 5. écriture
@@ -359,6 +366,45 @@ def main() -> int:
     return 0
 
 
+def img_item(label, b, ba, p) -> dict:
+    if b:
+        v = b["htva"] * p.get("qty", 1)
+        col = "vert" if v <= p["cible"] else "jaune" if v <= p["plafond"] else "rouge"
+        d = v - p["cible"]
+        return {"label": label, "prix": image.eur(v), "ecart": ("+" if d > 0 else "") + image.eur(d), "couleur": col}
+    if ba:
+        v = ba["htva"] * p.get("qty", 1)
+        d = v - p["cible"]
+        return {"label": label, "prix": image.eur(v), "ecart": ("+" if d > 0 else "") + image.eur(d),
+                "couleur": "gris", "note": "en rupture"}
+    return {"label": label, "prix": "–", "ecart": "", "couleur": "gris", "note": p.get("remarque", "aucun prix")[:40]}
+
+
+def build_image(products, blocs, bests, bests_all, totals, totals_all, now_iso) -> None:
+    in_bloc = {pid for b in blocs for sc in b["scenarios"] for pid in sc["items"]}
+    sections = []
+    for cat, name in (("pc", "PC – composants"), ("acc", "Accessoires")):
+        items = [img_item(notifier.short_label(p["label"]), bests.get(p["id"]), bests_all.get(p["id"]), p)
+                 for p in products if p["cat"] == cat and p["id"] not in in_bloc]
+        for i, bloc in enumerate(blocs):
+            if bloc.get("cat", "pc") != cat:
+                continue
+            c, ca = bloc.get("choisi"), totals_all["blocs"][i].get("choisi")
+            pseudo = {"cible": bloc["cible"], "plafond": bloc["plafond"], "qty": 1}
+            items.append(img_item("Watercooling + 8 ventilateurs", {"htva": c["cout"]} if c else None,
+                                  {"htva": ca["cout"]} if ca else None, pseudo))
+        sections.append((name, items))
+    ta = totals_all
+    tiles = [("PC complet (ruptures comprises)", image.eur(ta["pc"]["htva"])),
+             ("PC en stock" + ("" if totals["pc"]["complet"] else " (incomplet)"), image.eur(totals["pc"]["htva"])),
+             ("Écart au budget 2 500 €", ("+" if ta["pc"]["htva"] > 2500 else "") + image.eur(ta["pc"]["htva"] - 2500)),
+             ("Accessoires", image.eur(ta["acc"]["htva"])),
+             ("Total général", image.eur(ta["general"]["htva"])),
+             ("TVAC (21 %)", image.eur(ta["general"]["tvac"]))]
+    image.render(ROOT / "recap.png", f"Mise à jour : {fmt_local(now_iso)} (heure belge) · prix HTVA hors livraison",
+                 tiles, sections)
+
+
 def render_status(products, blocs, bests, stats, totals, etat, now_iso, bests_all=None, totals_all=None) -> str:
     e = notifier.eur
     pc, acc, gen = totals["pc"], totals["acc"], totals["general"]
@@ -366,7 +412,7 @@ def render_status(products, blocs, bests, stats, totals, etat, now_iso, bests_al
     def flag(t):
         return "" if t["verifie"] else (" ⚠️ estimé" if t["complet"] else " ⚠️ incomplet")
 
-    out = ["# PC Price Hunter – état actuel", "",
+    out = ["# PC Price Hunter – état actuel", "", "![Récapitulatif](recap.png)", "",
            f"**Dernière actualisation réussie : {fmt_local(etat.get('derniere_reussite'))}** (heure belge) · "
            f"dernière exécution : {fmt_local(now_iso)}", "",
            "| | HTVA | TVAC (21 %) |", "|---|---|---|",
