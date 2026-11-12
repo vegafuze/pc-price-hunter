@@ -159,6 +159,12 @@ def main() -> int:
             else:
                 state = analyse.offer_state(info)
                 info["note"] = why
+                vat = o.get("tva") if o.get("tva") is not None else 0.21
+                line = info["price"] / (1 + vat) * p.get("qty", 1)
+                if line > p["plafond"] * 3 or line < p["cible"] * 0.35:
+                    state, info["note"] = "non_conforme", "prix incohérent (lot, PC complet ou accessoire ?)"
+                    if o.get("via"):
+                        etat["decouverte"].setdefault(o["via"], {}).setdefault("rejetes", []).append(o["url"])
         tva = o.get("tva")
         tva_supposee = tva is None
         tva = 0.21 if tva is None else tva
@@ -169,7 +175,7 @@ def main() -> int:
             "produit": p["id"], "marchand": o["marchand"], "url": info.get("final_url") or o["url"],
             "statut": state, "prix": price, "tva": tva, "tva_supposee": tva_supposee, "htva": htva,
             "dispo": info.get("availability"), "vendeur": info.get("seller"), "nom": info.get("name"),
-            "methode": info.get("method"), "note": info.get("note"), "image": info.get("image") or prev.get("image"),
+            "methode": info.get("method"), "note": info.get("note"), "mpn": info.get("mpn"), "ean": info.get("ean"), "image": info.get("image") or prev.get("image"),
             "derniere_verif": now_iso, "dernier_ok": now_iso if state == "ok" else prev.get("dernier_ok"),
             "dernier_prix_ok": htva if state == "ok" else prev.get("dernier_prix_ok"),
             "test": bool(o.get("test")),

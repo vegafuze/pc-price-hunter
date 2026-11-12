@@ -14,7 +14,7 @@ DISPO_OK = {"InStock", "LimitedAvailability", "InStoreOnly", "OnlineOnly"}
 
 
 def norm(s) -> str:
-    return re.sub(r"[\s\-_./]", "", str(s or "")).upper()
+    return re.sub(r"[\s\-_./]", "", str(s or "")).upper().replace("O", "0")  # O et 0 souvent confondus
 
 
 # ----------------------------------------------------------------------------- identité
