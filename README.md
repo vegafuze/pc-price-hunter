@@ -1,28 +1,31 @@
 # PC Price Hunter
 
-Surveillance des prix de composants PC (Belgique / Europe) avec GitHub Actions et notifications ntfy.
+Surveillance automatique des prix de composants PC et d'accessoires (Belgique / Europe), avec alertes sur Android via ntfy.
 
-## Étape actuelle : sonde de faisabilité
+**État actuel (prix, totaux, écarts au budget) : [ETAT.md](ETAT.md)**
 
-Avant de construire l'application, on vérifie **depuis les serveurs GitHub** quels marchands laissent lire leurs prix proprement :
+## Fonctionnement
 
-- `sonde/targets.json` : les pages testées (Ryzen 7 9800X3D, RTX 5070 Ti AORUS MASTER, Kingston FURY Beast RGB 32 Go, plus 4 pages Shopify en bonus) ;
-- `sonde/probe.py` : le script qui lit ces pages ;
-- `.github/workflows/sonde.yml` : le lancement manuel sur GitHub.
+- GitHub Actions lance le moteur toutes les 30 minutes (workflow « Surveillance des prix »), même quand ton ordinateur est éteint.
+- Le moteur lit les fiches produit des marchands qui l'autorisent (robots.txt respecté, identification honnête, aucune protection contournée, ~6 s entre deux pages d'un même site).
+- Chaque offre est vérifiée : bonne référence (EAN ou référence fabricant quand la page la donne), produit neuf, vendu par le marchand lui-même, en stock.
+- L'historique est conservé dans le dossier data (une valeur par jour et par produit pour les statistiques, plus chaque changement de prix).
+- Une notification ntfy n'est envoyée que pour une nouvelle opportunité : prix cible atteint, nouvelle baisse significative, prix statistiquement exceptionnel, nouveau minimum sur 30 jours, PC complet sous 2 500 € ou 2 400 € HTVA.
+- Entre 22 h et 7 h, seules les alertes importantes (prix cible, budget) sont envoyées tout de suite ; les autres arrivent à 7 h.
+- Bilan quotidien vers 18 h (heure belge).
 
-Règles du script : `robots.txt` respecté, User-Agent honnête, aucune tentative de contourner une protection, une requête toutes les ~6 s par site, aucun prix inventé.
+## Fichiers
 
-Résultats : `results/sonde-latest.md` (lisible) et `results/sonde-latest.json` (brut).
+- config/produits.json : la liste surveillée (cibles, plafonds, références, pages et recherches par marchand).
+- config/reglages.json : poids du score, seuils, heures calmes, heure du bilan.
+- moteur/ : le code (sources.py, analyse.py, notifier.py, main.py).
+- data/ : historique, état, journal des exécutions et des notifications.
+- sonde/ : le test de faisabilité initial.
 
-## Lancer la sonde
+## Lancer un passage à la main
 
-1. Onglet **Actions** du dépôt → **Sonde de faisabilité** → **Run workflow**.
-2. Attendre 2 à 4 minutes (pastille verte).
-3. Ouvrir `results/sonde-latest.md`.
-
-Facultatif : créer le secret `NTFY_TOPIC` (Settings → Secrets and variables → Actions) pour recevoir une notification de test à la fin.
+Onglet Actions → « Surveillance des prix » → Run workflow (cocher « Tout relire maintenant » pour ignorer les intervalles).
 
 ## Sécurité
 
-- Aucune clé ni aucun sujet ntfy dans le code : uniquement dans **GitHub Secrets**.
-- Le dépôt est public : n'y mets rien de personnel.
+Le nom du canal ntfy est stocké uniquement dans les secrets GitHub (NTFY_TOPIC). Le dépôt est public : n'y mets rien de personnel.
