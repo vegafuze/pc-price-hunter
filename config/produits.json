@@ -112,7 +112,7 @@
   {
    "id": "ventilo_inv3", "cat": "pc", "label": "Lian Li UNI FAN TL FLEX 120 pales inversées, pack de 3 noir", "qty": 1, "cible": 75, "plafond": 80,
    "options": [
-    {"mpn": ["12RTL1F3B"], "must": ["tl", "flex"], "regex": ["revers|invers"], "exclude": ["white", "blanc", "wit", "lcd"]}
+    {"ean": ["4718466023513"], "mpn": ["12RTL1F3B"], "must": ["tl", "flex"], "regex": ["revers|invers"], "exclude": ["white", "blanc", "wit", "lcd"]}
    ],
    "offres": [
     {"marchand": "Caseking (DE)", "url": "https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-reverse-blade-120mm-black-3-pack/LULI-161.html", "tva": 0.19}
@@ -124,7 +124,7 @@
   {
    "id": "ventilo_std1", "cat": "pc", "label": "Lian Li UNI FAN TL FLEX 120 standard, à l'unité noir", "qty": 1, "cible": 22.5, "plafond": 25,
    "options": [
-    {"mpn": ["12TL1F1B"], "must": ["tl", "flex"], "exclude": ["white", "blanc", "wit", "lcd", "revers", "invers"]}
+    {"ean": ["4718466023452"], "mpn": ["12TL1F1B"], "must": ["tl", "flex"], "exclude": ["white", "blanc", "wit", "lcd", "revers", "invers"]}
    ],
    "offres": [
     {"marchand": "Alternate (DE)", "url": "https://www.alternate.de/Lian-Li/UNI-FAN-TL-FLEX-120-Wireless-Geh%C3%A4usel%C3%BCfter/html/product/100201754", "tva": 0.19, "vendeur_attendu": ["alternate"]},
