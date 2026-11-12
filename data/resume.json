@@ -34,12 +34,12 @@
    ]
   }
  ],
- "maj": "2026-11-12T18:07:34+00:00",
+ "maj": "2026-11-12T18:24:50+00:00",
  "meilleurs": {
   "aio_sans": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 230.58,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -60,9 +60,9 @@
    "vendeur": "Alternate België bv"
   },
   "aio_tl": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -83,9 +83,9 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 90.75,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -106,9 +106,9 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "boitier": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -130,9 +130,9 @@
   },
   "cable": null,
   "cache_boitier": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -153,9 +153,9 @@
    "vendeur": null
   },
   "cache_cm": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -176,9 +176,9 @@
    "vendeur": null
   },
   "cadre": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -199,9 +199,9 @@
    "vendeur": "LDLC"
   },
   "casque": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 81.82,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -222,9 +222,9 @@
    "vendeur": null
   },
   "clavier": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 74.3,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": "3760162054910",
    "fraicheur": "vérifié",
@@ -245,9 +245,9 @@
    "vendeur": null
   },
   "cm": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 239.5,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -268,9 +268,9 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 329.75,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -291,9 +291,9 @@
    "vendeur": "Alternate België bv"
   },
   "ecran": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 392.56,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -314,9 +314,9 @@
    "vendeur": "Alternate België bv"
   },
   "ecran_lianli": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 70.17,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -337,9 +337,9 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 1445.45,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": "4719331355678",
    "fraicheur": "vérifié",
@@ -360,9 +360,9 @@
    "vendeur": null
   },
   "ram": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 478.51,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -383,9 +383,9 @@
    "vendeur": "Alternate België bv"
   },
   "souris": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 109.92,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -395,7 +395,7 @@
    "methode": "JSON-LD",
    "mpn": null,
    "nom": "Razer Viper V3 Pro Souris Gamer Sans Fil Noir",
-   "note": "nom conforme",
+   "note": "nom conforme (identifiant absent de la page)",
    "prix": 133.0,
    "produit": "souris",
    "statut": "ok",
@@ -406,9 +406,9 @@
    "vendeur": null
   },
   "ssd": {
-   "dernier_ok": "2026-11-12T18:07:34+00:00",
+   "dernier_ok": "2026-11-12T18:24:50+00:00",
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-12T18:07:34+00:00",
+   "derniere_verif": "2026-11-12T18:24:50+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -474,7 +474,7 @@
     "cible": 50
    },
    "sous_plafond": true,
-   "var_derniere": null,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "prix correct",
    "volatilite_pct": null
@@ -786,7 +786,7 @@
     "cible": 0
    },
    "sous_plafond": false,
-   "var_derniere": 38.02,
+   "var_derniere": 0.0,
    "var_veille": null,
    "verdict": "pas intéressant",
    "volatilite_pct": null
@@ -862,6 +862,80 @@
    ],
    "tvac": 3696.4,
    "veille": null,
+   "verifie": false
+  }
+ },
+ "totaux_tous_articles": {
+  "acc": {
+   "anciens": [
+    "X-Raypad Aqua Control II noir 2XL"
+   ],
+   "complet": false,
+   "htva": 761.75,
+   "manquants": [
+    "Support écran BONTEC (VESA 75/100)",
+    "Câble spiralé Newskill USB-C noir"
+   ],
+   "tvac": 921.72,
+   "verifie": false
+  },
+  "blocs": [
+   {
+    "cat": "pc",
+    "choisi": {
+     "ancien": true,
+     "cout": 439.56,
+     "items": {
+      "aio_tl": 1,
+      "ventilo_inv1": 3,
+      "ventilo_inv3": 1
+     },
+     "label": "C : 360TL + 1 pack de 3 inversés + 3 inversés à l'unité"
+    },
+    "cible": 400,
+    "id": "refroidissement",
+    "label": "Watercooling + 8 ventilateurs (6 inversés, 2 standard)",
+    "plafond": 430,
+    "scenarios": [
+     {
+      "items": {
+       "aio_tl": 1,
+       "ventilo_inv3": 2
+      },
+      "label": "A : 360TL (3 standard fournis) + 2 packs de 3 inversés"
+     },
+     {
+      "items": {
+       "aio_sans": 1,
+       "ventilo_inv3": 2,
+       "ventilo_std1": 2
+      },
+      "label": "B : 360 sans ventilateurs + 2 packs de 3 inversés + 2 standard"
+     },
+     {
+      "items": {
+       "aio_tl": 1,
+       "ventilo_inv1": 3,
+       "ventilo_inv3": 1
+      },
+      "label": "C : 360TL + 1 pack de 3 inversés + 3 inversés à l'unité"
+     }
+    ]
+   }
+  ],
+  "general": {
+   "complet": false,
+   "htva": 4256.19,
+   "tvac": 5149.99
+  },
+  "pc": {
+   "anciens": [
+    "Watercooling + 8 ventilateurs (6 inversés, 2 standard)"
+   ],
+   "complet": true,
+   "htva": 3494.44,
+   "manquants": [],
+   "tvac": 4228.27,
    "verifie": false
   }
  }
