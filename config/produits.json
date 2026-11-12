@@ -70,7 +70,7 @@
    "id": "alim", "cat": "pc", "label": "Alimentation Corsair RM850e (2024) 80+ Gold", "qty": 1, "cible": 75, "plafond": 85,
    "remarque": "alternatives à valider",
    "options": [
-    {"ean": ["0840006691204"], "mpn": ["CP-9020296"], "must": ["rm850e"], "exclude": ["white", "blanc"]}
+    {"ean": ["0840006691204"], "mpn": ["CP-9020296"], "must": ["rm850e"], "exclude": ["white", "blanc", "2025", "cybenetics"]}
    ],
    "offres": [
     {"marchand": "Alternate (FR)", "url": "https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365", "tva": 0.20, "vendeur_attendu": ["alternate"]},
@@ -114,6 +114,9 @@
    "options": [
     {"mpn": ["12RTL1F3B"], "must": ["tl", "flex"], "regex": ["revers|invers"], "exclude": ["white", "blanc", "wit", "lcd"]}
    ],
+   "offres": [
+    {"marchand": "Caseking (DE)", "url": "https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-reverse-blade-120mm-black-3-pack/LULI-161.html", "tva": 0.19}
+   ],
    "recherches": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=UNI+FAN+TL+FLEX", "motif": "/html/product/", "tva": 0.21, "liens_must": ["tl"], "liens_exclude": ["white", "blanc", "lcd"], "vendeur_attendu": ["alternate"], "max": 8}
    ]
@@ -124,7 +127,8 @@
     {"mpn": ["12TL1F1B"], "must": ["tl", "flex"], "exclude": ["white", "blanc", "wit", "lcd", "revers", "invers"]}
    ],
    "offres": [
-    {"marchand": "Alternate (DE)", "url": "https://www.alternate.de/Lian-Li/UNI-FAN-TL-FLEX-120-Wireless-Geh%C3%A4usel%C3%BCfter/html/product/100201754", "tva": 0.19, "vendeur_attendu": ["alternate"]}
+    {"marchand": "Alternate (DE)", "url": "https://www.alternate.de/Lian-Li/UNI-FAN-TL-FLEX-120-Wireless-Geh%C3%A4usel%C3%BCfter/html/product/100201754", "tva": 0.19, "vendeur_attendu": ["alternate"]},
+    {"marchand": "Caseking (DE)", "url": "https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-120mm-black/LULI-155.html", "tva": 0.19}
    ],
    "recherches": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=UNI+FAN+TL+FLEX", "motif": "/html/product/", "tva": 0.21, "liens_must": ["tl"], "liens_exclude": ["white", "blanc", "lcd"], "vendeur_attendu": ["alternate"], "max": 8}
@@ -203,7 +207,7 @@
   {
    "id": "souris", "cat": "acc", "label": "Razer Viper V3 Pro noire", "qty": 1, "cible": 75, "plafond": 75,
    "intervalle_min": 120,
-   "options": [{"must": ["viper v3 pro"], "exclude": ["white", "blanc", "wit", "edition", "édition", "faker", "sentinels", "pro se"]}],
+   "options": [{"mpn": ["RZ01-05120100"], "must": ["viper v3 pro"], "exclude": ["white", "blanc", "wit", "edition", "édition", "faker", "sentinels", "pro se"]}],
    "recherches": [
     {"marchand": "Alternate (BE)", "url": "https://fr.alternate.be/listing.xhtml?q=Razer+Viper+V3+Pro", "motif": "/html/product/", "tva": 0.21, "liens_must": ["viper", "v3", "pro"], "liens_exclude": ["white", "blanc"], "vendeur_attendu": ["alternate"], "max": 3},
     {"marchand": "Coolblue (BE)", "url": "https://www.coolblue.be/fr/rechercher?query=Razer+Viper+V3+Pro", "motif": "/produit/", "tva": 0.21, "liens_must": ["viper", "v3", "pro"], "max": 3}
