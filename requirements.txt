@@ -2,3 +2,4 @@ requests>=2.32,<3
 beautifulsoup4>=4.12,<5
 lxml>=5.2
 tzdata>=2024.1
+pillow>=10.1
