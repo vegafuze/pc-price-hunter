@@ -10,6 +10,7 @@ PC Price Hunter – moteur de surveillance (une exécution = un passage complet)
 """
 from __future__ import annotations
 
+import copy
 import csv
 import json
 import os
@@ -150,6 +151,9 @@ def main() -> int:
                 fetched[memo] = {"status": "erreur", "note": f"{type(e).__name__}"}
         info = dict(fetched[memo])
         state = info.get("status", "erreur")
+        if info.get("final_url") and sources.site_of(info["final_url"]) != sources.site_of(o["url"]):
+            state, info["note"] = "non_conforme", "redirigé vers un autre site : ignoré"
+            info["price"], info["final_url"] = None, None
         if state == "ok":
             accepted, why = analyse.check_identity(info, p, o)
             if not accepted:
@@ -224,6 +228,22 @@ def main() -> int:
             etat["derniers_meilleurs"][p["id"]] = v_line
 
     totals = analyse.compute_totals(products, blocs, bests)
+    # total « tous articles » : ajoute le dernier prix connu (< 24 h) des articles en rupture, à titre indicatif
+    bests_all = {}
+    for p in products:
+        offs = [o for o in etat["offres"].values() if o["produit"] == p["id"] and not o.get("test")
+                and o["statut"] in ("ok", "rupture") and o.get("htva") is not None
+                and minutes_since(o["derniere_verif"], now) <= 24 * 60]
+        if bests[p["id"]]:
+            bests_all[p["id"]] = dict(bests[p["id"]], en_stock=True)
+        elif offs:
+            b = min(offs, key=lambda o: o["htva"])
+            bests_all[p["id"]] = dict(b, fraicheur="rupture", en_stock=False)
+        else:
+            bests_all[p["id"]] = None
+    blocs_all = copy.deepcopy(blocs)
+    totals_all = analyse.compute_totals(products, blocs_all, bests_all)
+    totals_all["blocs"] = blocs_all
     for name, key in (("_total_pc", "pc"), ("_total_accessoires", "acc")):
         if totals[key]["complet"]:
             s = daily.setdefault(name, {})
@@ -294,6 +314,7 @@ def main() -> int:
                        key=lambda p: stats[p["id"]]["ecart_pct"])[:3]
         lines = [f"PC : {notifier.eur(pc['htva'])} HTVA ({notifier.eur(pc['tvac'])} TVAC)"
                  + ("" if pc["complet"] else f" – incomplet ({len(pc['manquants'])} manquant(s))"),
+                 f"PC tous articles (ruptures comprises) : {notifier.eur(totals_all['pc']['htva'])} HTVA",
                  f"Écart au budget 2 500 € : {notifier.eur(pc['htva'] - 2500)}",
                  f"Accessoires : {notifier.eur(acc['htva'])} HTVA" + ("" if acc["complet"] else " – incomplet"),
                  f"Total général : {notifier.eur(totals['general']['htva'])} HTVA"]
@@ -324,15 +345,15 @@ def main() -> int:
     append_csv(DATA / "executions.csv", list(run), [run])
     etat["sources_derniere_execution"] = {m: dict(c) for m, c in counters.items()}
     save_json(DATA / "etat.json", etat)
-    save_json(DATA / "resume.json", {"maj": now_iso, "totaux": totals, "blocs": blocs,
+    save_json(DATA / "resume.json", {"maj": now_iso, "totaux": totals, "blocs": blocs, "totaux_tous_articles": totals_all,
                                      "meilleurs": bests, "stats": stats})
-    (ROOT / "ETAT.md").write_text(render_status(products, blocs, bests, stats, totals, etat, now_iso),
+    (ROOT / "ETAT.md").write_text(render_status(products, blocs, bests, stats, totals, etat, now_iso, bests_all, totals_all),
                                   encoding="utf-8")
     print(json.dumps(run, ensure_ascii=False))
     return 0
 
 
-def render_status(products, blocs, bests, stats, totals, etat, now_iso) -> str:
+def render_status(products, blocs, bests, stats, totals, etat, now_iso, bests_all=None, totals_all=None) -> str:
     e = notifier.eur
     pc, acc, gen = totals["pc"], totals["acc"], totals["general"]
 
@@ -347,11 +368,21 @@ def render_status(products, blocs, bests, stats, totals, etat, now_iso) -> str:
            f"| Écart au budget 2 400 € / 2 500 € | {e(pc['htva'] - 2400)} / {e(pc['htva'] - 2500)} | |",
            f"| Accessoires{flag(acc)} | {e(acc['htva'])} | {e(acc['tvac'])} |",
            f"| Total général | {e(gen['htva'])} | {e(gen['tvac'])} |"]
+    if totals_all:
+        ta = totals_all
+        out += [f"| **PC – tous articles** (ruptures comprises) | **{e(ta['pc']['htva'])}** | {e(ta['pc']['tvac'])} |",
+                f"| Accessoires – tous articles | {e(ta['acc']['htva'])} | {e(ta['acc']['tvac'])} |",
+                f"| Total général – tous articles | {e(ta['general']['htva'])} | {e(ta['general']['tvac'])} |"]
     if pc.get("veille") is not None:
         out.append(f"| Variation PC depuis hier | {e(pc['htva'] - pc['veille'])} | |")
-    out += ["", "_Totaux hors frais de livraison, calculés sur les offres en stock._"]
+    out += ["", "_Totaux hors frais de livraison. Les premières lignes ne comptent que les offres en stock ; "
+            "« tous articles » ajoute le dernier prix connu des articles en rupture, à titre indicatif "
+            "(les alertes budget ne se basent que sur des offres disponibles)._"]
     if pc["manquants"] or acc["manquants"]:
         out.append("_Sans offre disponible actuellement : " + ", ".join(pc["manquants"] + acc["manquants"]) + "._")
+    if totals_all and (totals_all["pc"]["manquants"] or totals_all["acc"]["manquants"]):
+        out.append("_Sans aucun prix connu (non compris même dans « tous articles ») : "
+                   + ", ".join(totals_all["pc"]["manquants"] + totals_all["acc"]["manquants"]) + "._")
     for cat, title in (("pc", "PC – composants"), ("acc", "Accessoires")):
         out += ["", f"## {title}", "",
                 "| Composant | Meilleur prix HTVA | Cible / plafond | Écart | Score | Où | Fraîcheur |",
@@ -361,8 +392,14 @@ def render_status(products, blocs, bests, stats, totals, etat, now_iso) -> str:
                 continue
             b, st = bests.get(p["id"]), stats.get(p["id"], {})
             if not b:
-                out.append(f"| {p['label']} | – | {e(p['cible'])} / {e(p['plafond'])} | | | "
-                           f"{p.get('remarque', 'aucune offre en stock')} | indisponible |")
+                ba = (bests_all or {}).get(p["id"])
+                if ba:
+                    va = ba["htva"] * p.get("qty", 1)
+                    out.append(f"| ⚪ {p['label']} | {e(va)} (rupture) | {e(p['cible'])} / {e(p['plafond'])} | "
+                               f"{e(va - p['cible'])} | | [{ba['marchand']}]({ba['url']}) | en rupture {fmt_local(ba.get('derniere_verif'))} |")
+                else:
+                    out.append(f"| {p['label']} | – | {e(p['cible'])} / {e(p['plafond'])} | | | "
+                               f"{p.get('remarque', 'aucune offre')} | aucun prix |")
                 continue
             v = b["htva"] * p.get("qty", 1)
             mark = "🟢" if v <= p["cible"] else ("🟡" if v <= p["plafond"] else "🔴")
@@ -370,16 +407,22 @@ def render_status(products, blocs, bests, stats, totals, etat, now_iso) -> str:
             out.append(f"| {mark} {p['label']}{' ×' + str(p['qty']) if p.get('qty', 1) > 1 else ''} | **{e(v)}** | "
                        f"{e(p['cible'])} / {e(p['plafond'])} | {e(st.get('ecart_eur'))} ({notifier.pct(st.get('ecart_pct'))}) | "
                        f"{score} | [{b['marchand']}]({b['url']}) | {b['fraicheur']} {fmt_local(b.get('derniere_verif'))} |")
-        for bloc in blocs:
-            if bloc.get("cat", "pc") == cat and bloc.get("choisi"):
-                c = bloc["choisi"]
+        for i, bloc in enumerate(blocs):
+            if bloc.get("cat", "pc") != cat:
+                continue
+            c = bloc.get("choisi")
+            ca = ((totals_all or {}).get("blocs") or [{}] * len(blocs))[i].get("choisi")
+            if c:
                 out.append(f"\n**{bloc['label']}** : scénario le moins cher = {c['label']} → **{e(c['cout'])} HTVA** "
                            f"(cible {e(bloc['cible'])}, plafond {e(bloc['plafond'])})")
+            elif ca:
+                out.append(f"\n**{bloc['label']}** : rien de complet en stock ; ruptures comprises, scénario le moins cher = "
+                           f"{ca['label']} → {e(ca['cout'])} HTVA (cible {e(bloc['cible'])}, plafond {e(bloc['plafond'])})")
     out += ["", "## Sources (dernière exécution)", "", "| Marchand | Résultats |", "|---|---|"]
     for m, c in sorted(etat.get("sources_derniere_execution", {}).items()):
         out.append(f"| {m} | " + ", ".join(f"{k} : {v}" for k, v in sorted(c.items())) + " |")
     out += ["", "---",
-            "🟢 sous la cible · 🟡 entre cible et plafond · 🔴 au-dessus du plafond · "
+            "🟢 sous la cible · 🟡 entre cible et plafond · 🔴 au-dessus du plafond · ⚪ en rupture (dernier prix connu) · "
             "score* = historique encore insuffisant (score basé sur la cible seulement).",
             "Le score d'opportunité est un indicateur relatif (0–100), pas une probabilité. "
             "« vérifié » = lu lors de la dernière vérification ; « ancien » = dernier prix connu (moins de 24 h), "

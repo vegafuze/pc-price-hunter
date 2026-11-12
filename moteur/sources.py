@@ -25,6 +25,18 @@ HEADERS = {"User-Agent": UA, "Accept-Language": "fr-BE,fr;q=0.9,nl;q=0.7,en;q=0.
 DELAY_PER_HOST = float(os.environ.get("PPH_DELAY", "6"))
 TIMEOUT = 25
 NBSP = chr(0xA0)
+MAX_BYTES = 6_000_000  # jamais plus de 6 Mo par page
+TEXT_TYPES = ("text/html", "application/xhtml+xml", "application/json", "application/ld+json",
+              "text/plain", "text/javascript", "application/javascript")
+
+
+class NonTextContent(requests.RequestException):
+    """Contenu non textuel (programme, archive, image...) : jamais téléchargé."""
+
+
+def site_of(url: str) -> str:
+    host = urlparse(url).netloc.split(":")[0].lower()
+    return ".".join(host.split(".")[-2:])
 
 BLOCK_MARKERS = [
     "captcha", "datadome", "cf-chl", "challenge-platform", "just a moment...",
@@ -45,7 +57,19 @@ def polite_get(url: str) -> requests.Response:
     if wait > 0:
         time.sleep(wait)
     try:
-        return session.get(url, timeout=TIMEOUT, allow_redirects=True)
+        r = session.get(url, timeout=TIMEOUT, allow_redirects=True, stream=True)
+        ctype = r.headers.get("Content-Type", "").split(";")[0].strip().lower()
+        if ctype and not ctype.startswith(TEXT_TYPES):
+            r.close()
+            raise NonTextContent(f"contenu non textuel ignoré ({ctype})")
+        data = b""
+        for chunk in r.iter_content(65536):
+            data += chunk
+            if len(data) > MAX_BYTES:
+                break
+        r._content = data
+        r.close()
+        return r
     finally:
         _last_hit[host] = time.time()
 
@@ -270,6 +294,8 @@ def search_links(url: str, pattern: str, must: list[str], exclude: list[str], li
     for a in soup.find_all("a", href=True):
         href = urljoin(r.url, a["href"]).split("#")[0]
         text = (a.get_text(" ", strip=True) + " " + (a.get("title") or "") + " " + href).lower()
+        if site_of(href) != site_of(r.url):  # jamais de lien vers un autre site
+            continue
         if pattern in href and all(m in text for m in must_l) and not any(x in text for x in excl_l):
             if href not in found:
                 found.append(href)
