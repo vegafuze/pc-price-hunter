@@ -44,6 +44,6 @@ jobs:
         run: |
           git config user.name "pc-price-hunter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ ETAT.md
+          git add data/ ETAT.md recap.png
           git commit -m "Relevé $(date -u +%Y-%m-%dT%H:%MZ)" || { echo "Rien de nouveau"; exit 0; }
           git push || { git pull --rebase && git push; }
