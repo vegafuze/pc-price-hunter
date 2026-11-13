@@ -287,7 +287,7 @@ def main() -> int:
             etat["file_attente"].append({"ts": now_iso, "titre": p["label"], "message": msg, "url": best["url"]})
             notif_rows.append({"ts": now_iso, "type": "en attente (nuit)", "produit": p["id"],
                                "titre": p["label"], "resultat": "reporté à 7 h"})
-    for bloc in blocs:  # alerte sur le coût du bloc (ex. watercooling + 8 ventilateurs)
+    for bloc in blocs:  # alerte sur le coût du bloc (ex. watercooling + ventilateurs)
         c = bloc.get("choisi")
         if not c or c["ancien"]:
             continue
@@ -441,7 +441,7 @@ def build_image(products, blocs, bests, bests_all, totals, totals_all, now_iso) 
                 continue
             c, ca = bloc.get("choisi"), totals_all["blocs"][i].get("choisi")
             pseudo = {"cible": bloc["cible"], "plafond": bloc["plafond"], "qty": 1}
-            items.append(img_item("Watercooling + 8 ventilateurs", {"htva": c["cout"]} if c else None,
+            items.append(img_item("Watercooling + 6 ventilateurs inversés", {"htva": c["cout"]} if c else None,
                                   {"htva": ca["cout"]} if ca else None, pseudo))
         sections.append((name, items))
     ta = totals_all
