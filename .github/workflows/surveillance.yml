@@ -1,7 +1,8 @@
 name: Surveillance des prix
 
-# Toutes les 30 minutes (aux minutes 7 et 37, pour éviter l'heure pile, très chargée chez GitHub).
-# GitHub ne garantit pas l'heure exacte : un passage peut être retardé de quelques minutes.
+# Toutes les 30 minutes. GitHub ne lance les tâches planifiées que de façon très irrégulière
+# (parfois 3 fois par jour) : chaque passage relance donc lui-même le suivant (étape « Relancer »).
+# Le cron ci-dessous ne sert plus que de filet de secours si la chaîne s'interrompt.
 on:
   schedule:
     - cron: "11,41 * * * *"
@@ -14,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: surveillance
@@ -22,7 +24,7 @@ concurrency:
 jobs:
   surveillance:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -37,6 +39,7 @@ jobs:
       - name: Passage du moteur
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          KEEPA_TOPIC: ${{ secrets.KEEPA_TOPIC }}
           PPH_FORCE: ${{ inputs.force && '1' || '0' }}
         run: python moteur/main.py
 
@@ -47,3 +50,21 @@ jobs:
           git add data/ ETAT.md recap.png
           git commit -m "Relevé $(date -u +%Y-%m-%dT%H:%MZ)" || { echo "Rien de nouveau"; exit 0; }
           git push || { git pull --rebase && git push; }
+
+      - name: Relancer le prochain passage
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # attend le prochain créneau (minute 11 ou 41), puis relance ce même workflow,
+          # sauf si un autre passage est déjà en attente ou en cours (une seule chaîne à la fois)
+          now=$(date -u +%s); m=$(date -u +%-M); s=$(date -u +%-S)
+          if [ "$m" -lt 11 ]; then w=$(( (11-m)*60 - s )); elif [ "$m" -lt 41 ]; then w=$(( (41-m)*60 - s )); else w=$(( (71-m)*60 - s )); fi
+          echo "Attente de $w s"; sleep "$w"
+          autres=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow surveillance.yml --limit 20 \
+                     --json databaseId,status --jq "[.[] | select(.databaseId != $GITHUB_RUN_ID) | select(.status != \"completed\")] | length")
+          if [ "$autres" = "0" ]; then
+            gh workflow run surveillance.yml --repo "$GITHUB_REPOSITORY" --ref main && echo "Prochain passage lancé"
+          else
+            echo "Un autre passage est déjà prévu ($autres) : pas de relance"
+          fi
