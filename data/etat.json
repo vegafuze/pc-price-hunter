@@ -374,8 +374,8 @@
    "ts": "2026-11-13T18:43:51+00:00"
   }
  },
- "derniere_execution": "2026-11-13T19:11:12+00:00",
- "derniere_reussite": "2026-11-13T19:11:12+00:00",
+ "derniere_execution": "2026-11-13T19:41:13+00:00",
+ "derniere_reussite": "2026-11-13T19:41:13+00:00",
  "derniers_meilleurs": {
   "aio_sans": 230.58,
   "aio_tl": 280.17,
@@ -397,10 +397,11 @@
  },
  "file_attente": [],
  "keepa": {
-  "dernier": "bzlCNoIiSWUr",
+  "dernier": "z6167KkfyySJ",
   "vus": [
    "pqU9hOY2e3uS",
-   "bzlCNoIiSWUr"
+   "bzlCNoIiSWUr",
+   "z6167KkfyySJ"
   ]
  },
  "offres": {
@@ -519,11 +520,11 @@
    "vendeur": "Alternate België bv"
   },
   "aio_tl|https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 280.17,
@@ -543,11 +544,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/Corsair/RM850x-2024-alimentation-modulaire-850-watt/html/product/100069063": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 132.15,
    "dernier_prix_ok": 132.15,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 132.15,
@@ -567,11 +568,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/Corsair/RM850x-Shift-alimentation-modulaire-850-watt/html/product/100151458": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 140.41,
    "dernier_prix_ok": 140.41,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 140.41,
@@ -615,11 +616,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/MSI/MAG-A850GL-PCIE5-II-alimentation-modulaire-850-watt/html/product/1936591": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 82.56,
    "dernier_prix_ok": 82.56,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 82.56,
@@ -639,11 +640,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/Seasonic/FOCUS-GX-850-V4-ATX3-1-alimentation-modulaire-850-watt/html/product/100076199": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 140.41,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 140.41,
@@ -663,11 +664,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/Seasonic/FOCUS-GX-ATX3-0-alimentation-modulaire-850-watt/html/product/100076191": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 140.41,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 140.41,
@@ -687,11 +688,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/be-quiet/Pure-Power-12-alimentation-850-watt/html/product/100095251": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 94.96,
    "dernier_prix_ok": 94.96,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 94.96,
@@ -735,11 +736,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://fr.alternate.be/html/product/100098365": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 115.62,
    "dernier_prix_ok": 115.62,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 115.62,
@@ -759,11 +760,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim|https://www.alternate.fr/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 90.75,
    "dernier_prix_ok": 90.75,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 90.75,
@@ -783,11 +784,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "alim|https://www.coolblue.be/fr/produit/962141/corsair-rm850e-2025-cybenetics-gold.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 115.7,
    "dernier_prix_ok": 115.7,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 115.7,
@@ -807,11 +808,11 @@
    "vendeur": null
   },
   "boitier|https://fr.alternate.be/Lian-Li/O11-Vision-Compact-boîtier-midi-tower/html/product/1931123": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 107.36,
@@ -831,11 +832,11 @@
    "vendeur": "Alternate België bv"
   },
   "cache_boitier|https://klos2reality.com/products/lian-li-o11-vision-grommet-shroud": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 66.12,
@@ -855,11 +856,11 @@
    "vendeur": null
   },
   "cache_cm|https://klos2reality.com/products/gigabyte-motherboard-b850-x870-stealth-ice-cover": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 16.53,
@@ -879,11 +880,11 @@
    "vendeur": null
   },
   "cadre|https://www.ldlc.com/fr-be/fiche/PB00581807.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "htva": 9.01,
@@ -975,11 +976,11 @@
    "vendeur": "Alternate België bv"
   },
   "casque|https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
-   "dernier_ok": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 81.82,
    "dernier_prix_ok": 81.82,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 81.82,
@@ -1023,11 +1024,11 @@
    "vendeur": null
   },
   "clavier|https://maxesport.gg/fr/products/the-g-lab-keyz-elite-300-he-iso-fr-noir": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
-   "dernier_ok": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 74.3,
    "dernier_prix_ok": 74.3,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "3760162054910",
    "htva": 74.3,
@@ -1047,11 +1048,11 @@
    "vendeur": null
   },
   "cm|https://fr.alternate.be/html/product/100175457": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 263.64,
    "dernier_prix_ok": 263.64,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 263.64,
@@ -1071,11 +1072,11 @@
    "vendeur": "Alternate België bv"
   },
   "cm|https://www.alternate.de/GIGABYTE/B850-AORUS-STEALTH-Mainboard/html/product/100175457": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 240.34,
@@ -1143,11 +1144,11 @@
    "vendeur": "Alternate België bv"
   },
   "cpu|https://fr.alternate.be/AMD/Ryzen-7-9800X3D-4-7-GHz-5-2-GHz-Turbo-Boost-socket-AM5-processeur/html/product/100093605": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 313.22,
@@ -1171,7 +1172,7 @@
    "dernier_ok": null,
    "dernier_prix_connu": null,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": null,
    "ean": null,
    "htva": null,
@@ -1180,10 +1181,10 @@
    "methode": null,
    "mpn": null,
    "nom": null,
-   "note": "ConnectionError",
+   "note": "HTTP 403",
    "prix": null,
    "produit": "cpu",
-   "statut": "erreur",
+   "statut": "bloque",
    "test": true,
    "tva": 0.2,
    "tva_supposee": false,
@@ -1191,11 +1192,11 @@
    "vendeur": null
   },
   "cpu|https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 371.07,
    "dernier_prix_ok": 371.07,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 371.07,
@@ -1309,11 +1310,11 @@
    "vendeur": null
   },
   "cpu|https://www.grosbill.com/amd-ryzen-7-9800x3d-wof-148505": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 337.49,
    "dernier_prix_ok": 337.49,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "0730143315289",
    "htva": 337.49,
@@ -1333,11 +1334,11 @@
    "vendeur": "GrosBill"
   },
   "cpu|https://www.ldlc.com/fr-be/fiche/PB00650664.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 413.18,
    "dernier_prix_ok": 413.18,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "0730143315289",
    "htva": 413.18,
@@ -1357,11 +1358,11 @@
    "vendeur": "LDLC"
   },
   "cpu|https://www.ldlc.com/fr-be/fiche/PB00664304.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 371.86,
    "dernier_prix_ok": 371.86,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 371.86,
@@ -1381,11 +1382,11 @@
    "vendeur": "LDLC"
   },
   "ecran_lianli|https://fr.alternate.be/html/product/100151196": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
-   "dernier_ok": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 70.17,
    "dernier_prix_ok": 70.17,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 70.17,
@@ -1405,11 +1406,11 @@
    "vendeur": "Alternate België bv"
   },
   "ecran_lianli|https://www.alternate.fr/Lian-Li/8-Zoll-Universal-Screen/html/product/100151196": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 72.42,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 72.42,
@@ -1429,11 +1430,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "ecran|https://fr.alternate.be/iiyama/G-Master-Titan-Falcon-GOB2701QSC-B1-27-inch-Moniteur-gaming/html/product/1949539": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
-   "dernier_ok": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 392.56,
    "dernier_prix_ok": 392.56,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 392.56,
@@ -1525,11 +1526,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu|https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 1486.78,
    "dernier_prix_ok": 1486.78,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 1486.78,
@@ -1549,11 +1550,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu|https://www.alternate.de/GIGABYTE/GeForce-RTX-5070-Ti-AORUS-MASTER-16G-Grafikkarte/html/product/100115006": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 1282.35,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 1282.35,
@@ -1573,11 +1574,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "gpu|https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 1519.83,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 1519.83,
@@ -1597,11 +1598,11 @@
    "vendeur": null
   },
   "gpu|https://www.grosbill.com/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-151253": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 1483.33,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": "4719331355678",
    "htva": 1483.33,
@@ -1621,11 +1622,11 @@
    "vendeur": "GrosBill"
   },
   "gpu|https://www.ldlc.com/fr-be/fiche/PB00666537.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 1553.68,
    "dernier_prix_ok": 1553.68,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "4719331355678",
    "htva": 1553.68,
@@ -1645,11 +1646,11 @@
    "vendeur": "LDLC"
   },
   "gpu|https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 1445.45,
    "dernier_prix_ok": 1445.45,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "4719331355678",
    "htva": 1445.45,
@@ -1669,11 +1670,11 @@
    "vendeur": null
   },
   "ram|https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-mémoire-vive/html/product/100020860": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 486.78,
@@ -1693,11 +1694,11 @@
    "vendeur": "Alternate België bv"
   },
   "ram|https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-mémoire-vive/html/product/1887078": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 536.36,
    "dernier_prix_ok": 536.36,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 536.36,
@@ -1717,11 +1718,11 @@
    "vendeur": "Alternate België bv"
   },
   "ram|https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-mémoire-vive/html/product/1909371": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 478.51,
    "dernier_prix_ok": 478.51,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 478.51,
@@ -1765,11 +1766,11 @@
    "vendeur": "Alternate België bv"
   },
   "ram|https://fr.alternate.be/Kingston-FURY/Beast-RGB-32-Go-DDR5-5600-2x-16-Go-mémoire-vive/html/product/1866397": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 495.04,
    "dernier_prix_ok": 495.04,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 495.04,
@@ -1789,11 +1790,11 @@
    "vendeur": "Alternate België bv"
   },
   "ram|https://fr.alternate.be/Kingston-FURY/Beast-RGB-32-Go-DDR5-6000-2x-16-Go-mémoire-vive/html/product/100052224": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 561.16,
    "dernier_prix_ok": 561.16,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 561.16,
@@ -1865,7 +1866,7 @@
    "dernier_ok": null,
    "dernier_prix_connu": null,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": null,
    "ean": null,
    "htva": null,
@@ -1885,11 +1886,11 @@
    "vendeur": null
   },
   "ram|https://www.ldlc.com/fr-be/fiche/PB00630878.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
-   "dernier_ok": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 714.01,
    "dernier_prix_ok": 714.01,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": "0740617342895",
    "htva": 714.01,
@@ -1933,11 +1934,11 @@
    "vendeur": "Alternate België bv"
   },
   "souris|https://fr.alternate.be/Razer/Viper-V3-Pro-Souris-gaming/html/product/100056713": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
-   "dernier_ok": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 115.62,
    "dernier_prix_ok": 115.62,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 115.62,
@@ -1957,11 +1958,11 @@
    "vendeur": "Alternate België bv"
   },
   "souris|https://www.coolblue.be/fr/produit/953160/razer-viper-v3-pro-souris-gamer-sans-fil-noir.html": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
-   "dernier_ok": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 109.92,
    "dernier_prix_ok": 109.92,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 109.92,
@@ -2053,11 +2054,11 @@
    "vendeur": "Alternate België bv"
   },
   "ssd|https://fr.alternate.be/Samsung/990-EVO-PLUS-2-To-SSD/html/product/100080170": {
-   "date_prix_connu": "2026-11-13T18:43:51+00:00",
-   "dernier_ok": "2026-11-13T18:43:51+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
+   "dernier_ok": "2026-11-13T19:41:13+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-13T18:43:51+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 271.9,
@@ -2101,11 +2102,11 @@
    "vendeur": "Alternate België bv"
   },
   "tapis|https://maxesport.gg/fr/products/x-raypad-aqua-control-ii-noir-2xl": {
-   "date_prix_connu": "2026-11-13T17:22:44+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 32.98,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T17:22:44+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": "6976376280084",
    "htva": 32.98,
@@ -2287,11 +2288,11 @@
    "vendeur": "Alternate België bv"
   },
   "ventilo_inv3|https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateurs-de-boîtier-RGB/html/product/100201815": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 82.56,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 82.56,
@@ -2311,11 +2312,11 @@
    "vendeur": "Alternate België bv"
   },
   "ventilo_inv3|https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-reverse-blade-120mm-black-3-pack/LULI-161.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 83.95,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": "4718466023513",
    "htva": 83.95,
@@ -2335,11 +2336,11 @@
    "vendeur": null
   },
   "ventilo_std1|https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateur-de-boîtier-RGB/html/product/100201754": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 25.61,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 25.61,
@@ -2431,11 +2432,11 @@
    "vendeur": "Alternate België bv"
   },
   "ventilo_std1|https://www.alternate.de/Lian-Li/UNI-FAN-TL-FLEX-120-Wireless-Geh%C3%A4usel%C3%BCfter/html/product/100201754": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 25.97,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "OutOfStock",
    "ean": null,
    "htva": 25.97,
@@ -2455,11 +2456,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "ventilo_std1|https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-120mm-black/LULI-155.html": {
-   "date_prix_connu": "2026-11-13T19:11:12+00:00",
+   "date_prix_connu": "2026-11-13T19:41:13+00:00",
    "dernier_ok": null,
    "dernier_prix_connu": 25.97,
    "dernier_prix_ok": null,
-   "derniere_verif": "2026-11-13T19:11:12+00:00",
+   "derniere_verif": "2026-11-13T19:41:13+00:00",
    "dispo": "PreOrder",
    "ean": "4718466023452",
    "htva": 25.97,
@@ -2481,29 +2482,23 @@
  },
  "sources_derniere_execution": {
   "Alternate (BE)": {
-   "non_conforme": 5,
-   "ok": 15,
+   "ok": 19,
    "rupture": 4
-  },
-  "Alternate (BE) (recherche)": {
-   "ok": 5
   },
   "Alternate (DE)": {
    "ok": 1,
    "rupture": 2
   },
   "Alternate (FR)": {
-   "ok": 1
+   "ok": 1,
+   "rupture": 1
   },
   "Caseking (DE)": {
    "rupture": 2
   },
   "Coolblue (BE)": {
-   "ok": 2,
+   "ok": 4,
    "rupture": 1
-  },
-  "Coolblue (BE) (recherche)": {
-   "ok": 1
   },
   "Grosbill": {
    "ok": 1,
@@ -2513,11 +2508,15 @@
    "ok": 2
   },
   "Komparzon (test Amazon)": {
-   "erreur": 1
+   "bloque": 1
   },
   "LDLC (BE)": {
    "ok": 5,
    "sans_prix": 1
+  },
+  "Maxesport": {
+   "ok": 1,
+   "rupture": 1
   },
   "Megekko (NL)": {
    "ok": 1
