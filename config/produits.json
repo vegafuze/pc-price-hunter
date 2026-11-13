@@ -188,7 +188,7 @@
    ]
   },
   {
-   "id": "ecran_lianli", "cat": "acc", "label": "Lian Li Universal Screen 8,8\" noir", "qty": 1, "cible": 65, "plafond": 75,
+   "id": "ecran_lianli", "cat": "pc", "label": "Lian Li Universal Screen 8,8\" noir", "qty": 1, "cible": 65, "plafond": 75,
    "intervalle_min": 120,
    "options": [{"ean": ["4718466020550"], "mpn": ["SM088X"], "must": ["universal screen"], "exclude": ["white", "blanc"]}],
    "offres": [
