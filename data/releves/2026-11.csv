@@ -104,3 +104,5 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-13T18:43:51+00:00,alim,Coolblue (BE),ok,140.0,0.21,115.7,InStock,,Corsair RM850e (2025) Cybenetics Gold,https://www.coolblue.be/fr/produit/962141/corsair-rm850e-2025-cybenetics-gold.html,nom conforme
 2026-11-13T19:11:12+00:00,cpu,Komparzon (test Amazon),erreur,,0.2,,,,,https://komparzon.com/fr/product/B0DKFMSMYK,ConnectionError
 2026-11-13T19:41:13+00:00,cpu,Komparzon (test Amazon),bloque,,0.2,,,,,https://komparzon.com/fr/product/B0DKFMSMYK,HTTP 403
+2026-11-13T21:41:26+00:00,ventilo_inv3,Caseking (DE),bloque,,0.19,,,,,https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-reverse-blade-120mm-black-3-pack/LULI-161.html,HTTP 403
+2026-11-13T21:41:26+00:00,ventilo_std1,Caseking (DE),bloque,,0.19,,,,,https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-120mm-black/LULI-155.html,HTTP 403
