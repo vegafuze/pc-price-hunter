@@ -102,3 +102,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-13T09:27:39+00:00,cm,Alternate (DE),ok,286.0,0.19,240.34,InStock,ALTERNATE GmbH,"B850 AORUS STEALTH, Mainboard",https://www.alternate.de/GIGABYTE/B850-AORUS-STEALTH-Mainboard/html/product/100175457,nom conforme (identifiant absent de la page)
 2026-11-13T18:43:51+00:00,cpu,Coolblue (BE),non_conforme,5799.0,0.21,4792.56,InStock,,Cobalt - Tier 3 - RTX 5080 - Ryzen 7 9800X3D - 64 Go - 2 To,https://www.coolblue.be/fr/produit/987830/cobalt-tier-3-rtx-5080-ryzen-7-9800x3d-64-go-2-to.html,produit non conforme
 2026-11-13T18:43:51+00:00,alim,Coolblue (BE),ok,140.0,0.21,115.7,InStock,,Corsair RM850e (2025) Cybenetics Gold,https://www.coolblue.be/fr/produit/962141/corsair-rm850e-2025-cybenetics-gold.html,nom conforme
+2026-11-13T19:11:12+00:00,cpu,Komparzon (test Amazon),erreur,,0.2,,,,,https://komparzon.com/fr/product/B0DKFMSMYK,ConnectionError
