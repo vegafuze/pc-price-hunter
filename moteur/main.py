@@ -25,6 +25,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import analyse  # noqa: E402
 import image  # noqa: E402
+import keepa  # noqa: E402
 import notifier  # noqa: E402
 import sources  # noqa: E402
 
@@ -311,6 +312,8 @@ def main() -> int:
                f"Budget : {notifier.eur(seuil)} HTVA – toutes les offres sont disponibles et vérifiées.\n"
                "Détail des meilleures offres dans le récapitulatif.")
         push("budget", label, msg, STATUS_URL, 5, ["rotating_light"])
+    keepa_rows = keepa_alerts(etat, products, bests, push, now_iso)
+
     if not quiet and etat["file_attente"]:
         q = etat["file_attente"]
         msg = "\n\n".join(f"{x['titre']}\n{x['message']}" for x in q)[:3800]
@@ -349,6 +352,7 @@ def main() -> int:
     analyse.save_daily(DATA / "journalier.csv", daily, meta)
     append_csv(DATA / "releves" / f"{today:%Y-%m}.csv", RELEVE_FIELDS, releves)
     append_csv(DATA / "notifications.csv", ["ts", "type", "produit", "titre", "resultat"], notif_rows)
+    append_csv(DATA / "keepa.csv", ["ts", "id", "type", "asin", "produit", "domaine", "titre", "texte"], keepa_rows)
     run = {"ts": now_iso, "duree_s": round(time.time() - t0), "recherches": len(searches), "pages": len(tasks),
            "ok": sum(c.get("ok", 0) for c in counters.values()),
            "rupture": sum(c.get("rupture", 0) for c in counters.values()),
@@ -364,6 +368,52 @@ def main() -> int:
                                   encoding="utf-8")
     print(json.dumps(run, ensure_ascii=False))
     return 0
+
+
+def keepa_alerts(etat, products, bests, push, now_iso) -> list[dict]:
+    """Lit la boîte ntfy où Keepa dépose ses alertes Amazon et les renvoie proprement sur le téléphone."""
+    topic = os.environ.get("KEEPA_TOPIC", "").strip()
+    if not topic:
+        return []
+    cfg = load_json(CFG / "amazon.json", {})
+    asins = {a: v["produit"] for a, v in cfg.get("asins", {}).items()}
+    ke = etat.setdefault("keepa", {"vus": []})
+    try:
+        msgs = keepa.poll(topic, ke.get("dernier"))
+    except Exception as e:  # noqa: BLE001 – une boîte injoignable ne doit pas bloquer le passage
+        ke["erreur"] = f"{now_iso} {type(e).__name__}"
+        return []
+    ke.pop("erreur", None)
+    labels = {p["id"]: p for p in products}
+    rows = []
+    for m in msgs:
+        if m.get("id") in ke["vus"]:
+            continue
+        ke["vus"] = (ke["vus"] + [m["id"]])[-300:]
+        ke["dernier"] = m["id"]
+        a = keepa.analyse(m, asins)
+        rows.append({"ts": now_iso, "id": m["id"], "type": a["type"], "asin": a.get("asin") or "",
+                     "produit": a.get("produit") or "", "domaine": a.get("domaine") or "",
+                     "titre": a.get("titre", "")[:200], "texte": (a.get("texte") or "")[:2000]})
+        if a["type"] == "verification":
+            continue
+        info = cfg["asins"].get(a.get("asin"), {})
+        dom = a.get("domaine")
+        lines = []
+        if info:
+            p = labels.get(info["produit"])
+            lines.append(f"🛒 {info['nom']} – Amazon.{dom or '?'}")
+            if dom in info.get("seuils", {}):
+                lines.append(f"🔔 Sous ton seuil Keepa de {notifier.eur(info['seuils'][dom])} TVAC")
+            if p:
+                b = bests.get(p["id"])
+                lines.append(f"🎯 Cible {notifier.eur(p['cible'])} HTVA" +
+                             (f" · meilleur ailleurs {notifier.eur(b['htva'])} HTVA ({b['marchand']})" if b else ""))
+        lines += ["", "Message Keepa :", a.get("texte") or a.get("titre", "")]
+        click = f"https://www.amazon.{dom or 'fr'}/dp/{a['asin']}" if a.get("asin") else None
+        title = f"🛒 Amazon : {notifier.short_label(info['nom'])}" if info else f"🛒 Keepa : {a.get('titre', '')[:80]}"
+        push("keepa", title, "\n".join(lines)[:3800], click, 4 if info else 3, ["shopping_cart"], info.get("produit", ""))
+    return rows
 
 
 def img_item(label, b, ba, p) -> dict:
