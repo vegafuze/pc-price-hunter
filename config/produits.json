@@ -123,7 +123,7 @@
    ]
   },
   {
-   "id": "ventilo_std1", "cat": "pc", "label": "Lian Li UNI FAN TL FLEX 120 standard, à l'unité noir", "qty": 1, "cible": 22.5, "plafond": 25,
+   "id": "ventilo_std1", "cat": "pc", "hors_total": true, "label": "Lian Li UNI FAN TL FLEX 120 standard, à l'unité noir (réserve, hors total)", "qty": 1, "cible": 22.5, "plafond": 25,
    "options": [
     {"ean": ["4718466023452"], "mpn": ["12TL1F1B"], "must": ["tl", "flex"], "exclude": ["white", "blanc", "wit", "lcd", "revers", "invers"]}
    ],
@@ -241,10 +241,10 @@
  ],
  "blocs": [
   {
-   "id": "refroidissement", "cat": "pc", "label": "Watercooling 360TL + 5 ventilateurs (pack de 3 + 2 à l'unité)",
-   "cible": 400, "plafond": 430,
+   "id": "refroidissement", "cat": "pc", "label": "Watercooling 360TL + 2 packs de 3 ventilateurs inversés",
+   "cible": 430, "plafond": 460,
    "scenarios": [
-    {"label": "360TL (3 ventilateurs fournis) + 1 pack de 3 inversés + 2 standard à l'unité", "items": {"aio_tl": 1, "ventilo_inv3": 1, "ventilo_std1": 2}}
+    {"label": "360TL (3 ventilateurs standard fournis : 2 à l'arrière, 1 en réserve) + 2 packs de 3 inversés (radiateur + bas)", "items": {"aio_tl": 1, "ventilo_inv3": 2}}
    ]
   }
  ]
