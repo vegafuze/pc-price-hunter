@@ -1,0 +1,16 @@
+{
+ "_note": "Produits suivis sur Keepa (Amazon .fr et .de). Seuils = prix TVAC saisis dans Keepa. Les alertes arrivent par e-mail dans la boîte ntfy privée (secret KEEPA_TOPIC).",
+ "tva": {"fr": 0.20, "de": 0.19},
+ "asins": {
+  "B0DKFMSMYK": {"produit": "cpu", "nom": "AMD Ryzen 7 9800X3D", "seuils": {"fr": 360, "de": 357}},
+  "B0DJT8SRD6": {"produit": "boitier", "nom": "Lian Li O11 Vision Compact", "seuils": {"fr": 108, "de": 108}},
+  "B0BVMZFZ1H": {"produit": "ram", "nom": "Corsair Vengeance RGB 2 x 24 Go", "seuils": {"fr": 500, "de": 500}},
+  "B0CYM58GFS": {"produit": "ram", "nom": "Kingston FURY Beast RGB 2 x 16 Go 6000 CL30", "seuils": {"fr": 456, "de": 452.20}},
+  "B0BPTKD797": {"produit": "ram", "nom": "Corsair Vengeance RGB 2 x 16 Go 6000 CL30 (AMD)", "seuils": {"fr": 456, "de": 452.20}},
+  "B0BZHTVHN5": {"produit": "ram", "nom": "Corsair Vengeance RGB 2 x 16 Go 6000 CL36", "seuils": {"fr": 550, "de": 550}},
+  "B0CSPN2G5Z": {"produit": "souris", "nom": "Razer Viper V3 Pro", "seuils": {"fr": 90, "de": 90}},
+  "B0CBRTBSNV": {"produit": "casque", "nom": "Razer BlackShark V2 HyperSpeed", "seuils": {"fr": 60, "de": 60}},
+  "B0CKPC6YM3": {"produit": "support", "nom": "Support écran BONTEC", "seuils": {"fr": 30, "de": 29.75}},
+  "B0D3M2HPQ2": {"produit": "cable", "nom": "Câble spiralé Newskill", "seuils": {"fr": 12, "de": 11.90}}
+ }
+}
