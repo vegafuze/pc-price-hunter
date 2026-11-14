@@ -18,14 +18,14 @@
    ]
   }
  ],
- "maj": "2026-11-14T22:41:15+00:00",
+ "maj": "2026-11-14T23:11:16+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +46,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 82.56,
    "dernier_prix_ok": 82.56,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +71,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +97,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +122,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,29 +147,29 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-14T22:11:14+00:00",
-   "dernier_ok": "2026-11-14T22:11:14+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
-   "dispo": null,
-   "ean": null,
-   "fraicheur": "ancien",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
+   "dispo": "InStock",
+   "ean": "0814256015639",
+   "fraicheur": "vérifié",
    "htva": 9.01,
    "image": "https://media.ldlc.com/r1600/ld/products/00/06/21/39/LD0006213922.jpg",
    "marchand": "LDLC (BE)",
-   "methode": null,
-   "mpn": null,
-   "nom": null,
-   "note": "site injoignable (ConnectTimeout)",
-   "prix": null,
+   "methode": "JSON-LD",
+   "mpn": "TR-AM5SF-BK",
+   "nom": "Thermalright AM5 Secure Frame Black",
+   "note": "nom conforme",
+   "prix": 10.9,
    "produit": "cadre",
-   "statut": "erreur",
+   "statut": "ok",
    "test": false,
    "tva": 0.21,
    "tva_supposee": false,
    "url": "https://www.ldlc.com/fr-be/fiche/PB00581807.html",
-   "vendeur": null
+   "vendeur": "LDLC"
   },
   "casque": {
    "date_prix_connu": "2026-11-14T21:41:15+00:00",
@@ -222,11 +222,11 @@
    "vendeur": null
   },
   "cm": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -247,11 +247,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -322,11 +322,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 1486.78,
    "dernier_prix_ok": 1486.78,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -347,11 +347,11 @@
    "vendeur": "Alternate België bv"
   },
   "ram": {
-   "date_prix_connu": "2026-11-14T22:41:15+00:00",
-   "dernier_ok": "2026-11-14T22:41:15+00:00",
+   "date_prix_connu": "2026-11-14T23:11:16+00:00",
+   "dernier_ok": "2026-11-14T23:11:16+00:00",
    "dernier_prix_connu": 478.51,
    "dernier_prix_ok": 478.51,
-   "derniere_verif": "2026-11-14T22:41:15+00:00",
+   "derniere_verif": "2026-11-14T23:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -430,8 +430,8 @@
   "aio_tl": {
    "ecart_eur": 0.17,
    "ecart_pct": 0.1,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 280.17,
    "med30": 280.17,
    "med7": 280.17,
@@ -439,9 +439,12 @@
    "min30_passe": 280.17,
    "min7": 280.17,
    "pct7": 50.0,
-   "score": 50,
+   "score": 57,
    "score_detail": {
-    "cible": 50
+    "cible": 50,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
@@ -452,30 +455,33 @@
   "alim": {
    "ecart_eur": 7.56,
    "ecart_pct": 10.1,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 90.75,
    "med30": 82.56,
    "med7": 82.56,
    "min30": 82.56,
    "min30_passe": 82.56,
    "min7": 82.56,
-   "pct7": 33.3,
-   "score": 0,
+   "pct7": 37.5,
+   "score": 41,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 62
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
    "var_veille": 0.0,
-   "verdict": "pas intéressant",
-   "volatilite_pct": 4.5
+   "verdict": "prix correct",
+   "volatilite_pct": 4.2
   },
   "boitier": {
    "ecart_eur": 17.36,
    "ecart_pct": 19.3,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 107.36,
    "med30": 107.36,
    "med7": 107.36,
@@ -483,9 +489,12 @@
    "min30_passe": 107.36,
    "min7": 107.36,
    "pct7": 50.0,
-   "score": 0,
+   "score": 38,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
@@ -500,8 +509,8 @@
   "cache_boitier": {
    "ecart_eur": -13.88,
    "ecart_pct": -17.3,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 66.12,
    "med30": 66.12,
    "med7": 66.12,
@@ -509,9 +518,12 @@
    "min30_passe": 66.12,
    "min7": 66.12,
    "pct7": 50.0,
-   "score": 100,
+   "score": 78,
    "score_detail": {
-    "cible": 100
+    "cible": 100,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
@@ -522,8 +534,8 @@
   "cache_cm": {
    "ecart_eur": -3.47,
    "ecart_pct": -17.3,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 16.53,
    "med30": 16.53,
    "med7": 16.53,
@@ -531,9 +543,12 @@
    "min30_passe": 16.53,
    "min7": 16.53,
    "pct7": 50.0,
-   "score": 100,
+   "score": 78,
    "score_detail": {
-    "cible": 100
+    "cible": 100,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
@@ -544,8 +559,8 @@
   "cadre": {
    "ecart_eur": 1.01,
    "ecart_pct": 12.6,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 9.01,
    "med30": 9.01,
    "med7": 9.01,
@@ -553,9 +568,12 @@
    "min30_passe": 9.01,
    "min7": 9.01,
    "pct7": 50.0,
-   "score": 0,
+   "score": 38,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
@@ -566,30 +584,33 @@
   "casque": {
    "ecart_eur": 34.3,
    "ecart_pct": 68.6,
-   "historique_jours": 3,
-   "historique_suffisant": false,
-   "max7": 81.82,
+   "historique_jours": 4,
+   "historique_suffisant": true,
+   "max7": 84.3,
    "med30": 81.82,
    "med7": 81.82,
    "min30": 81.82,
    "min30_passe": 81.82,
    "min7": 81.82,
-   "pct7": 100.0,
-   "score": 0,
+   "pct7": 87.5,
+   "score": 21,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 35,
+    "minimum": 70,
+    "percentile": 12
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
    "var_veille": 2.48,
    "verdict": "pas intéressant",
-   "volatilite_pct": 0.0
+   "volatilite_pct": 1.3
   },
   "clavier": {
    "ecart_eur": 4.3,
    "ecart_pct": 6.1,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 74.3,
    "med30": 74.3,
    "med7": 74.3,
@@ -597,65 +618,74 @@
    "min30_passe": 74.3,
    "min7": 74.3,
    "pct7": 50.0,
-   "score": 19,
+   "score": 45,
    "score_detail": {
-    "cible": 19
+    "cible": 19,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
    "var_veille": 0.0,
-   "verdict": "pas intéressant",
+   "verdict": "prix correct",
    "volatilite_pct": 0.0
   },
   "cm": {
    "ecart_eur": 60.34,
    "ecart_pct": 33.5,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 240.34,
-   "med30": 239.5,
-   "med7": 239.5,
+   "med30": 239.92,
+   "med7": 239.92,
    "min30": 239.5,
    "min30_passe": 239.5,
    "min7": 239.5,
-   "pct7": 83.3,
-   "score": 0,
+   "pct7": 75.0,
+   "score": 31,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 49,
+    "minimum": 96,
+    "percentile": 25
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
-   "var_veille": 0.84,
+   "var_veille": 0.0,
    "verdict": "pas intéressant",
    "volatilite_pct": 0.2
   },
   "cpu": {
    "ecart_eur": 13.22,
    "ecart_pct": 4.4,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 329.75,
    "med30": 313.22,
    "med7": 313.22,
    "min30": 313.22,
    "min30_passe": 313.22,
    "min7": 313.22,
-   "pct7": 33.3,
-   "score": 28,
+   "pct7": 37.5,
+   "score": 52,
    "score_detail": {
-    "cible": 28
+    "cible": 28,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 62
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
    "var_veille": 0.0,
-   "verdict": "pas intéressant",
-   "volatilite_pct": 2.4
+   "verdict": "prix correct",
+   "volatilite_pct": 2.3
   },
   "ecran": {
    "ecart_eur": 112.56,
    "ecart_pct": 40.2,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 392.56,
    "med30": 392.56,
    "med7": 392.56,
@@ -663,9 +693,12 @@
    "min30_passe": 392.56,
    "min7": 392.56,
    "pct7": 50.0,
-   "score": 0,
+   "score": 38,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
@@ -676,8 +709,8 @@
   "ecran_lianli": {
    "ecart_eur": 5.17,
    "ecart_pct": 8.0,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 70.17,
    "med30": 70.17,
    "med7": 70.17,
@@ -685,43 +718,49 @@
    "min30_passe": 70.17,
    "min7": 70.17,
    "pct7": 50.0,
-   "score": 10,
+   "score": 42,
    "score_detail": {
-    "cible": 10
+    "cible": 10,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": true,
    "var_derniere": 0.0,
    "var_veille": 0.0,
-   "verdict": "pas intéressant",
+   "verdict": "prix correct",
    "volatilite_pct": 0.0
   },
   "gpu": {
    "ecart_eur": 486.78,
    "ecart_pct": 48.7,
-   "historique_jours": 3,
-   "historique_suffisant": false,
-   "max7": 1445.45,
+   "historique_jours": 4,
+   "historique_suffisant": true,
+   "max7": 1486.78,
    "med30": 1445.45,
    "med7": 1445.45,
    "min30": 1445.45,
    "min30_passe": 1445.45,
    "min7": 1445.45,
-   "pct7": 100.0,
-   "score": 0,
+   "pct7": 87.5,
+   "score": 21,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 36,
+    "minimum": 71,
+    "percentile": 12
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
    "var_veille": 41.33,
    "verdict": "pas intéressant",
-   "volatilite_pct": 0.0
+   "volatilite_pct": 1.2
   },
   "ram": {
    "ecart_eur": 98.51,
    "ecart_pct": 25.9,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 478.51,
    "med30": 478.51,
    "med7": 478.51,
@@ -729,9 +768,12 @@
    "min30_passe": 478.51,
    "min7": 478.51,
    "pct7": 50.0,
-   "score": 0,
+   "score": 38,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
@@ -742,30 +784,33 @@
   "souris": {
    "ecart_eur": 34.92,
    "ecart_pct": 46.6,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 109.92,
    "med30": 109.92,
    "med7": 109.92,
    "min30": 71.9,
    "min30_passe": 71.9,
    "min7": 71.9,
-   "pct7": 66.7,
-   "score": 0,
+   "pct7": 62.5,
+   "score": 19,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 0,
+    "percentile": 38
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
    "var_veille": 0.0,
    "verdict": "pas intéressant",
-   "volatilite_pct": 18.4
+   "volatilite_pct": 16.4
   },
   "ssd": {
    "ecart_eur": 91.9,
    "ecart_pct": 51.1,
-   "historique_jours": 3,
-   "historique_suffisant": false,
+   "historique_jours": 4,
+   "historique_suffisant": true,
    "max7": 271.9,
    "med30": 271.9,
    "med7": 271.9,
@@ -773,9 +818,12 @@
    "min30_passe": 271.9,
    "min7": 271.9,
    "pct7": 50.0,
-   "score": 0,
+   "score": 38,
    "score_detail": {
-    "cible": 0
+    "cible": 0,
+    "mediane": 50,
+    "minimum": 100,
+    "percentile": 50
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
@@ -820,9 +868,7 @@
    "tvac": 4602.33
   },
   "pc": {
-   "anciens": [
-    "Thermalright AM5 Secure Frame noir"
-   ],
+   "anciens": [],
    "complet": false,
    "htva": 3142.5,
    "manquants": [
@@ -881,7 +927,6 @@
   },
   "pc": {
    "anciens": [
-    "Thermalright AM5 Secure Frame noir",
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
    "complet": true,
