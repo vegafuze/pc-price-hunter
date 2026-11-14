@@ -128,3 +128,10 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-14T08:41:18+00:00,ventilo_std1,Caseking (DE),rupture,30.9,0.19,25.97,PreOrder,,"Lian Li UNI FAN TL FLEX Wireless Fan, ARGB - 120mm, black",https://www.caseking.de/en/lian-li-uni-fan-tl-flex-wireless-fan-argb-120mm-black/LULI-155.html,EAN vérifié
 2026-11-14T09:41:13+00:00,casque,Coolblue (BE),ok,100.0,0.21,82.64,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
 2026-11-14T13:41:16+00:00,casque,Coolblue (BE),ok,102.0,0.21,84.3,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
+2026-11-14T22:41:15+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-14T22:41:15+00:00,gpu,Megekko (NL),sans_prix,,0.21,,,,,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,
+2026-11-14T22:41:15+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-14T22:41:15+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-14T22:41:15+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-14T22:41:15+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-14T22:41:15+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
