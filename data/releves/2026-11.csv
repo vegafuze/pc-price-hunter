@@ -145,3 +145,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-14T23:41:25+00:00,ecran_lianli,Alternate (FR),ok,86.9,0.2,72.42,InStock,ALTERNATE GmbH,"8.8\"" Universal Screen",https://www.alternate.fr/Lian-Li/8-Zoll-Universal-Screen/html/product/100151196,référence fabricant vérifiée
 2026-11-15T09:41:23+00:00,casque,Coolblue (BE),ok,103.0,0.21,85.12,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
 2026-11-15T13:41:11+00:00,casque,Coolblue (BE),ok,102.0,0.21,84.3,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
+2026-11-15T14:41:16+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-15T14:41:16+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-15T14:41:16+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-15T14:41:16+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-15T14:41:16+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-15T14:41:16+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
