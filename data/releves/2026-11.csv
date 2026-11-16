@@ -175,3 +175,5 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-16T04:11:37+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
 2026-11-16T08:49:06+00:00,cpu,Grosbill,ok,544.99,0.2,454.16,InStock,GrosBill,AMD Ryzen 7 9800X3D WOF,https://www.grosbill.com/amd-ryzen-7-9800x3d-wof-148505,EAN vérifié
 2026-11-16T08:49:06+00:00,gpu,Coolblue (BE),rupture,1769.0,0.21,1461.98,OutOfStock,,ASUS TUF Gaming GeForce RTX 5070 Ti OC 16 Go,https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html,nom conforme (identifiant absent de la page)
+2026-11-16T09:41:12+00:00,cpu,Grosbill,ok,404.99,0.2,337.49,InStock,GrosBill,AMD Ryzen 7 9800X3D WOF,https://www.grosbill.com/amd-ryzen-7-9800x3d-wof-148505,EAN vérifié
+2026-11-16T09:41:12+00:00,gpu,Alternate (BE),ok,1849.0,0.21,1528.1,InStock,Alternate België bv,"AORUS GeForce RTX 5070 Ti MASTER 16G, Carte graphique",https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006,référence fabricant vérifiée
