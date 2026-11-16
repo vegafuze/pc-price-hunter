@@ -195,3 +195,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-16T15:11:25+00:00,ram,Alternate (BE),ok,589.0,0.21,486.78,InStock,Alternate België bv,Vengeance RGB 32 Go DDR5-6000 (2x 16 Go) mémoire vive,https://fr.alternate.be/Corsair/Vengeance-RGB-32-Go-DDR5-6000-2x-16-Go-m%C3%A9moire-vive/html/product/1909371,nom conforme
 2026-11-16T15:41:17+00:00,cpu,Komparzon (test Amazon),bloque,,0.2,,,,,https://komparzon.com/fr/product/B0DKFMSMYK,HTTP 403
 2026-11-16T21:52:46+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,ConnectionError
+2026-11-16T22:41:16+00:00,cpu,LDLC (BE),ok,449.95,0.21,371.86,InStock,LDLC,AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz),https://www.ldlc.com/fr-be/fiche/PB00664304.html,référence fabricant vérifiée
