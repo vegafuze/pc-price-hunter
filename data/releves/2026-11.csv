@@ -161,3 +161,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-15T23:11:15+00:00,alim,Alternate (BE),ok,119.9,0.21,99.09,InStock,Alternate België bv,RM850x (2024) alimentation modulaire 850 watt,https://fr.alternate.be/Corsair/RM850x-2024-alimentation-modulaire-850-watt/html/product/100069063,nom conforme
 2026-11-16T00:41:12+00:00,gpu,Grosbill,erreur,,0.2,,,,,https://www.grosbill.com/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-151253,ConnectionError
 2026-11-16T01:11:14+00:00,gpu,Grosbill,rupture,1779.99,0.2,1483.33,OutOfStock,GrosBill,Gigabyte AORUS GeForce RTX 5070 Ti MASTER 16G,https://www.grosbill.com/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-151253,EAN vérifié
+2026-11-16T03:11:12+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-16T03:11:12+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-16T03:11:12+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-16T03:11:12+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-16T03:11:12+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-16T03:11:12+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
