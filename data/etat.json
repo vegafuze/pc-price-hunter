@@ -382,8 +382,8 @@
    "ts": "2026-11-15T19:11:14+00:00"
   }
  },
- "derniere_execution": "2026-11-16T08:49:06+00:00",
- "derniere_reussite": "2026-11-16T08:49:06+00:00",
+ "derniere_execution": "2026-11-16T09:11:19+00:00",
+ "derniere_reussite": "2026-11-16T09:11:19+00:00",
  "derniers_meilleurs": {
   "aio_sans": 230.58,
   "aio_tl": 280.17,
@@ -2069,11 +2069,11 @@
    "vendeur": "Alternate België bv"
   },
   "ssd|https://fr.alternate.be/Samsung/990-EVO-PLUS-2-To-SSD/html/product/100080170": {
-   "date_prix_connu": "2026-11-16T08:11:20+00:00",
-   "dernier_ok": "2026-11-16T08:11:20+00:00",
+   "date_prix_connu": "2026-11-16T09:11:19+00:00",
+   "dernier_ok": "2026-11-16T09:11:19+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-16T08:11:20+00:00",
+   "derniere_verif": "2026-11-16T09:11:19+00:00",
    "dispo": "InStock",
    "ean": null,
    "htva": 271.9,
@@ -2497,39 +2497,7 @@
  },
  "sources_derniere_execution": {
   "Alternate (BE)": {
-   "ok": 15,
-   "rupture": 4
-  },
-  "Alternate (DE)": {
-   "ok": 1,
-   "rupture": 2
-  },
-  "Alternate (FR)": {
    "ok": 1
-  },
-  "Caseking (DE)": {
-   "rupture": 2
-  },
-  "Coolblue (BE)": {
-   "ok": 2,
-   "rupture": 1
-  },
-  "Grosbill": {
-   "ok": 1,
-   "rupture": 1
-  },
-  "Klos2Reality": {
-   "ok": 2
-  },
-  "Komparzon (test Amazon)": {
-   "bloque": 1
-  },
-  "LDLC (BE)": {
-   "ok": 5,
-   "sans_prix": 1
-  },
-  "Megekko (NL)": {
-   "rupture": 1
   }
  }
 }

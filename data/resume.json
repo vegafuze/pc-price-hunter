@@ -18,7 +18,7 @@
    ]
   }
  ],
- "maj": "2026-11-16T08:49:06+00:00",
+ "maj": "2026-11-16T09:11:19+00:00",
  "meilleurs": {
   "aio_tl": {
    "date_prix_connu": "2026-11-16T08:49:06+00:00",
@@ -397,11 +397,11 @@
    "vendeur": null
   },
   "ssd": {
-   "date_prix_connu": "2026-11-16T08:11:20+00:00",
-   "dernier_ok": "2026-11-16T08:11:20+00:00",
+   "date_prix_connu": "2026-11-16T09:11:19+00:00",
+   "dernier_ok": "2026-11-16T09:11:19+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-16T08:11:20+00:00",
+   "derniere_verif": "2026-11-16T09:11:19+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",

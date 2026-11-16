@@ -2,7 +2,7 @@
 
 ![Récapitulatif](recap.png)
 
-**Dernière actualisation réussie : 16/11 09:49** (heure belge) · dernière exécution : 16/11 09:49
+**Dernière actualisation réussie : 16/11 10:11** (heure belge) · dernière exécution : 16/11 10:11
 
 | | HTVA | TVAC (21 %) |
 |---|---|---|
@@ -31,7 +31,7 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 | 🟡 Lian Li HydroShift II OLED 360TL noir (3 ventilateurs) | **280,17 €** | 280 € / 300 € | 0,17 € (+0,1 %) | 57 | [Alternate (BE)](https://fr.alternate.be/Lian-Li/HydroShift-II-OLED-Curved-360TL-Watercooling/html/product/100195858) | vérifié 16/11 09:49 |
 | ⚪ Lian Li UNI FAN TL FLEX 120 pales inversées, pack de 3 noir | 82,56 € (rupture) | 75 € / 80 € | 7,56 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateurs-de-bo%C3%AEtier-RGB/html/product/100201815) | en rupture 16/11 09:49 |
 | ⚪ Lian Li UNI FAN TL FLEX 120 standard, à l'unité noir (réserve, hors total) | 25,61 € (rupture) | 22,50 € / 25 € | 3,11 € | | [Alternate (BE)](https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateur-de-bo%C3%AEtier-RGB/html/product/100201754) | en rupture 16/11 09:49 |
-| 🔴 SSD NVMe 2 To PCIe 4.0+ (liste provisoire) | **271,90 €** | 180 € / 200 € | 91,90 € (+51,1 %) | 38 | [Alternate (BE)](https://fr.alternate.be/Samsung/990-EVO-PLUS-2-To-SSD/html/product/100080170) | vérifié 16/11 09:11 |
+| 🔴 SSD NVMe 2 To PCIe 4.0+ (liste provisoire) | **271,90 €** | 180 € / 200 € | 91,90 € (+51,1 %) | 38 | [Alternate (BE)](https://fr.alternate.be/Samsung/990-EVO-PLUS-2-To-SSD/html/product/100080170) | vérifié 16/11 10:11 |
 | 🟢 Klos2Reality cache boîtier O11 Vision Compact | **66,12 €** | 80 € / 80 € | -13,88 € (-17,3 %) | 78 | [Klos2Reality](https://klos2reality.com/products/lian-li-o11-vision-grommet-shroud) | vérifié 16/11 09:49 |
 | 🟢 Klos2Reality cache carte mère B850 Stealth | **16,53 €** | 20 € / 20 € | -3,47 € (-17,3 %) | 78 | [Klos2Reality](https://klos2reality.com/products/gigabyte-motherboard-b850-x870-stealth-ice-cover) | vérifié 16/11 09:49 |
 | 🟡 Thermalright AM5 Secure Frame noir | **9,01 €** | 8 € / 10 € | 1,01 € (+12,6 %) | 38 | [LDLC (BE)](https://www.ldlc.com/fr-be/fiche/PB00581807.html) | vérifié 16/11 09:49 |
@@ -55,16 +55,7 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 
 | Marchand | Résultats |
 |---|---|
-| Alternate (BE) | ok : 15, rupture : 4 |
-| Alternate (DE) | ok : 1, rupture : 2 |
-| Alternate (FR) | ok : 1 |
-| Caseking (DE) | rupture : 2 |
-| Coolblue (BE) | ok : 2, rupture : 1 |
-| Grosbill | ok : 1, rupture : 1 |
-| Klos2Reality | ok : 2 |
-| Komparzon (test Amazon) | bloque : 1 |
-| LDLC (BE) | ok : 5, sans_prix : 1 |
-| Megekko (NL) | rupture : 1 |
+| Alternate (BE) | ok : 1 |
 
 ---
 🟢 sous la cible · 🟡 entre cible et plafond · 🔴 au-dessus du plafond · ⚪ en rupture (dernier prix connu) · score* = historique encore insuffisant (score basé sur la cible seulement).
