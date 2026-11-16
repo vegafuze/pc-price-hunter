@@ -159,3 +159,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-15T15:11:14+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
 2026-11-15T23:11:15+00:00,alim,Alternate (BE),ok,94.9,0.21,78.43,InStock,Alternate België bv,RM850e (2024) alimentation modulaire 850 watt,https://fr.alternate.be/Corsair/RM850e-2024-alimentation-modulaire-850-watt/html/product/100098365,nom conforme
 2026-11-15T23:11:15+00:00,alim,Alternate (BE),ok,119.9,0.21,99.09,InStock,Alternate België bv,RM850x (2024) alimentation modulaire 850 watt,https://fr.alternate.be/Corsair/RM850x-2024-alimentation-modulaire-850-watt/html/product/100069063,nom conforme
+2026-11-16T00:41:12+00:00,gpu,Grosbill,erreur,,0.2,,,,,https://www.grosbill.com/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-151253,ConnectionError
