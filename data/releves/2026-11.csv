@@ -212,3 +212,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-17T09:11:15+00:00,gpu,Megekko (NL),sans_prix,,0.21,,,,,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,
 2026-11-17T09:41:14+00:00,gpu,Megekko (NL),ok,1749.0,0.21,1445.45,InStock,,Gigabyte GeForce RTX 5070 TI AORUS MASTER 16G Videokaart,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,EAN vérifié
 2026-11-17T10:11:16+00:00,casque,Coolblue (BE),ok,111.0,0.21,91.74,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
+2026-11-17T11:11:16+00:00,alim,Alternate (BE),rupture,114.9,0.21,94.96,OutOfStock,Alternate België bv,Pure Power 12 alimentation 850 watt,https://fr.alternate.be/be-quiet/Pure-Power-12-alimentation-850-watt/html/product/100095251,nom conforme
