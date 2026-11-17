@@ -218,3 +218,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-17T13:41:17+00:00,ram,LDLC (BE),sans_prix,,0.21,,,,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,
 2026-11-17T14:41:16+00:00,gpu,Megekko (NL),sans_prix,,0.21,,,,Gigabyte GeForce RTX 5070 TI AORUS  is tijdelijk niet leverbaar,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,
 2026-11-17T14:41:16+00:00,ram,LDLC (BE),non_conforme,145.95,0.21,120.62,OutOfStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,"prix incohérent (lot, PC complet ou accessoire ?)"
+2026-11-17T20:11:14+00:00,ssd,Alternate (BE),non_conforme,209.9,0.21,173.47,InStock,Alternate België bv,990 EVO PLUS 1 To SSD,https://fr.alternate.be/Samsung/990-EVO-PLUS-1-To-SSD/html/product/100080160,produit non conforme
