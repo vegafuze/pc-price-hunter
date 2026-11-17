@@ -210,3 +210,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-17T01:11:14+00:00,ram,LDLC (BE),sans_prix,,0.21,,,,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,
 2026-11-17T01:11:14+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
 2026-11-17T09:11:15+00:00,gpu,Megekko (NL),sans_prix,,0.21,,,,,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,
+2026-11-17T09:41:14+00:00,gpu,Megekko (NL),ok,1749.0,0.21,1445.45,InStock,,Gigabyte GeForce RTX 5070 TI AORUS MASTER 16G Videokaart,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,EAN vérifié
