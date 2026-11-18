@@ -221,3 +221,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-17T20:11:14+00:00,ssd,Alternate (BE),non_conforme,209.9,0.21,173.47,InStock,Alternate België bv,990 EVO PLUS 1 To SSD,https://fr.alternate.be/Samsung/990-EVO-PLUS-1-To-SSD/html/product/100080160,produit non conforme
 2026-11-18T08:41:17+00:00,gpu,Coolblue (BE),rupture,1839.0,0.21,1519.83,OutOfStock,,ASUS TUF Gaming GeForce RTX 5070 Ti OC 16 Go,https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html,nom conforme (identifiant absent de la page)
 2026-11-18T08:41:17+00:00,alim,Coolblue (BE),rupture,140.0,0.21,115.7,OutOfStock,,Corsair RM850e (2025) Cybenetics Gold,https://www.coolblue.be/fr/produit/962141/corsair-rm850e-2025-cybenetics-gold.html,nom conforme
+2026-11-18T12:11:29+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-18T12:11:29+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-18T12:11:29+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-18T12:11:29+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-18T12:11:29+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-18T12:11:29+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
