@@ -233,3 +233,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-18T12:41:19+00:00,ram,LDLC (BE),ok,863.95,0.21,714.01,InStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630878.html,nom conforme
 2026-11-18T12:41:19+00:00,ram,LDLC (BE),non_conforme,145.95,0.21,120.62,OutOfStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,"prix incohérent (lot, PC complet ou accessoire ?)"
 2026-11-18T12:41:19+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
+2026-11-18T16:11:18+00:00,tapis,Maxesport,ok,39.9,0.21,32.98,InStock,,X-Raypad Aqua Control II Noir 2XL,https://maxesport.gg/fr/products/x-raypad-aqua-control-ii-noir-2xl,nom conforme
