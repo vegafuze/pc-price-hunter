@@ -264,3 +264,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-19T16:11:15+00:00,cpu,Grosbill,ok,544.99,0.2,454.16,InStock,GrosBill,AMD Ryzen 7 9800X3D WOF,https://www.grosbill.com/amd-ryzen-7-9800x3d-wof-148505,EAN vérifié
 2026-11-19T17:11:16+00:00,cpu,Grosbill,ok,404.99,0.2,337.49,InStock,GrosBill,AMD Ryzen 7 9800X3D WOF,https://www.grosbill.com/amd-ryzen-7-9800x3d-wof-148505,EAN vérifié
 2026-11-19T20:11:15+00:00,casque,Coolblue (BE),ok,111.0,0.21,91.74,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
+2026-11-19T22:41:37+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-19T22:41:37+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-19T22:41:37+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-19T22:41:37+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-19T22:41:37+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-19T22:41:37+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
