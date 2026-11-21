@@ -18,14 +18,14 @@
    ]
   }
  ],
- "maj": "2026-11-21T08:11:14+00:00",
+ "maj": "2026-11-21T08:41:16+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +46,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +71,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +97,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +122,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,11 +147,11 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -222,11 +222,11 @@
    "vendeur": null
   },
   "cm": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -247,11 +247,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -322,22 +322,22 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
-   "dernier_prix_connu": 1511.57,
-   "dernier_prix_ok": 1511.57,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
+   "dernier_prix_connu": 1453.72,
+   "dernier_prix_ok": 1453.72,
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
-   "htva": 1511.57,
+   "htva": 1453.72,
    "image": "https://image.coolblue.nl/500x500/products/2149549",
    "marchand": "Coolblue (BE)",
    "methode": "JSON-LD",
    "mpn": null,
    "nom": "ASUS TUF Gaming GeForce RTX 5070 Ti OC 16 Go",
    "note": "nom conforme (identifiant absent de la page)",
-   "prix": 1829.0,
+   "prix": 1759.0,
    "produit": "gpu",
    "statut": "ok",
    "test": false,
@@ -347,11 +347,11 @@
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-21T08:11:14+00:00",
-   "dernier_ok": "2026-11-21T08:11:14+00:00",
+   "date_prix_connu": "2026-11-21T08:41:16+00:00",
+   "dernier_ok": "2026-11-21T08:41:16+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-21T08:11:14+00:00",
+   "derniere_verif": "2026-11-21T08:41:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -756,28 +756,28 @@
    "volatilite_pct": 0.0
   },
   "gpu": {
-   "ecart_eur": 511.57,
-   "ecart_pct": 51.2,
+   "ecart_eur": 453.72,
+   "ecart_pct": 45.4,
    "historique_jours": 10,
    "historique_suffisant": true,
    "max7": 1528.1,
-   "med30": 1486.78,
-   "med7": 1511.57,
+   "med30": 1470.25,
+   "med7": 1486.78,
    "min30": 1445.45,
    "min30_passe": 1445.45,
    "min7": 1445.45,
-   "pct7": 57.1,
-   "score": 29,
+   "pct7": 21.4,
+   "score": 46,
    "score_detail": {
     "cible": 0,
-    "mediane": 50,
-    "minimum": 54,
-    "percentile": 43
+    "mediane": 61,
+    "minimum": 94,
+    "percentile": 79
    },
    "sous_plafond": false,
-   "var_derniere": 0.0,
-   "var_veille": 0.0,
-   "verdict": "pas intéressant",
+   "var_derniere": -57.85,
+   "var_veille": -57.85,
+   "verdict": "prix correct",
    "volatilite_pct": 2.3
   },
   "ram": {
@@ -908,17 +908,17 @@
   },
   "general": {
    "complet": false,
-   "htva": 3872.93,
-   "tvac": 4686.25
+   "htva": 3815.08,
+   "tvac": 4616.25
   },
   "pc": {
    "anciens": [],
    "complet": false,
-   "htva": 3171.43,
+   "htva": 3113.58,
    "manquants": [
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
-   "tvac": 3837.43,
+   "tvac": 3767.43,
    "veille": null,
    "verifie": false
   }
@@ -964,17 +964,17 @@
   ],
   "general": {
    "complet": false,
-   "htva": 4318.22,
-   "tvac": 5225.05
+   "htva": 4260.37,
+   "tvac": 5155.05
   },
   "pc": {
    "anciens": [
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
    "complet": true,
-   "htva": 3616.72,
+   "htva": 3558.87,
    "manquants": [],
-   "tvac": 4376.23,
+   "tvac": 4306.23,
    "verifie": false
   }
  }
