@@ -360,3 +360,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-22T18:11:14+00:00,souris,Coolblue (BE),ok,133.0,0.21,109.92,InStock,,Razer Viper V3 Pro Souris Gamer Sans Fil Noir,https://www.coolblue.be/fr/produit/953160/razer-viper-v3-pro-souris-gamer-sans-fil-noir.html,nom conforme (identifiant absent de la page)
 2026-11-22T18:11:14+00:00,casque,Coolblue (BE),ok,107.0,0.21,88.43,InStock,,Razer BlackShark V2 HyperSpeed Noir,https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html,nom conforme
 2026-11-22T20:41:15+00:00,souris,Coolblue (BE),non_conforme,159.0,0.21,131.4,InStock,,Razer Viper V3 Pro Souris Gamer Sans Fil - Counter Strike 2 Edition,https://www.coolblue.be/fr/produit/986888/razer-viper-v3-pro-souris-gamer-sans-fil-counter-strike-2-edition.html,produit non conforme
+2026-11-23T01:41:18+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-23T01:41:18+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-23T01:41:18+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-23T01:41:18+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-23T01:41:18+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-23T01:41:18+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
