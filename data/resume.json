@@ -18,14 +18,14 @@
    ]
   }
  ],
- "maj": "2026-11-23T21:11:21+00:00",
+ "maj": "2026-11-23T21:41:29+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +46,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +71,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +97,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +122,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,29 +147,29 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-23T20:41:18+00:00",
-   "dernier_ok": "2026-11-23T20:41:18+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
-   "dispo": null,
-   "ean": null,
-   "fraicheur": "ancien",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
+   "dispo": "InStock",
+   "ean": "0814256015639",
+   "fraicheur": "vérifié",
    "htva": 9.01,
    "image": "https://media.ldlc.com/r1600/ld/products/00/06/21/39/LD0006213922.jpg",
    "marchand": "LDLC (BE)",
-   "methode": null,
-   "mpn": null,
-   "nom": null,
-   "note": "site injoignable (ConnectTimeout)",
-   "prix": null,
+   "methode": "JSON-LD",
+   "mpn": "TR-AM5SF-BK",
+   "nom": "Thermalright AM5 Secure Frame Black",
+   "note": "nom conforme",
+   "prix": 10.9,
    "produit": "cadre",
-   "statut": "erreur",
+   "statut": "ok",
    "test": false,
    "tva": 0.21,
    "tva_supposee": false,
    "url": "https://www.ldlc.com/fr-be/fiche/PB00581807.html",
-   "vendeur": null
+   "vendeur": "LDLC"
   },
   "casque": {
    "date_prix_connu": "2026-11-23T20:11:23+00:00",
@@ -222,11 +222,11 @@
    "vendeur": null
   },
   "cm": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -247,11 +247,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -322,36 +322,36 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
-   "dernier_prix_connu": 1445.45,
-   "dernier_prix_ok": 1445.45,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
+   "dernier_prix_connu": 1453.72,
+   "dernier_prix_ok": 1453.72,
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
-   "ean": "4719331355678",
+   "ean": null,
    "fraicheur": "vérifié",
-   "htva": 1445.45,
-   "image": "https://www.megekko.nl/productimg/297119/nw/1_Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart.jpg",
-   "marchand": "Megekko (NL)",
+   "htva": 1453.72,
+   "image": "https://image.coolblue.nl/500x500/products/2149549",
+   "marchand": "Coolblue (BE)",
    "methode": "JSON-LD",
-   "mpn": "GV-N507TAORUS M-16GD",
-   "nom": "Gigabyte GeForce RTX 5070 TI AORUS MASTER 16G Videokaart",
-   "note": "EAN vérifié",
-   "prix": 1749.0,
+   "mpn": null,
+   "nom": "ASUS TUF Gaming GeForce RTX 5070 Ti OC 16 Go",
+   "note": "nom conforme (identifiant absent de la page)",
+   "prix": 1759.0,
    "produit": "gpu",
    "statut": "ok",
    "test": false,
    "tva": 0.21,
    "tva_supposee": false,
-   "url": "https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart",
+   "url": "https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html",
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-23T21:11:21+00:00",
-   "dernier_ok": "2026-11-23T21:11:21+00:00",
+   "date_prix_connu": "2026-11-23T21:41:29+00:00",
+   "dernier_ok": "2026-11-23T21:41:29+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-23T21:11:21+00:00",
+   "derniere_verif": "2026-11-23T21:41:29+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -756,8 +756,8 @@
    "volatilite_pct": 0.0
   },
   "gpu": {
-   "ecart_eur": 445.45,
-   "ecart_pct": 44.5,
+   "ecart_eur": 453.72,
+   "ecart_pct": 45.4,
    "historique_jours": 12,
    "historique_suffisant": true,
    "max7": 1528.1,
@@ -766,18 +766,18 @@
    "min30": 1445.45,
    "min30_passe": 1445.45,
    "min7": 1445.45,
-   "pct7": 14.3,
-   "score": 47,
+   "pct7": 42.9,
+   "score": 38,
    "score_detail": {
     "cible": 0,
-    "mediane": 53,
-    "minimum": 100,
-    "percentile": 86
+    "mediane": 50,
+    "minimum": 94,
+    "percentile": 57
    },
    "sous_plafond": false,
-   "var_derniere": 0.0,
-   "var_veille": -8.27,
-   "verdict": "prix correct",
+   "var_derniere": 8.27,
+   "var_veille": 0.0,
+   "verdict": "pas intéressant",
    "volatilite_pct": 2.2
   },
   "ram": {
@@ -908,19 +908,17 @@
   },
   "general": {
    "complet": false,
-   "htva": 3805.15,
-   "tvac": 4604.23
+   "htva": 3813.42,
+   "tvac": 4614.24
   },
   "pc": {
-   "anciens": [
-    "Thermalright AM5 Secure Frame noir"
-   ],
+   "anciens": [],
    "complet": false,
-   "htva": 3105.31,
+   "htva": 3113.58,
    "manquants": [
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
-   "tvac": 3757.43,
+   "tvac": 3767.43,
    "veille": null,
    "verifie": false
   }
@@ -966,18 +964,17 @@
   ],
   "general": {
    "complet": false,
-   "htva": 4250.44,
-   "tvac": 5143.03
+   "htva": 4258.71,
+   "tvac": 5153.04
   },
   "pc": {
    "anciens": [
-    "Thermalright AM5 Secure Frame noir",
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
    "complet": true,
-   "htva": 3550.6,
+   "htva": 3558.87,
    "manquants": [],
-   "tvac": 4296.23,
+   "tvac": 4306.23,
    "verifie": false
   }
  }
