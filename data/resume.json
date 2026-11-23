@@ -18,14 +18,14 @@
    ]
   }
  ],
- "maj": "2026-11-23T12:41:18+00:00",
+ "maj": "2026-11-23T13:11:15+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +46,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +71,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +97,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +122,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,11 +147,11 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -222,11 +222,11 @@
    "vendeur": null
   },
   "cm": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -247,11 +247,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -322,36 +322,36 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
-   "dernier_prix_connu": 1453.72,
-   "dernier_prix_ok": 1453.72,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
+   "dernier_prix_connu": 1445.45,
+   "dernier_prix_ok": 1445.45,
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
-   "ean": null,
+   "ean": "4719331355678",
    "fraicheur": "vérifié",
-   "htva": 1453.72,
-   "image": "https://image.coolblue.nl/500x500/products/2149549",
-   "marchand": "Coolblue (BE)",
+   "htva": 1445.45,
+   "image": "https://www.megekko.nl/productimg/297119/nw/1_Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart.jpg",
+   "marchand": "Megekko (NL)",
    "methode": "JSON-LD",
-   "mpn": null,
-   "nom": "ASUS TUF Gaming GeForce RTX 5070 Ti OC 16 Go",
-   "note": "nom conforme (identifiant absent de la page)",
-   "prix": 1759.0,
+   "mpn": "GV-N507TAORUS M-16GD",
+   "nom": "Gigabyte GeForce RTX 5070 TI AORUS MASTER 16G Videokaart",
+   "note": "EAN vérifié",
+   "prix": 1749.0,
    "produit": "gpu",
    "statut": "ok",
    "test": false,
    "tva": 0.21,
    "tva_supposee": false,
-   "url": "https://www.coolblue.be/fr/produit/959846/asus-tuf-gaming-geforce-rtx-5070-ti-oc-16-go.html",
+   "url": "https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart",
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-23T12:41:18+00:00",
-   "dernier_ok": "2026-11-23T12:41:18+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-23T12:41:18+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -397,11 +397,11 @@
    "vendeur": null
   },
   "ssd": {
-   "date_prix_connu": "2026-11-23T12:11:22+00:00",
-   "dernier_ok": "2026-11-23T12:11:22+00:00",
+   "date_prix_connu": "2026-11-23T13:11:15+00:00",
+   "dernier_ok": "2026-11-23T13:11:15+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-23T12:11:22+00:00",
+   "derniere_verif": "2026-11-23T13:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -756,8 +756,8 @@
    "volatilite_pct": 0.0
   },
   "gpu": {
-   "ecart_eur": 453.72,
-   "ecart_pct": 45.4,
+   "ecart_eur": 445.45,
+   "ecart_pct": 44.5,
    "historique_jours": 12,
    "historique_suffisant": true,
    "max7": 1528.1,
@@ -766,17 +766,17 @@
    "min30": 1445.45,
    "min30_passe": 1445.45,
    "min7": 1445.45,
-   "pct7": 35.7,
-   "score": 40,
+   "pct7": 14.3,
+   "score": 47,
    "score_detail": {
     "cible": 0,
-    "mediane": 50,
-    "minimum": 94,
-    "percentile": 64
+    "mediane": 53,
+    "minimum": 100,
+    "percentile": 86
    },
    "sous_plafond": false,
-   "var_derniere": 0.0,
-   "var_veille": 0.0,
+   "var_derniere": -8.27,
+   "var_veille": -8.27,
    "verdict": "prix correct",
    "volatilite_pct": 2.2
   },
@@ -908,17 +908,17 @@
   },
   "general": {
    "complet": false,
-   "htva": 3813.42,
-   "tvac": 4614.24
+   "htva": 3805.15,
+   "tvac": 4604.23
   },
   "pc": {
    "anciens": [],
    "complet": false,
-   "htva": 3113.58,
+   "htva": 3105.31,
    "manquants": [
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
-   "tvac": 3767.43,
+   "tvac": 3757.43,
    "veille": null,
    "verifie": false
   }
@@ -964,17 +964,17 @@
   ],
   "general": {
    "complet": false,
-   "htva": 4258.71,
-   "tvac": 5153.04
+   "htva": 4250.44,
+   "tvac": 5143.03
   },
   "pc": {
    "anciens": [
     "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
    ],
    "complet": true,
-   "htva": 3558.87,
+   "htva": 3550.6,
    "manquants": [],
-   "tvac": 4306.23,
+   "tvac": 4296.23,
    "verifie": false
   }
  }
