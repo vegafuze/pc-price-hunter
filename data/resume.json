@@ -2,7 +2,15 @@
  "blocs": [
   {
    "cat": "pc",
-   "choisi": null,
+   "choisi": {
+    "ancien": false,
+    "cout": 445.29,
+    "items": {
+     "aio_tl": 1,
+     "ventilo_inv3": 2
+    },
+    "label": "360TL (3 ventilateurs standard fournis : 2 à l'arrière, 1 en réserve) + 2 packs de 3 inversés (radiateur + bas)"
+   },
    "cible": 430,
    "id": "refroidissement",
    "label": "Watercooling 360TL + 2 packs de 3 ventilateurs inversés",
@@ -18,14 +26,14 @@
    ]
   }
  ],
- "maj": "2026-11-24T22:41:13+00:00",
+ "maj": "2026-11-24T23:11:15+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +54,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +79,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +105,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +130,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,11 +155,11 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -198,11 +206,11 @@
   },
   "clavier": null,
   "cm": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -223,11 +231,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -298,11 +306,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 1495.04,
    "dernier_prix_ok": 1495.04,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -323,11 +331,11 @@
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-24T22:41:13+00:00",
-   "dernier_ok": "2026-11-24T22:41:13+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-24T22:41:13+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -373,11 +381,11 @@
    "vendeur": null
   },
   "ssd": {
-   "date_prix_connu": "2026-11-24T22:11:16+00:00",
-   "dernier_ok": "2026-11-24T22:11:16+00:00",
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-24T22:11:16+00:00",
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -423,14 +431,62 @@
    "url": "https://maxesport.gg/fr/products/x-raypad-aqua-control-ii-noir-2xl",
    "vendeur": null
   },
-  "ventilo_inv3": null,
-  "ventilo_std1": null
+  "ventilo_inv3": {
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
+   "dernier_prix_connu": 82.56,
+   "dernier_prix_ok": 82.56,
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "fraicheur": "vérifié",
+   "htva": 82.56,
+   "image": "https://fr.alternate.be/p/600x600/5/1/Lian_Li_UNI_FAN_TL_FLEX_ventilateurs_de_bo_tier_RGB_@@100201815.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "G9F.12RTL1F3B.00",
+   "nom": "UNI FAN TL FLEX ventilateurs de boîtier RGB ",
+   "note": "référence fabricant vérifiée",
+   "prix": 99.9,
+   "produit": "ventilo_inv3",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateurs-de-bo%C3%AEtier-RGB/html/product/100201815",
+   "vendeur": "Alternate België bv"
+  },
+  "ventilo_std1": {
+   "date_prix_connu": "2026-11-24T23:11:15+00:00",
+   "dernier_ok": "2026-11-24T23:11:15+00:00",
+   "dernier_prix_connu": 25.61,
+   "dernier_prix_ok": 25.61,
+   "derniere_verif": "2026-11-24T23:11:15+00:00",
+   "dispo": "InStock",
+   "ean": null,
+   "fraicheur": "vérifié",
+   "htva": 25.61,
+   "image": "https://fr.alternate.be/p/600x600/4/5/Lian_Li_UNI_FAN_TL_FLEX_ventilateur_de_bo_tier_RGB_@@100201754.jpg",
+   "marchand": "Alternate (BE)",
+   "methode": "JSON-LD",
+   "mpn": "G9F.12TL1F1B.00",
+   "nom": "UNI FAN TL FLEX ventilateur de boîtier RGB ",
+   "note": "référence fabricant vérifiée",
+   "prix": 30.99,
+   "produit": "ventilo_std1",
+   "statut": "ok",
+   "test": false,
+   "tva": 0.21,
+   "tva_supposee": false,
+   "url": "https://fr.alternate.be/Lian-Li/UNI-FAN-TL-FLEX-ventilateur-de-bo%C3%AEtier-RGB/html/product/100201754",
+   "vendeur": "Alternate België bv"
+  }
  },
  "stats": {
   "aio_tl": {
    "ecart_eur": 0.17,
    "ecart_pct": 0.1,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 280.17,
    "med30": 280.17,
@@ -455,7 +511,7 @@
   "alim": {
    "ecart_eur": 3.43,
    "ecart_pct": 4.6,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 78.43,
    "med30": 78.43,
@@ -475,12 +531,12 @@
    "var_derniere": 0.0,
    "var_veille": 0.0,
    "verdict": "prix correct",
-   "volatilite_pct": 4.3
+   "volatilite_pct": 4.2
   },
   "boitier": {
    "ecart_eur": 17.36,
    "ecart_pct": 19.3,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 107.36,
    "med30": 107.36,
@@ -509,7 +565,7 @@
   "cache_boitier": {
    "ecart_eur": -13.88,
    "ecart_pct": -17.3,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 66.12,
    "med30": 66.12,
@@ -534,7 +590,7 @@
   "cache_cm": {
    "ecart_eur": -3.47,
    "ecart_pct": -17.3,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 16.53,
    "med30": 16.53,
@@ -559,7 +615,7 @@
   "cadre": {
    "ecart_eur": 1.01,
    "ecart_pct": 12.6,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 9.01,
    "med30": 9.01,
@@ -584,7 +640,7 @@
   "casque": {
    "ecart_eur": 40.91,
    "ecart_pct": 81.8,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 91.74,
    "med30": 88.43,
@@ -592,17 +648,17 @@
    "min30": 81.82,
    "min30_passe": 81.82,
    "min7": 88.43,
-   "pct7": 64.3,
-   "score": 18,
+   "pct7": 71.4,
+   "score": 16,
    "score_detail": {
     "cible": 0,
     "mediane": 45,
     "minimum": 0,
-    "percentile": 36
+    "percentile": 29
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
-   "var_veille": 2.48,
+   "var_veille": 0.83,
    "verdict": "pas intéressant",
    "volatilite_pct": 4.3
   },
@@ -613,7 +669,7 @@
   "cm": {
    "ecart_eur": 60.34,
    "ecart_pct": 33.5,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 240.34,
    "med30": 240.34,
@@ -638,7 +694,7 @@
   "cpu": {
    "ecart_eur": 13.22,
    "ecart_pct": 4.4,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 313.22,
    "med30": 313.22,
@@ -663,7 +719,7 @@
   "ecran": {
    "ecart_eur": 112.56,
    "ecart_pct": 40.2,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 392.56,
    "med30": 392.56,
@@ -688,7 +744,7 @@
   "ecran_lianli": {
    "ecart_eur": 5.17,
    "ecart_pct": 8.0,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 70.17,
    "med30": 70.17,
@@ -713,7 +769,7 @@
   "gpu": {
    "ecart_eur": 495.04,
    "ecart_pct": 49.5,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 1528.1,
    "med30": 1453.72,
@@ -721,24 +777,24 @@
    "min30": 1445.45,
    "min30_passe": 1445.45,
    "min7": 1445.45,
-   "pct7": 57.1,
-   "score": 28,
+   "pct7": 64.3,
+   "score": 26,
    "score_detail": {
     "cible": 0,
     "mediane": 36,
     "minimum": 66,
-    "percentile": 43
+    "percentile": 36
    },
    "sous_plafond": false,
    "var_derniere": 0.0,
-   "var_veille": 49.59,
+   "var_veille": 41.32,
    "verdict": "pas intéressant",
    "volatilite_pct": 2.1
   },
   "ram": {
    "ecart_eur": 106.78,
    "ecart_pct": 28.1,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 486.78,
    "med30": 486.78,
@@ -760,10 +816,32 @@
    "verdict": "pas intéressant",
    "volatilite_pct": 0.8
   },
+  "refroidissement": {
+   "ecart_eur": 15.29,
+   "ecart_pct": 3.6,
+   "historique_jours": 1,
+   "historique_suffisant": false,
+   "max7": 445.29,
+   "med30": 445.29,
+   "med7": 445.29,
+   "min30": 445.29,
+   "min30_passe": null,
+   "min7": 445.29,
+   "pct7": 50.0,
+   "score": 32,
+   "score_detail": {
+    "cible": 32
+   },
+   "sous_plafond": true,
+   "var_derniere": null,
+   "var_veille": null,
+   "verdict": "pas intéressant",
+   "volatilite_pct": null
+  },
   "souris": {
    "ecart_eur": 34.92,
    "ecart_pct": 46.6,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 109.92,
    "med30": 109.92,
@@ -783,12 +861,12 @@
    "var_derniere": 0.0,
    "var_veille": 0.0,
    "verdict": "pas intéressant",
-   "volatilite_pct": 9.5
+   "volatilite_pct": 9.1
   },
   "ssd": {
    "ecart_eur": 91.9,
    "ecart_pct": 51.1,
-   "historique_jours": 13,
+   "historique_jours": 14,
    "historique_suffisant": true,
    "max7": 271.9,
    "med30": 271.9,
@@ -817,7 +895,7 @@
   "tapis": {
    "ecart_eur": 7.98,
    "ecart_pct": 31.9,
-   "historique_jours": 7,
+   "historique_jours": 8,
    "historique_suffisant": true,
    "max7": 32.98,
    "med30": 32.98,
@@ -840,12 +918,48 @@
    "volatilite_pct": 0.0
   },
   "ventilo_inv3": {
-   "historique_jours": 0,
-   "historique_suffisant": false
+   "ecart_eur": 7.56,
+   "ecart_pct": 10.1,
+   "historique_jours": 1,
+   "historique_suffisant": false,
+   "max7": 82.56,
+   "med30": 82.56,
+   "med7": 82.56,
+   "min30": 82.56,
+   "min30_passe": null,
+   "min7": 82.56,
+   "pct7": 50.0,
+   "score": 0,
+   "score_detail": {
+    "cible": 0
+   },
+   "sous_plafond": false,
+   "var_derniere": null,
+   "var_veille": null,
+   "verdict": "pas intéressant",
+   "volatilite_pct": null
   },
   "ventilo_std1": {
-   "historique_jours": 0,
-   "historique_suffisant": false
+   "ecart_eur": 3.11,
+   "ecart_pct": 13.8,
+   "historique_jours": 1,
+   "historique_suffisant": false,
+   "max7": 25.61,
+   "med30": 25.61,
+   "med7": 25.61,
+   "min30": 25.61,
+   "min30_passe": null,
+   "min7": 25.61,
+   "pct7": 50.0,
+   "score": 0,
+   "score_detail": {
+    "cible": 0
+   },
+   "sous_plafond": false,
+   "var_derniere": null,
+   "var_veille": null,
+   "verdict": "pas intéressant",
+   "volatilite_pct": null
   }
  },
  "totaux": {
@@ -864,19 +978,17 @@
   },
   "general": {
    "complet": false,
-   "htva": 3781.27,
-   "tvac": 4575.34
+   "htva": 4226.56,
+   "tvac": 5114.14
   },
   "pc": {
    "anciens": [],
-   "complet": false,
-   "htva": 3154.9,
-   "manquants": [
-    "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
-   ],
-   "tvac": 3817.43,
+   "complet": true,
+   "htva": 3600.19,
+   "manquants": [],
+   "tvac": 4356.23,
    "veille": null,
-   "verifie": false
+   "verifie": true
   }
  },
  "totaux_tous_articles": {
@@ -897,7 +1009,7 @@
    {
     "cat": "pc",
     "choisi": {
-     "ancien": true,
+     "ancien": false,
      "cout": 445.29,
      "items": {
       "aio_tl": 1,
@@ -926,14 +1038,12 @@
    "tvac": 5204.04
   },
   "pc": {
-   "anciens": [
-    "Watercooling 360TL + 2 packs de 3 ventilateurs inversés"
-   ],
+   "anciens": [],
    "complet": true,
    "htva": 3600.19,
    "manquants": [],
    "tvac": 4356.23,
-   "verifie": false
+   "verifie": true
   }
  }
 }
