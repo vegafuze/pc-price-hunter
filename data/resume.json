@@ -18,14 +18,14 @@
    ]
   }
  ],
- "maj": "2026-11-24T01:41:20+00:00",
+ "maj": "2026-11-24T02:11:16+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +46,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +71,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +97,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +122,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,11 +147,11 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -172,11 +172,11 @@
    "vendeur": "LDLC"
   },
   "casque": {
-   "date_prix_connu": "2026-11-24T00:11:13+00:00",
-   "dernier_ok": "2026-11-24T00:11:13+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 90.08,
    "dernier_prix_ok": 90.08,
-   "derniere_verif": "2026-11-24T00:11:13+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -196,37 +196,13 @@
    "url": "https://www.coolblue.be/fr/produit/949887/razer-blackshark-v2-hyperspeed-noir.html",
    "vendeur": null
   },
-  "clavier": {
-   "date_prix_connu": "2026-11-24T00:11:13+00:00",
-   "dernier_ok": "2026-11-24T00:11:13+00:00",
-   "dernier_prix_connu": 74.3,
-   "dernier_prix_ok": 74.3,
-   "derniere_verif": "2026-11-24T00:11:13+00:00",
-   "dispo": "InStock",
-   "ean": "3760162054910",
-   "fraicheur": "vérifié",
-   "htva": 74.3,
-   "image": "https://cdn.shopify.com/s/files/1/0663/8456/0292/files/KEYZ-ELITE-300-HE-B-1.webp?v=1785924943",
-   "marchand": "Maxesport",
-   "methode": "Shopify JSON",
-   "mpn": null,
-   "nom": "The G-Lab Keyz Elite 300 HE ISO FR Noir",
-   "note": "nom conforme",
-   "prix": 89.9,
-   "produit": "clavier",
-   "statut": "ok",
-   "test": false,
-   "tva": 0.21,
-   "tva_supposee": true,
-   "url": "https://maxesport.gg/fr/products/the-g-lab-keyz-elite-300-he-iso-fr-noir",
-   "vendeur": null
-  },
+  "clavier": null,
   "cm": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -247,11 +223,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -272,11 +248,11 @@
    "vendeur": "Alternate België bv"
   },
   "ecran": {
-   "date_prix_connu": "2026-11-24T00:11:13+00:00",
-   "dernier_ok": "2026-11-24T00:11:13+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 392.56,
    "dernier_prix_ok": 392.56,
-   "derniere_verif": "2026-11-24T00:11:13+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -297,11 +273,11 @@
    "vendeur": "Alternate België bv"
   },
   "ecran_lianli": {
-   "date_prix_connu": "2026-11-24T00:11:13+00:00",
-   "dernier_ok": "2026-11-24T00:11:13+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 70.17,
    "dernier_prix_ok": 70.17,
-   "derniere_verif": "2026-11-24T00:11:13+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -322,11 +298,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 1453.72,
    "dernier_prix_ok": 1453.72,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -347,11 +323,11 @@
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-24T01:41:20+00:00",
-   "dernier_ok": "2026-11-24T01:41:20+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-24T01:41:20+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -372,11 +348,11 @@
    "vendeur": "Alternate België bv"
   },
   "souris": {
-   "date_prix_connu": "2026-11-24T00:11:13+00:00",
-   "dernier_ok": "2026-11-24T00:11:13+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 109.92,
    "dernier_prix_ok": 109.92,
-   "derniere_verif": "2026-11-24T00:11:13+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -397,11 +373,11 @@
    "vendeur": null
   },
   "ssd": {
-   "date_prix_connu": "2026-11-24T01:11:13+00:00",
-   "dernier_ok": "2026-11-24T01:11:13+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-24T01:11:13+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -423,11 +399,11 @@
   },
   "support": null,
   "tapis": {
-   "date_prix_connu": "2026-11-24T00:11:13+00:00",
-   "dernier_ok": "2026-11-24T00:11:13+00:00",
+   "date_prix_connu": "2026-11-24T02:11:16+00:00",
+   "dernier_ok": "2026-11-24T02:11:16+00:00",
    "dernier_prix_connu": 32.98,
    "dernier_prix_ok": 32.98,
-   "derniere_verif": "2026-11-24T00:11:13+00:00",
+   "derniere_verif": "2026-11-24T02:11:16+00:00",
    "dispo": "InStock",
    "ean": "6976376280084",
    "fraicheur": "vérifié",
@@ -631,29 +607,8 @@
    "volatilite_pct": 4.3
   },
   "clavier": {
-   "ecart_eur": 4.3,
-   "ecart_pct": 6.1,
-   "historique_jours": 13,
-   "historique_suffisant": true,
-   "max7": 74.3,
-   "med30": 74.3,
-   "med7": 74.3,
-   "min30": 74.3,
-   "min30_passe": 74.3,
-   "min7": 74.3,
-   "pct7": 50.0,
-   "score": 45,
-   "score_detail": {
-    "cible": 19,
-    "mediane": 50,
-    "minimum": 100,
-    "percentile": 50
-   },
-   "sous_plafond": true,
-   "var_derniere": 0.0,
-   "var_veille": 0.0,
-   "verdict": "prix correct",
-   "volatilite_pct": 0.0
+   "historique_jours": 0,
+   "historique_suffisant": false
   },
   "cm": {
    "ecart_eur": 60.34,
@@ -897,19 +852,20 @@
   "acc": {
    "anciens": [],
    "complet": false,
-   "htva": 699.84,
+   "htva": 625.54,
    "manquants": [
+    "G-Lab Keyz Elite 300 HE ISO FR noir",
     "Support écran BONTEC (VESA 75/100)",
     "Câble spiralé Newskill USB-C noir"
    ],
-   "tvac": 846.81,
+   "tvac": 756.9,
    "veille": null,
    "verifie": false
   },
   "general": {
    "complet": false,
-   "htva": 3813.42,
-   "tvac": 4614.24
+   "htva": 3739.12,
+   "tvac": 4524.34
   },
   "pc": {
    "anciens": [],
@@ -925,7 +881,9 @@
  },
  "totaux_tous_articles": {
   "acc": {
-   "anciens": [],
+   "anciens": [
+    "G-Lab Keyz Elite 300 HE ISO FR noir"
+   ],
    "complet": false,
    "htva": 699.84,
    "manquants": [
