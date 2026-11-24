@@ -18,14 +18,14 @@
    ]
   }
  ],
- "maj": "2026-11-24T13:41:16+00:00",
+ "maj": "2026-11-24T14:11:21+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -46,11 +46,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -71,11 +71,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -97,11 +97,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -122,11 +122,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -147,11 +147,11 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -172,22 +172,22 @@
    "vendeur": "LDLC"
   },
   "casque": {
-   "date_prix_connu": "2026-11-24T12:11:27+00:00",
-   "dernier_ok": "2026-11-24T12:11:27+00:00",
-   "dernier_prix_connu": 90.08,
-   "dernier_prix_ok": 90.08,
-   "derniere_verif": "2026-11-24T12:11:27+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
+   "dernier_prix_connu": 90.91,
+   "dernier_prix_ok": 90.91,
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
-   "htva": 90.08,
+   "htva": 90.91,
    "image": "https://image.coolblue.nl/500x500/products/2057325",
    "marchand": "Coolblue (BE)",
    "methode": "JSON-LD",
    "mpn": null,
    "nom": "Razer BlackShark V2 HyperSpeed Noir",
    "note": "nom conforme",
-   "prix": 109.0,
+   "prix": 110.0,
    "produit": "casque",
    "statut": "ok",
    "test": false,
@@ -198,11 +198,11 @@
   },
   "clavier": null,
   "cm": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -223,11 +223,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -248,11 +248,11 @@
    "vendeur": "Alternate België bv"
   },
   "ecran": {
-   "date_prix_connu": "2026-11-24T12:11:27+00:00",
-   "dernier_ok": "2026-11-24T12:11:27+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 392.56,
    "dernier_prix_ok": 392.56,
-   "derniere_verif": "2026-11-24T12:11:27+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -273,11 +273,11 @@
    "vendeur": "Alternate België bv"
   },
   "ecran_lianli": {
-   "date_prix_connu": "2026-11-24T12:11:27+00:00",
-   "dernier_ok": "2026-11-24T12:11:27+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 70.17,
    "dernier_prix_ok": 70.17,
-   "derniere_verif": "2026-11-24T12:11:27+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -298,11 +298,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 1453.72,
    "dernier_prix_ok": 1453.72,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -323,11 +323,11 @@
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-24T13:41:16+00:00",
-   "dernier_ok": "2026-11-24T13:41:16+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-24T13:41:16+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -348,11 +348,11 @@
    "vendeur": "Alternate België bv"
   },
   "souris": {
-   "date_prix_connu": "2026-11-24T12:11:27+00:00",
-   "dernier_ok": "2026-11-24T12:11:27+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 109.92,
    "dernier_prix_ok": 109.92,
-   "derniere_verif": "2026-11-24T12:11:27+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -373,11 +373,11 @@
    "vendeur": null
   },
   "ssd": {
-   "date_prix_connu": "2026-11-24T13:11:15+00:00",
-   "dernier_ok": "2026-11-24T13:11:15+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 271.9,
    "dernier_prix_ok": 271.9,
-   "derniere_verif": "2026-11-24T13:11:15+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -399,11 +399,11 @@
   },
   "support": null,
   "tapis": {
-   "date_prix_connu": "2026-11-24T12:11:27+00:00",
-   "dernier_ok": "2026-11-24T12:11:27+00:00",
+   "date_prix_connu": "2026-11-24T14:11:21+00:00",
+   "dernier_ok": "2026-11-24T14:11:21+00:00",
    "dernier_prix_connu": 32.98,
    "dernier_prix_ok": 32.98,
-   "derniere_verif": "2026-11-24T12:11:27+00:00",
+   "derniere_verif": "2026-11-24T14:11:21+00:00",
    "dispo": "InStock",
    "ean": "6976376280084",
    "fraicheur": "vérifié",
@@ -582,8 +582,8 @@
    "volatilite_pct": 0.0
   },
   "casque": {
-   "ecart_eur": 40.08,
-   "ecart_pct": 80.2,
+   "ecart_eur": 40.91,
+   "ecart_pct": 81.8,
    "historique_jours": 13,
    "historique_suffisant": true,
    "max7": 91.74,
@@ -592,17 +592,17 @@
    "min30": 81.82,
    "min30_passe": 81.82,
    "min7": 88.43,
-   "pct7": 50.0,
-   "score": 22,
+   "pct7": 64.3,
+   "score": 18,
    "score_detail": {
     "cible": 0,
-    "mediane": 50,
+    "mediane": 45,
     "minimum": 0,
-    "percentile": 50
+    "percentile": 36
    },
    "sous_plafond": false,
-   "var_derniere": 0.0,
-   "var_veille": 1.65,
+   "var_derniere": 0.83,
+   "var_veille": 2.48,
    "verdict": "pas intéressant",
    "volatilite_pct": 4.3
   },
@@ -852,20 +852,20 @@
   "acc": {
    "anciens": [],
    "complet": false,
-   "htva": 625.54,
+   "htva": 626.37,
    "manquants": [
     "G-Lab Keyz Elite 300 HE ISO FR noir",
     "Support écran BONTEC (VESA 75/100)",
     "Câble spiralé Newskill USB-C noir"
    ],
-   "tvac": 756.9,
+   "tvac": 757.91,
    "veille": null,
    "verifie": false
   },
   "general": {
    "complet": false,
-   "htva": 3739.12,
-   "tvac": 4524.34
+   "htva": 3739.95,
+   "tvac": 4525.34
   },
   "pc": {
    "anciens": [],
@@ -885,12 +885,12 @@
     "G-Lab Keyz Elite 300 HE ISO FR noir"
    ],
    "complet": false,
-   "htva": 699.84,
+   "htva": 700.67,
    "manquants": [
     "Support écran BONTEC (VESA 75/100)",
     "Câble spiralé Newskill USB-C noir"
    ],
-   "tvac": 846.81,
+   "tvac": 847.81,
    "verifie": false
   },
   "blocs": [
@@ -922,8 +922,8 @@
   ],
   "general": {
    "complet": false,
-   "htva": 4258.71,
-   "tvac": 5153.04
+   "htva": 4259.54,
+   "tvac": 5154.04
   },
   "pc": {
    "anciens": [
