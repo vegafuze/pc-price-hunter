@@ -26,14 +26,14 @@
    ]
   }
  ],
- "maj": "2026-11-25T03:11:10+00:00",
+ "maj": "2026-11-25T03:41:25+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -54,11 +54,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -79,11 +79,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -105,11 +105,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -130,11 +130,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -155,11 +155,11 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": "0814256015639",
    "fraicheur": "vérifié",
@@ -206,11 +206,11 @@
   },
   "clavier": null,
   "cm": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 240.34,
    "dernier_prix_ok": 240.34,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -231,11 +231,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -306,11 +306,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 1495.04,
    "dernier_prix_ok": 1495.04,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -331,11 +331,11 @@
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 486.78,
    "dernier_prix_ok": 486.78,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -432,11 +432,11 @@
    "vendeur": null
   },
   "ventilo_inv3": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 82.56,
    "dernier_prix_ok": 82.56,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -457,11 +457,11 @@
    "vendeur": "Alternate België bv"
   },
   "ventilo_std1": {
-   "date_prix_connu": "2026-11-25T03:11:10+00:00",
-   "dernier_ok": "2026-11-25T03:11:10+00:00",
+   "date_prix_connu": "2026-11-25T03:41:25+00:00",
+   "dernier_ok": "2026-11-25T03:41:25+00:00",
    "dernier_prix_connu": 25.61,
    "dernier_prix_ok": 25.61,
-   "derniere_verif": "2026-11-25T03:11:10+00:00",
+   "derniere_verif": "2026-11-25T03:41:25+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
