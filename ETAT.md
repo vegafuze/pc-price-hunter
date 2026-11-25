@@ -2,7 +2,7 @@
 
 ![Récapitulatif](recap.png)
 
-**Dernière actualisation réussie : 25/11 23:27** (heure belge) · dernière exécution : 25/11 23:27
+**Dernière actualisation réussie : 25/11 23:27** (heure belge) · dernière exécution : 25/11 23:41
 
 | | HTVA | TVAC (21 %) |
 |---|---|---|
@@ -55,19 +55,6 @@ _Sans aucun prix connu (non compris même dans « tous articles ») : Support é
 
 | Marchand | Résultats |
 |---|---|
-| Alternate (BE) | non_conforme : 24, ok : 19, rupture : 3 |
-| Alternate (BE) (recherche) | ok : 19 |
-| Alternate (DE) | ok : 1, rupture : 2 |
-| Alternate (FR) | ok : 2 |
-| Caseking (DE) | rupture : 2 |
-| Coolblue (BE) | non_conforme : 6, ok : 3, rupture : 2 |
-| Coolblue (BE) (recherche) | ok : 11 |
-| Grosbill | ok : 1, rupture : 1 |
-| Klos2Reality | ok : 2 |
-| Komparzon (test Amazon) | bloque : 1 |
-| LDLC (BE) | non_conforme : 1, ok : 5 |
-| Maxesport | ok : 1, rupture : 1 |
-| Megekko (NL) | sans_prix : 1 |
 
 ---
 🟢 sous la cible · 🟡 entre cible et plafond · 🔴 au-dessus du plafond · ⚪ en rupture (dernier prix connu) · score* = historique encore insuffisant (score basé sur la cible seulement).

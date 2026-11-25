@@ -377,7 +377,7 @@
    "ts": "2026-11-25T22:27:57+00:00"
   }
  },
- "derniere_execution": "2026-11-25T22:27:57+00:00",
+ "derniere_execution": "2026-11-25T22:41:25+00:00",
  "derniere_reussite": "2026-11-25T22:27:57+00:00",
  "derniers_meilleurs": {
   "aio_sans": 230.58,
@@ -2504,53 +2504,5 @@
    "vendeur": null
   }
  },
- "sources_derniere_execution": {
-  "Alternate (BE)": {
-   "non_conforme": 24,
-   "ok": 19,
-   "rupture": 3
-  },
-  "Alternate (BE) (recherche)": {
-   "ok": 19
-  },
-  "Alternate (DE)": {
-   "ok": 1,
-   "rupture": 2
-  },
-  "Alternate (FR)": {
-   "ok": 2
-  },
-  "Caseking (DE)": {
-   "rupture": 2
-  },
-  "Coolblue (BE)": {
-   "non_conforme": 6,
-   "ok": 3,
-   "rupture": 2
-  },
-  "Coolblue (BE) (recherche)": {
-   "ok": 11
-  },
-  "Grosbill": {
-   "ok": 1,
-   "rupture": 1
-  },
-  "Klos2Reality": {
-   "ok": 2
-  },
-  "Komparzon (test Amazon)": {
-   "bloque": 1
-  },
-  "LDLC (BE)": {
-   "non_conforme": 1,
-   "ok": 5
-  },
-  "Maxesport": {
-   "ok": 1,
-   "rupture": 1
-  },
-  "Megekko (NL)": {
-   "sans_prix": 1
-  }
- }
+ "sources_derniere_execution": {}
 }
