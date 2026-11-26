@@ -26,14 +26,14 @@
    ]
   }
  ],
- "maj": "2026-11-26T17:41:22+00:00",
+ "maj": "2026-11-26T18:11:15+00:00",
  "meilleurs": {
   "aio_tl": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 280.17,
    "dernier_prix_ok": 280.17,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -54,11 +54,11 @@
    "vendeur": "Alternate België bv"
   },
   "alim": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 78.43,
    "dernier_prix_ok": 78.43,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -79,11 +79,11 @@
    "vendeur": "Alternate België bv"
   },
   "boitier": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 107.36,
    "dernier_prix_ok": 107.36,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -105,11 +105,11 @@
   },
   "cable": null,
   "cache_boitier": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 66.12,
    "dernier_prix_ok": 66.12,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -130,11 +130,11 @@
    "vendeur": null
   },
   "cache_cm": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 16.53,
    "dernier_prix_ok": 16.53,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -155,29 +155,29 @@
    "vendeur": null
   },
   "cadre": {
-   "date_prix_connu": "2026-11-26T17:11:15+00:00",
-   "dernier_ok": "2026-11-26T17:11:15+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 9.01,
    "dernier_prix_ok": 9.01,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
-   "dispo": null,
-   "ean": null,
-   "fraicheur": "ancien",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
+   "dispo": "InStock",
+   "ean": "0814256015639",
+   "fraicheur": "vérifié",
    "htva": 9.01,
    "image": "https://media.ldlc.com/r1600/ld/products/00/06/21/39/LD0006213922.jpg",
    "marchand": "LDLC (BE)",
-   "methode": null,
-   "mpn": null,
-   "nom": null,
-   "note": "site injoignable (ConnectTimeout)",
-   "prix": null,
+   "methode": "JSON-LD",
+   "mpn": "TR-AM5SF-BK",
+   "nom": "Thermalright AM5 Secure Frame Black",
+   "note": "nom conforme",
+   "prix": 10.9,
    "produit": "cadre",
-   "statut": "erreur",
+   "statut": "ok",
    "test": false,
    "tva": 0.21,
    "tva_supposee": false,
    "url": "https://www.ldlc.com/fr-be/fiche/PB00581807.html",
-   "vendeur": null
+   "vendeur": "LDLC"
   },
   "casque": {
    "date_prix_connu": "2026-11-26T16:41:14+00:00",
@@ -230,11 +230,11 @@
    "vendeur": null
   },
   "cm": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 245.38,
    "dernier_prix_ok": 245.38,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -255,11 +255,11 @@
    "vendeur": "ALTERNATE GmbH"
   },
   "cpu": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 313.22,
    "dernier_prix_ok": 313.22,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -330,11 +330,11 @@
    "vendeur": "Alternate België bv"
   },
   "gpu": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 1495.04,
    "dernier_prix_ok": 1495.04,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -355,11 +355,11 @@
    "vendeur": null
   },
   "ram": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 470.25,
    "dernier_prix_ok": 470.25,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -456,11 +456,11 @@
    "vendeur": null
   },
   "ventilo_inv3": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 82.56,
    "dernier_prix_ok": 82.56,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -481,11 +481,11 @@
    "vendeur": "Alternate België bv"
   },
   "ventilo_std1": {
-   "date_prix_connu": "2026-11-26T17:41:22+00:00",
-   "dernier_ok": "2026-11-26T17:41:22+00:00",
+   "date_prix_connu": "2026-11-26T18:11:15+00:00",
+   "dernier_ok": "2026-11-26T18:11:15+00:00",
    "dernier_prix_connu": 25.61,
    "dernier_prix_ok": 25.61,
-   "derniere_verif": "2026-11-26T17:41:22+00:00",
+   "derniere_verif": "2026-11-26T18:11:15+00:00",
    "dispo": "InStock",
    "ean": null,
    "fraicheur": "vérifié",
@@ -1026,15 +1026,13 @@
    "tvac": 5190.14
   },
   "pc": {
-   "anciens": [
-    "Thermalright AM5 Secure Frame noir"
-   ],
+   "anciens": [],
    "complet": true,
    "htva": 3588.7,
    "manquants": [],
    "tvac": 4342.33,
    "veille": 3583.66,
-   "verifie": false
+   "verifie": true
   }
  },
  "totaux_tous_articles": {
@@ -1082,14 +1080,12 @@
    "tvac": 5190.14
   },
   "pc": {
-   "anciens": [
-    "Thermalright AM5 Secure Frame noir"
-   ],
+   "anciens": [],
    "complet": true,
    "htva": 3588.7,
    "manquants": [],
    "tvac": 4342.33,
-   "verifie": false
+   "verifie": true
   }
  }
 }
