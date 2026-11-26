@@ -475,3 +475,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-26T12:41:22+00:00,cpu,Coolblue (BE),ok,402.0,0.21,332.23,InStock,,AMD Ryzen 7 9800X3D,https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html,nom conforme (identifiant absent de la page)
 2026-11-26T13:41:18+00:00,cpu,LDLC (BE),ok,469.95,0.21,388.39,InStock,LDLC,AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz),https://www.ldlc.com/fr-be/fiche/PB00664304.html,référence fabricant vérifiée
 2026-11-26T14:41:14+00:00,cm,Alternate (BE),rupture,319.0,0.21,263.64,OutOfStock,Alternate België bv,B850 AORUS STEALTH carte mère socket AM5,https://fr.alternate.be/GIGABYTE/B850-AORUS-STEALTH-carte-m%C3%A8re-socket-AM5/html/product/100175457,nom conforme (identifiant absent de la page)
+2026-11-26T16:11:16+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectionError)
+2026-11-26T16:11:16+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectionError)
+2026-11-26T16:11:16+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectionError)
+2026-11-26T16:11:16+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectionError)
+2026-11-26T16:11:16+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectionError)
+2026-11-26T16:11:16+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectionError)
