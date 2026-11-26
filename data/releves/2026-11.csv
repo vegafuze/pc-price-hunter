@@ -469,3 +469,5 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-26T04:11:26+00:00,ram,LDLC (BE),non_conforme,145.95,0.21,120.62,OutOfStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,"prix incohérent (lot, PC complet ou accessoire ?)"
 2026-11-26T04:11:26+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
 2026-11-26T07:41:24+00:00,cpu,Coolblue (BE),ok,449.0,0.21,371.07,InStock,,AMD Ryzen 7 9800X3D,https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html,nom conforme (identifiant absent de la page)
+2026-11-26T10:41:13+00:00,clavier,Maxesport,ok,89.9,0.21,74.3,InStock,,The G-Lab Keyz Elite 300 HE ISO FR Noir,https://maxesport.gg/fr/products/the-g-lab-keyz-elite-300-he-iso-fr-noir,nom conforme
+2026-11-26T10:41:13+00:00,gpu,Alternate (BE),sans_prix,,0.21,,,,L'article n'est pas disponible pour le moment.,https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006,
