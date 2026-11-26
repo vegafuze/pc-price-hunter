@@ -473,3 +473,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-26T10:41:13+00:00,gpu,Alternate (BE),sans_prix,,0.21,,,,L'article n'est pas disponible pour le moment.,https://fr.alternate.be/GIGABYTE/AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Carte-graphique/html/product/100115006,
 2026-11-26T11:11:14+00:00,cm,Alternate (DE),ok,292.0,0.19,245.38,InStock,ALTERNATE GmbH,"B850 AORUS STEALTH, Mainboard",https://www.alternate.de/GIGABYTE/B850-AORUS-STEALTH-Mainboard/html/product/100175457,nom conforme (identifiant absent de la page)
 2026-11-26T12:41:22+00:00,cpu,Coolblue (BE),ok,402.0,0.21,332.23,InStock,,AMD Ryzen 7 9800X3D,https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html,nom conforme (identifiant absent de la page)
+2026-11-26T13:41:18+00:00,cpu,LDLC (BE),ok,469.95,0.21,388.39,InStock,LDLC,AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz),https://www.ldlc.com/fr-be/fiche/PB00664304.html,référence fabricant vérifiée
