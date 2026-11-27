@@ -502,3 +502,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-27T08:41:14+00:00,cpu,Coolblue (BE),ok,399.0,0.21,329.75,InStock,,AMD Ryzen 7 9800X3D,https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html,nom conforme (identifiant absent de la page)
 2026-11-27T10:11:15+00:00,gpu,Megekko (NL),erreur,,0.21,,,,,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,ReadTimeout
 2026-11-27T10:41:22+00:00,gpu,Megekko (NL),sans_prix,,0.21,,,,Gigabyte GeForce RTX 5070 TI AORUS  is tijdelijk niet leverbaar,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,
+2026-11-27T17:11:16+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,ConnectionError
