@@ -530,3 +530,4 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-28T10:41:15+00:00,ram,LDLC (BE),non_conforme,145.95,0.21,120.62,OutOfStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,"prix incohérent (lot, PC complet ou accessoire ?)"
 2026-11-28T10:41:15+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
 2026-11-28T15:11:15+00:00,cpu,Coolblue (BE),rupture,399.0,0.21,329.75,OutOfStock,,AMD Ryzen 7 9800X3D,https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html,nom conforme (identifiant absent de la page)
+2026-11-28T16:11:15+00:00,cpu,Coolblue (BE),ok,399.0,0.21,329.75,InStock,,AMD Ryzen 7 9800X3D,https://www.coolblue.be/fr/produit/957550/amd-ryzen-7-9800x3d.html,nom conforme (identifiant absent de la page)
