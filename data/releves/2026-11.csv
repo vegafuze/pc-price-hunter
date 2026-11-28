@@ -504,3 +504,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-27T10:41:22+00:00,gpu,Megekko (NL),sans_prix,,0.21,,,,Gigabyte GeForce RTX 5070 TI AORUS  is tijdelijk niet leverbaar,https://www.megekko.nl/product/1963/297119/Nvidia-Videokaarten/Gigabyte-GeForce-RTX-5070-TI-AORUS-MASTER-16G-Videokaart,
 2026-11-27T17:11:16+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,ConnectionError
 2026-11-27T17:41:14+00:00,cpu,LDLC (BE),ok,469.95,0.21,388.39,InStock,LDLC,AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz),https://www.ldlc.com/fr-be/fiche/PB00664304.html,référence fabricant vérifiée
+2026-11-28T08:11:12+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00650664.html,site injoignable (ConnectTimeout)
+2026-11-28T08:11:12+00:00,cpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00664304.html,site injoignable (ConnectTimeout)
+2026-11-28T08:11:12+00:00,gpu,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00666537.html,site injoignable (ConnectTimeout)
+2026-11-28T08:11:12+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
+2026-11-28T08:11:12+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
+2026-11-28T08:11:12+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
