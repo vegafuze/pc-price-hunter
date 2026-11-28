@@ -523,3 +523,9 @@ ts,produit,marchand,statut,prix_affiche,tva,htva,dispo,vendeur,nom,url,note
 2026-11-28T10:11:23+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630878.html,site injoignable (ConnectTimeout)
 2026-11-28T10:11:23+00:00,ram,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00630877.html,site injoignable (ConnectTimeout)
 2026-11-28T10:11:23+00:00,cadre,LDLC (BE),erreur,,0.21,,,,,https://www.ldlc.com/fr-be/fiche/PB00581807.html,site injoignable (ConnectTimeout)
+2026-11-28T10:41:15+00:00,cpu,LDLC (BE),ok,499.95,0.21,413.18,InStock,LDLC,AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz),https://www.ldlc.com/fr-be/fiche/PB00650664.html,EAN vérifié
+2026-11-28T10:41:15+00:00,cpu,LDLC (BE),ok,469.95,0.21,388.39,InStock,LDLC,AMD Ryzen 7 9800X3D (4.7 GHz / 5.2 GHz),https://www.ldlc.com/fr-be/fiche/PB00664304.html,référence fabricant vérifiée
+2026-11-28T10:41:15+00:00,gpu,LDLC (BE),ok,1879.95,0.21,1553.68,InStock,LDLC,Gigabyte AORUS GeForce RTX 5070 Ti MASTER 16G ,https://www.ldlc.com/fr-be/fiche/PB00666537.html,EAN vérifié
+2026-11-28T10:41:15+00:00,ram,LDLC (BE),ok,863.95,0.21,714.01,InStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630878.html,nom conforme
+2026-11-28T10:41:15+00:00,ram,LDLC (BE),non_conforme,145.95,0.21,120.62,OutOfStock,LDLC,Kingston FURY Beast RGB 32 Go (2 x 16 Go) DDR5 6000 MHz CL30,https://www.ldlc.com/fr-be/fiche/PB00630877.html,"prix incohérent (lot, PC complet ou accessoire ?)"
+2026-11-28T10:41:15+00:00,cadre,LDLC (BE),ok,10.9,0.21,9.01,InStock,LDLC,Thermalright AM5 Secure Frame Black,https://www.ldlc.com/fr-be/fiche/PB00581807.html,nom conforme
